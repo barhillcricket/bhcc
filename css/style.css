@@ -317,10 +317,6 @@ td {
   height: 20px;
 }
 
-td.alternative {
-  background-color: #dfd0b9;
-}
-
 th {
   font-weight: bold;
   background-color: #fff;
