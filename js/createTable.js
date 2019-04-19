@@ -8,13 +8,15 @@ function createStatsTable(csvFile, tableId) {
         newRow.className = 'alternative';
       }
       Object.keys(row).forEach(function(val, index) {
-        const newText = document.createTextNode(row[val]);
-        const newCell = newRow.insertCell(index);
-        newCell.appendChild(newText);
-        if (index > 1) {
-          newCell.align = 'center';
-        } else {
-          newCell.height = '20';
+        if (val.charAt(0) !== 'x') {
+          const newText = document.createTextNode(row[val]);
+          const newCell = newRow.insertCell(index);
+          newCell.appendChild(newText);
+          if (index > 1) {
+            newCell.align = 'center';
+          } else {
+            newCell.height = '20';
+          }
         }
       });
     });
@@ -26,7 +28,8 @@ function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
     const table = document.getElementById(tableId);
     table.innerHTML = null;
     document.getElementById(type+ '-more').hidden = next === 'less';
-    document.getElementById(type+ '-less').hidden = next === 'more'
+    document.getElementById(type+ '-less').hidden = next === 'more';
+    document.getElementById(type + '-qual').hidden = next === 'less';
     var skipped = 0;
     data.forEach(function(row, i) {
       if (row[Object.keys(row)[sortField]] >= min) {
@@ -36,13 +39,15 @@ function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
           newRow.className = 'alternative';
         }
         Object.keys(row).forEach(function(val, index) {
-          const newText = document.createTextNode(row[val]);
-          const newCell = newRow.insertCell(index);
-          newCell.appendChild(newText);
-          if (index > 1) {
-            newCell.align = 'center';
-          } else {
-            newCell.height = '20';
+          if (val.charAt(0) !== 'x') {
+            const newText = document.createTextNode(row[val]);
+            const newCell = newRow.insertCell(index);
+            newCell.appendChild(newText);
+            if (index > 1) {
+              newCell.align = 'center';
+            } else {
+              newCell.height = '20';
+            }
           }
         });
       } else {

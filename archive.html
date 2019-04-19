@@ -3118,7 +3118,7 @@
           <script>createAllTimeStatsTable('./stats/AllTimeBatting.csv', 'batting-alltime', 5, 300, 'bat', 'more')</script>
           <tbody id="batting-alltime"></tbody>
             <tr class="alternative">
-              <td colspan="10"><strong>CCA League/Cup <span id="bowl-qual">- Minimum qualification = 300 runs</span></strong></td>
+              <td colspan="10"><strong>CCA League/Cup <span id="bat-qual">- Minimum qualification = 300 runs</span></strong></td>
           </tr>
           <tr class="expand-stats">
               <td visible="false" id="bat-more" colspan="12" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeBatting.csv', 'batting-alltime', 5, 0, 'bat', 'less')"><strong>Show More</strong></td>
@@ -3167,13 +3167,12 @@
         <thead>
           <tr>
           	  <th colspan="2">Player</th>
-              <th align="center">Catches &lt;'97</th>
-              <th align="center">Catches '97=&gt;</th>
-              <th align="center">Wkt Catches '97=&gt;</th>
+              <th align="center">Catches</th>
+              <th align="center">Wkt catches</th>
               <th>Total</th>
           </tr>
         </thead>
-        <script>createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 5, 30, 'catch', 'more')</script>
+        <script>createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 4, 30, 'catch', 'more')</script>
         <tbody id="catch-alltime"></tbody>
           
 
@@ -3183,11 +3182,14 @@
           <tr class="alternative">
             <td colspan="6"><strong>Wicket keeper catches before 1997 have not been separately identified</strong></td>
           </tr>
+          <tr class="alternative" id="catch-qual">
+              <td colspan="6"><strong><span>Minimum qualification = 30 catches</span></strong></td>
+          </tr>
           <tr class="expand-stats">
-              <td visible="false" id="catch-more" colspan="6" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 5, 0, 'catch', 'less')"><strong>Show More</strong></td>
+              <td visible="false" id="catch-more" colspan="6" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 4, 0, 'catch', 'less')"><strong>Show More</strong></td>
             </tr>
             <tr class="expand-stats">
-              <td hidden="true" id="catch-less" colspan="6" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 5, 30, 'catch', 'more')"><strong>Show Less</strong></td>
+              <td hidden="true" id="catch-less" colspan="6" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 4, 30, 'catch', 'more')"><strong>Show Less</strong></td>
             </tr>
       </table>
       </div>
