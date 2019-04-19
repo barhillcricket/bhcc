@@ -1,0 +1,403 @@
+/* COLOURS 
+#8b1712 - dark red (title background colour)
+#ae706c - red (inline link colour)
+#c58b88 - light red (qlink colour)
+#dbb1af - very light red (qlink hover colour)
+
+*/
+
+/* STRUCTURE */
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 125%;
+  background-color: #fff;
+}
+
+#container {
+  width: 976px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 194px;
+  background: url('../images/header_page.jpg') no-repeat;
+}
+
+#navbar {
+  height: 38px;
+  background: url('../images/navbar.jpg') no-repeat;
+  margin: 0 0 23px 0;
+}
+
+#leftpanel {
+  float: left;
+  width: 165px;
+}
+
+#narrowcontent {
+  float: left;
+  width: 515px;
+  margin: 0px 23px;
+  text-align: justify;
+}
+
+#content {
+  float: left;
+  width: 788px;
+  margin: 0px 0px 0px 23px;
+  text-align: justify;
+}
+
+#rightpanel {
+  float: left;
+  width: 250px;
+}
+
+#footer {
+  clear: both;
+  padding-top: 10px;
+}
+
+/* STYLE */
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
+
+.clearboth {
+  clear: both;
+}
+
+img.floatright {
+  margin: 20px 0 20px 20px;
+}
+
+.littletopspace {
+  margin-top: 3px;
+}
+
+a {
+  color: #ae706c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b1712;
+}
+
+#footer {
+  /*border-top: 2px solid #8b1712;
+  background-color: #c58b88;*/
+}
+
+#footer h1 {
+  margin-top: 30px;
+  background: #8b1712 url('../images/header_footer.jpg') no-repeat;
+  font: bold 14px arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 10px;
+}
+
+#navbar {
+  font: bold 14px arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 38px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+#navbar p {
+  display: inline;
+  margin: 0 8px;
+}
+
+.qlinkheader,
+.qlink {
+  font: bold 14px arial, sans-serif;
+  color: #fff;
+  display: block;
+  text-align: left;
+  padding: 0 0 0 15px;
+  height: 26px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.qlinkheader {
+  background: #8b1712 url('../images/header_qlink.jpg') no-repeat;
+  text-transform: uppercase;
+}
+
+.qlink {
+  background-color: #c58b88;
+  margin: 0 0 1px 0;
+  font-size: 13px;
+}
+
+.qlink:hover {
+  background-color: #dbb1af;
+  color: #fff;
+}
+
+.qlinkheader:hover {
+  color: #fff;
+}
+
+h1 {
+  font: bold 20px arial, sans-serif;
+  color: #8c0909;
+  margin: 0 0 6px 0;
+}
+
+#narrowcontent h2 {
+  background: #8b1712 url('../images/narrow_header_title.jpg') no-repeat;
+}
+
+#content h2 {
+  background: #8b1712 url('../images/header_title.jpg') no-repeat;
+}
+
+h2 {
+  font: bold 14px arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 10px;
+  margin: 30px 0 0 0;
+}
+
+#rightpanel {
+  text-align: left;
+}
+
+#rightpanel h2 {
+  background: #8b1712 url('../images/header_right.jpg') no-repeat;
+}
+
+.twitter-timeline {
+  width: 250px;
+}
+
+#rightpanel h2 {
+  margin: 0px;
+  padding: 0 0 0 15px;
+}
+
+img {
+  border: none;
+}
+
+/* Tabs */
+
+ul.tabs {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0;
+}
+
+ul.tabs li {
+  float: left;
+  text-indent: 0;
+  padding: 0;
+  margin: 0 !important;
+  list-style-image: none !important;
+}
+
+ul.tabs a {
+  display: block;
+  background-color: #c58b88;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 1px;
+  height: 26px;
+  line-height: 26px;
+  /*padding: 0 14px 0 15px;*/
+
+  text-align: center;
+  text-decoration: none;
+}
+
+ul.tabs .fixturetab {
+  width: 47px;
+}
+
+ul.tabs .fixturetab4 {
+  width: 61.5px;
+}
+
+ul.tabs .fixturetabwide {
+  width: 100px;
+}
+
+ul.tabs .fixturetabmid {
+  width: 82px;
+}
+
+ul.tabs .leaguetab {
+  width: 300px;
+}
+
+ul.tabs .statstab {
+  width: 130px;
+  margin-bottom: 1px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+ul.tabs .widestatstab {
+  width: 230px;
+  margin-bottom: 1px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.verticaltabs {
+  width: 150px;
+}
+
+ul.tabs a:active {
+  outline: none;
+}
+
+ul.tabs a:hover {
+  background-color: #dbb1af;
+}
+
+ul.tabs a.current,
+ul.tabs a.current:hover,
+ul.tabs li.current a {
+  background-color: #fff;
+  cursor: default !important;
+  color: #000;
+}
+
+.panes {
+  /*clear:both;*/
+}
+
+.statscontent {
+  width: 638px;
+  margin-left: 150px;
+}
+
+.widestatscontent {
+  width: 538px;
+  margin-left: 250px;
+}
+
+table {
+  border: 0px;
+  border-collapse: collapse;
+}
+
+tr.alternative {
+  background-color: #dfd0b9;
+}
+
+td {
+  height: 20px;
+}
+
+td.alternative {
+  background-color: #dfd0b9;
+}
+
+th {
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 3px solid #dfd0b9;
+}
+
+table.fixtures {
+  width: 250px;
+}
+
+table.leagues {
+  width: 600px;
+}
+
+/* FOOTER HOVER BUTTONS */
+#iconcontainer {
+  width: 320px;
+  margin-left: 362px;
+}
+
+.webbutton {
+  background: url(../images/icon_web_hover.png) no-repeat;
+}
+.emailbutton {
+  background: url(../images/icon_email_hover.png) no-repeat;
+}
+.twitterbutton {
+  background: url(../images/icon_twitter_hover.png) no-repeat;
+}
+.facebookbutton {
+  background: url(../images/icon_facebook_hover.png) no-repeat;
+}
+.forumbutton {
+  background: url(../images/icon_forum_hover.png) no-repeat;
+}
+
+.footerbutton {
+  position: relative;
+  font-family: arial, helvetica, sans-serif;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footerbutton a {
+  display: block;
+  color: #000000;
+  font-size: 11px;
+  width: 64px;
+  height: 64px;
+  display: block;
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.footerbutton img {
+  width: 64px;
+  height: 64px;
+  border: 0;
+}
+
+* html a:hover {
+  visibility: visible;
+}
+
+.footerbutton a:hover img {
+  visibility: hidden;
+}
+
+.footerbutton span {
+  position: absolute;
+  top: -999em;
+}

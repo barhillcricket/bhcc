@@ -1,0 +1,724 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-style-type" content="text/css">
+  <meta name="author" content="Bar Hill Cricket Club">
+  
+  <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+  <link rel="stylesheet" href="../../css/style.css" type="text/css" media="screen">
+
+  <meta name="description" content="Bar Hill Cricket Club">
+  
+  <title>Bar Hill Cricket Club</title>
+  
+  <script src="../../js/jquery.tools.min.js" type="text/javascript"></script>
+  <script src="../../js/createTable.js" type="text/javascript"></script>
+  <script src="../../js/d3.min.js" type="text/javascript"></script>
+
+  
+  <style type="text/css">
+<!--
+.style2 {font-size: 12px}
+.style3 {font-size: 11px}
+-->
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header"></div>
+    <div id="navbar">
+    <a href="../../index.html">home</a>
+    <p>|</p>
+    <a href="../../about.html">about</a>
+    <p>|</p>
+    <a href="../../season.html">this season</a>
+    <p>|</p>
+    <a href="../../profiles.html">player profiles</a>
+    <p>|</p>
+    <a href="../../photos.html">photos</a>
+    <p>|</p>
+    <a href="../../archive.html">archive</a>
+    <p>|</p>
+    <a href="../../contact.html">contact</a>
+    <p>|</p>
+    <a href="../../links.html">links</a>
+    </div><!-- End of navbar -->
+    
+    <div id="leftpanel">
+    <div class="qlinkheader">2018 Season</div>
+    <a class="qlink" href="#stats">2018 Statistics</a><a class="qlink" href="#fixtures">2018  Fixtures</a>
+    <div id="div"><a class="qlink" href="#trophy">2018 Trophies</a> </div>
+</div>
+    <!-- End of leftpanel -->
+    
+      
+    <div id="content">
+    <!-- no javascript warning -->
+    <noscript><p style="text-align: center;"><strong>Please note this page is best viewed with JavaScript enabled!</strong></p></noscript>
+    
+    <h1>Archive - 2018 Season</h1>
+    <p>All the statistics, tables and results from the 2018 season.
+    <h2><a name="stats"></a>Statistics</h2>
+    <div class="wrap">
+    <ul class="tabs verticaltabs">
+      <li><a class="statstab" href="#">1st XI Batting</a></li>
+      <li class="style2"><a href="#" class="statstab ">1st XI partnerships</a></li>
+      <li><a class="statstab" href="#">1st XI Bowling</a></li>
+      <li style="padding-bottom:15px;"><a class="statstab" href="#">1st XI Fielding</a><a class="statstab" href="#">1st XI League table </a></li>
+      
+      <li><a class="statstab" href="#">Midweek Batting</a></li>
+      <li><a href="#" class="statstab style3">Midweek partnerships </a></li>
+      <li><a class="statstab" href="#">Midweek Bowling</a></li>
+      <li style="padding-bottom:15px;"><a class="statstab" href="#">Midweek Fielding</a></li>
+      
+      <li><a class="statstab" href="#">Friendly Batting</a></li>
+      <li><a href="#" class="statstab style3">Friendly partnerships </a></li>
+      <li><a class="statstab" href="#">Friendly Bowling</a></li>
+      <li style="padding-bottom:15px;"><a class="statstab" href="#">Friendly Fielding</a></li>
+      
+      <li><a class="statstab" href="#">Duckman</a></li>       
+    </ul>
+    
+    <div class="pane statscontent">
+      <noscript>
+      <p><strong>1st XI Batting Statistics</strong></p>
+      </noscript>
+        <table width="100%">
+          <thead>
+          <tr>
+            <th colspan="2">Player</th>
+            <th align="center">Mch</th>
+            <th align="center">Inn</th>
+            <th align="center">NO</th>
+            <th align="center">Runs</th>
+            <th align="center">HS</th>
+            <th align="center">100</th>
+            <th align="center">50</th>
+            <th align="center">6</th>
+            <th align="center">4</th>
+            <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('./stats/1stBatting.csv', 'batting-1st')</script>
+          <tbody id="batting-1st"></tbody>
+        </table>
+      </div>
+    <div class="pane statscontent"><noscript>
+        <p><strong>1st XI Partnerships</strong></p>
+        </noscript>
+      <table width="100%">
+        <thead>
+          <tr>
+            <th align="center">Wkt</th>
+            <th align="center">Score</th>
+            <th colspan="4">Players</th>
+            <th>Opposition</th>
+            <th align="center">Date</th>
+          </tr>
+        </thead>
+        <script>createPartnershipsTable('./stats/1stPartnership.csv', 'partnerships-1st')</script>
+        <tbody id="partnerships-1st"></tbody>
+      </table>
+      <!--END OF 1st XI Partnerships-->
+    </div>
+    <div class="pane statscontent">
+        <noscript>
+          <p><strong>1st XI Bowling Statistics</strong></p>
+        </noscript>
+        <script></script>
+        <table width="100%">
+          <thead>
+          <tr>
+            <th colspan="2">Player</th>
+            <th align="center">Mch</th>
+            <th align="center">Overs</th>
+            <th align="center">Mdn</th>
+            <th align="center">Wkt</th>
+            <th align="center">Runs</th>
+            <th align="center">W</th>
+            <th align="center">NB</th>
+            <th align="center">Best</th>
+            <th align="center">5-W</th>
+            <th align="center">Econ</th>
+            <th align="center">SR</th>
+            <th align="center">Ave</th>
+          </tr>
+          </thead>
+          <script>createStatsTable('./stats/1stBowling.csv', 'bowling-1st')</script>
+          <tbody id="bowling-1st"></tbody>
+        </table>
+        <!--END OF 1st XI Bowling-->
+      </div>
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>1st XI Fielding Statistics</strong></p>
+      </noscript>
+      <table width="100%">
+          <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Ct</th>
+              <th align="center">Wk Ct</th>
+              <th align="center">St</th>
+              <th align="center">RO</th>
+              <th align="center">Total</th>
+          </tr>
+          <script>createStatsTable('./stats/1stFielding.csv', 'fielding-1st')</script>
+          <tbody id="fielding-1st"></tbody>
+        </table>
+      <!--END OF 1st XI Fielding-->
+      </div>
+      
+      <div class="pane statscontent">
+        <noscript>
+        <p><strong>CCA Junior League 3 West Table</strong></p>
+        </noscript>
+        <table width="100%">
+          <tr>
+            <th width="25%">Team</th>
+            <th align="center" width="9%">Played</th>
+            <th align="center" width="9%">Won</th>
+            <th align="center" width="9%">Lost</th>
+            <th align="center" width="9%">Tied</th>
+            <th align="center" width="9%">Aban.</th>
+            <th align="center" width="9%">Canc.</th>
+            <th align="center" width="9%">Bonus</th>
+            <th align="center" width="12%">Points</th>
+          </tr>
+          <script>createLeagueTable('./stats/1stLeagueTable.csv', 'league-1st')</script>
+          <tbody id="league-1st"></tbody>
+        </table>
+        <!--END OF 1st XI Fielding-->
+</div>
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Midweek XI Batting Statistics</strong></p></noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Inn</th>
+              <th align="center">NO</th>
+              <th align="center">Runs</th>
+              <th align="center">HS</th>
+              <th align="center">100</th>
+              <th align="center">50</th>
+              <th align="center">6</th>
+              <th align="center">4</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('./stats/MWBatting.csv', 'batting-mw')</script>
+          <tbody id="batting-mw"></tbody>
+        </table>
+      </div>
+      <div class="pane statscontent">
+        <noscript>
+        <p><strong>Midweek XI Partnerships</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th align="center">Wkt</th>
+              <th align="center">Score</th>
+              <th colspan="4">Players</th>
+              <th>Opposition</th>
+              <th align="center">Date</th>
+            </tr>
+          </thead>
+          <script>createPartnershipsTable('./stats/MWPartnership.csv', 'partnerships-mw')</script>
+          <tbody id="partnerships-mw"></tbody>
+        </table>
+        <!--END OF 1st XI Partnerships-->
+      </div>
+      <!--END OF Midweek XI Batting-->
+      
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Midweek XI Bowling Statistics</strong> (8-ball overs)</p></noscript>
+              <table width="100%">
+                <thead>
+                  <tr>
+                    <th colspan="2">Player</th>
+                    <th align="center">Mch</th>
+                    <th align="center">Balls</th>
+                    <th align="center">Mdn</th>
+                    <th align="center">Wkt</th>
+                    <th align="center">Runs</th>
+                    <th align="center">W</th>
+                    <th align="center">NB</th>
+                    <th align="center">Best</th>
+                    <th align="center">5-W</th>
+                    <th align="center">Econ</th>
+                    <th align="center">SR</th>
+                    <th align="center">Ave</th>
+                  </tr>
+                </thead>
+                <script>createStatsTable('./stats/MWBowling.csv', 'bowling-mw')</script>
+                <tbody id="bowling-mw"></tbody>
+              </table>
+              <!--END OF Midweek XI Bowling-->
+      </div>
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Midweek XI Fielding Statistics</strong></p></noscript>
+      <table width="100%">
+        <tr>
+          <th width="25%">Team</th>
+          <th align="center" width="9%">Played</th>
+          <th align="center" width="9%">Won</th>
+          <th align="center" width="9%">Lost</th>
+          <th align="center" width="9%">Tied</th>
+          <th align="center" width="9%">Aban.</th>
+          <th align="center" width="9%">Canc.</th>
+          <th align="center" width="9%">Bonus</th>
+          <th align="center" width="12%">Points</th>
+        </tr>
+        <script>createLeagueTable('./stats/MWLeagueTable.csv', 'league-mw')</script>
+        <tbody id="league-mw"></tbody>
+      </table>
+      <!--END OF Midweek XI Fielding-->
+      </div>
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Friendly XI Batting Statistics</strong></p></noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Inn</th>
+              <th align="center">NO</th>
+              <th align="center">Runs</th>
+              <th align="center">HS</th>
+              <th align="center">100</th>
+              <th align="center">50</th>
+              <th align="center">6</th>
+              <th align="center">4</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('./stats/FriendlyBatting.csv', 'batting-f')</script>
+          <tbody id="batting-f"></tbody>
+        </table>
+      </div>
+      <div class="pane statscontent">
+        <noscript>
+        <p><strong>Friendly XI Partnerships</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th align="center">Wkt</th>
+              <th align="center">Score</th>
+              <th colspan="4">Players</th>
+              <th>Opposition</th>
+              <th align="center">Date</th>
+            </tr>
+          </thead>
+          <script>createPartnershipsTable('./stats/FriendlyPartnership.csv', 'partnerships-f')</script>
+          <tbody id="partnerships-f"></tbody>
+        </table>
+        <!--END OF 1st XI Partnerships-->
+      </div>
+      <!--END OF Friendly XI Batting-->
+      
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Friendly XI Bowling Statistics</strong></p></noscript>
+              <table width="100%">
+                <thead>
+                  <tr>
+                    <th colspan="2">Player</th>
+                    <th align="center">Mch</th>
+                    <th align="center">Overs</th>
+                    <th align="center">Mdn</th>
+                    <th align="center">Wkt</th>
+                    <th align="center">Runs</th>
+                    <th align="center">W</th>
+                    <th align="center">NB</th>
+                    <th align="center">Best</th>
+                    <th align="center">5-W</th>
+                    <th align="center">Econ</th>
+                    <th align="center">SR</th>
+                    <th align="center">Ave</th>
+                  </tr>
+                </thead>
+                <script>createStatsTable('./stats/FriendlyBowling.csv', 'bowling-f')</script>
+                <tbody id="bowling-f"></tbody>
+              </table>
+              <!--END OF Friendly XI Bowling-->
+      </div>
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Friendly XI Fielding Statistics</strong></p></noscript>
+      <table width="100%">
+        <tr>
+          <th colspan="2">Player</th>
+          <th align="center">Mch</th>
+          <th align="center">Ct</th>
+          <th align="center">Wk Ct</th>
+          <th align="center">St</th>
+          <th align="center">RO</th>
+          <th align="center">Total</th>
+        </tr>
+        <script>createStatsTable('./stats/FriendlyFielding.csv', 'fielding-f')</script>
+        <tbody id="fielding-f"></tbody>
+      </table>
+      <!--END OF Friendly XI Fielding-->
+      </div>
+      <!--END OF U12 XI Batting-->
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>Duckman</strong></p></noscript>
+      <table width="100%">
+        <tr>
+          <th colspan="2">Player</th>
+          <th align="center">Inns</th>
+          <th align="center">Ducks</th>
+          <th align="center">Golden</th>
+          <th align="center">Total</th>
+        </tr>
+        <script>createStatsTable('./stats/Duckman.csv', 'duckman')</script>
+        <tbody id="duckman"></tbody>
+      </table>
+      <!--END OF Duckman-->
+      </div>
+    </div><!-- end of wrap -->
+    
+    <p class="clearboth">&nbsp;</p>
+    <h2><a name="fixtures"></a>Fixtures</h2>
+            <table width="100%">
+              <tr>
+                <th align="center" width="25%">Date</th>
+                <th align="center" width="30%">Opposition</th>
+                <th align="center" width="5%">Venue</th>
+                <th align="center" width="10%">Team</th>
+                <th align="center" width="20%">Competition</th>
+                <th align="center" width="10%">Result</th>
+              </tr>
+              <tr>
+                <td align="center">22nd April</td>
+                <td align="center">Girton</td>
+                <td align="center">H</td>
+                <td align="center">Friendly</td>
+                <td align="center">Friendly</td>
+                <td align="center">Canc.</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">5th May</td>
+                <td align="center">Bassingbourn</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1BassingbournH2018.html">Lost</a></td>
+              </tr>
+              <tr>
+                <td align="center">10th May</td>
+                <td align="center">Cambourne</td>
+                <td align="center">A</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">12th May</td>
+                <td align="center">Bottisham-Lode</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1BottishamLodeA2018.html">Lost</a></td>
+              </tr>
+              <tr>
+                <td align="center">17th May</td>
+                <td align="center">Buntingford</td>
+                <td align="center">H</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">19th May</td>
+                <td align="center">Cambridge St Giles III</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center">Default</td>
+              </tr>
+              <tr>
+                <td align="center">22nd May</td>
+                <td align="center">Invoke</td>
+                <td align="center">H</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center">Postp.</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">24th May</td>
+                <td align="center">Thriplow</td>
+                <td align="center">A</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr>
+                <td align="center">26th May</td>
+                <td align="center">Milton II</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1MiltonH2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">29th May</td>
+                <td align="center">The Dobblers</td>
+                <td align="center">H</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr>
+                <td align="center">2nd June</td>
+                <td align="center">Histon III</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1HistonA2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">3rd June</td>
+                <td align="center">BHSSC (Fred Styles Trophy)</td>
+                <td align="center">H</td>
+                <td align="center">Friendly</td>
+                <td align="center">Friendly</td>
+                <td align="center">Postp.</td>
+              </tr>
+              <tr>
+                <td align="center">5th June</td>
+                <td align="center">British Welding</td>
+                <td align="center">A</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center">Postp.</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">7th June</td>
+                <td align="center">Buntingford</td>
+                <td align="center">A</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr>
+                <td align="center">9th June</td>
+                <td align="center">Newton</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1NewtonA2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">12th June</td>
+                <td align="center">Domino</td>
+                <td align="center">H</td>
+                <td align="center">Friendly</td>
+                <td align="center">Friendly</td>
+                <td align="center">Postp.</td>
+              </tr>
+              <tr>
+                <td align="center">14th June</td>
+                <td align="center">Cambourne</td>
+                <td align="center">H</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">16th June</td>
+                <td align="center">Bottisham-Lode</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1BottishamLodeH2018.html">Lost</a></td>
+              </tr>
+              <tr>
+                <td align="center">19th June</td>
+                <td align="center">Royal Soc. Chem.</td>
+                <td align="center">A</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center"><a href="archive/2018/MRSCA2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">27th June</td>
+                <td align="center">Waterbeach</td>
+                <td align="center">A</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center"><a href="archive/2018/MWaterbeachA2018.html">Won</a></td>
+              </tr>
+              <tr>
+                <td align="center">30th June</td>
+                <td align="center">Newton</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1NewtonH2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">2nd July</td>
+                <td align="center">Invoke</td>
+                <td align="center">H</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center">Postp.</td>
+              </tr>
+              <tr>
+                <td align="center">5th July</td>
+                <td align="center">Thriplow</td>
+                <td align="center">H</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">14th July</td>
+                <td align="center">Milton II</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1MiltonA2018.html">Lost</a></td>
+              </tr>
+              <tr>
+                <td align="center">17th July</td>
+                <td align="center">BAS</td>
+                <td align="center">A</td>
+                <td align="center">Midweek</td>
+                <td align="center">CBHL</td>
+                <td align="center">Won</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">21st July</td>
+                <td align="center">Haslingfield</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1HaslingfieldA2018.html">Won</a></td>
+              </tr>
+              <tr>
+                <td align="center">28th July</td>
+                <td align="center">Madingley II</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1MadingleyH2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">29th July</td>
+                <td align="center">BHSSC (Fred Styles Trophy)</td>
+                <td align="center">H</td>
+                <td align="center">Friendly</td>
+                <td align="center">Friendly</td>
+                <td align="center">Postp.</td>
+              </tr>
+              <tr>
+                <td align="center">4th August</td>
+                <td align="center">Bassingbourn</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1BassingbournA2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">11th August</td>
+                <td align="center">Cambridge St Giles III</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1StGilesH2018.html">Lost</a></td>
+              </tr>
+              <tr>
+                <td align="center">18th August</td>
+                <td align="center">Histon III</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center"><a href="archive/2018/1HistonH2018.html">Lost</a></td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">19th August</td>
+                <td align="center">Tesco</td>
+                <td align="center">H</td>
+                <td align="center">Friendly</td>
+                <td align="center">Friendly</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr>
+                <td align="center">25th August</td>
+                <td align="center">Haslingfield</td>
+                <td align="center">H</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center">Lost</td>
+              </tr>
+              <tr class="alternative">
+                <td align="center">26th August</td>
+                <td align="center">BHSSC (Fred Styles Trophy)</td>
+                <td align="center">H</td>
+                <td align="center">Friendly</td>
+                <td align="center">Friendly</td>
+                <td align="center">Canc.</td>
+              </tr>
+              <tr>
+                <td align="center">8th September</td>
+                <td align="center">Madingley II</td>
+                <td align="center">A</td>
+                <td align="center">1st XI</td>
+                <td align="center">CCA 3W</td>
+                <td align="center">Lost</td>
+              </tr>
+            </table>
+
+    
+            <h1>&nbsp;</h1>
+            <h2><a name="trophy"></a>2018 Trophy Winners </h2>
+            <p>The trophy winners for the 2018 season were as follows:</p>
+            
+            <p>&nbsp;</p>
+    </div><!-- End of content -->
+ 
+    <div id="footer">
+      <h1>Bar Hill Cricket Club</h1>
+      <div id="iconcontainer">
+        <div class="footerbutton webbutton"><a href="#" title="www"><img src="../../images/icon_web.jpg" alt="www"></a></div>
+        <div class="footerbutton emailbutton"><a href="mailto:info@barhillcricket.org.uk" title="email"><img src="../../images/icon_email.jpg" alt="email"></a></div>
+        <div class="footerbutton twitterbutton"><a href="http://www.twitter.com/barhillcc" title="twitter"><img src="../../images/icon_twitter.jpg" alt="twitter"></a></div>
+        <div class="footerbutton facebookbutton"><a href="http://www.facebook.com" title="facebook"><img src="../../images/icon_facebook.jpg" alt="facebook"></a></div>
+        <div class="footerbutton forumbutton"><a href="http://barhillcricket.myfreeforum.org/" title="forum"><img src="../../images/icon_forum.jpg" alt="forum"></a></div>
+      </div>
+    </div><!-- End of footer -->
+    
+  </div><!-- End of container -->
+  
+<script type="text/javascript">
+<!--
+//javascript disabled workaround
+document.getElementById("content").style.display = "block";
+
+// Tab JavaScript
+$(function() {
+    // setup ul.tabs to work as tabs for each div directly under div.panes
+    //$("ul.tabs").tabs("div.panes > div");
+    $("ul.tabs").tabs("> .pane");
+});
+-->
+</script>
+    
+</body>
+
+</html>
