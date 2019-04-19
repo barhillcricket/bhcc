@@ -3095,7 +3095,8 @@
     <ul class="tabs verticaltabs">
       <li><a class="widestatstab" href="#">All Time Batting</a></li>
       <li><a class="widestatstab" href="#">All Time Bowling</a></li>
-      <li style="padding-bottom:15px;"><a class="widestatstab" href="#">All Time Catches</a></li>      
+      <li><a class="widestatstab" href="#">All Time Catches</a></li> 
+      <li style="padding-bottom:15px;"><a class="widestatstab" href="#">All Time Matches</a></li>       
     </ul>
     
     <div class="pane widestatscontent">
@@ -3114,11 +3115,17 @@
               <th align="center">Ave</th>
           </tr>
           </thead>
-          <script>createStatsTable('./stats/AllTimeBatting.csv', 'batting-alltime')</script>
+          <script>createAllTimeStatsTable('./stats/AllTimeBatting.csv', 'batting-alltime', 5, 300, 'bat', 'more')</script>
           <tbody id="batting-alltime"></tbody>
             <tr class="alternative">
-              <td colspan="10"><strong>CCA League/Cup - Minimum qualification = 300 runs</strong></td>
-          </tr>         
+              <td colspan="10"><strong>CCA League/Cup <span id="bowl-qual">- Minimum qualification = 300 runs</span></strong></td>
+          </tr>
+          <tr class="expand-stats">
+              <td visible="false" id="bat-more" colspan="12" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeBatting.csv', 'batting-alltime', 5, 0, 'bat', 'less')"><strong>Show More</strong></td>
+            </tr>
+            <tr class="expand-stats">
+              <td hidden="true" id="bat-less" colspan="12" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeBatting.csv', 'batting-alltime', 5, 300, 'bat', 'more')"><strong>Show Less</strong></td>
+            </tr>          
         </table>
       </div><!--END OF All Time Batting-->
       
@@ -3139,11 +3146,17 @@
               <th align="center">Ave</th>
           </tr>
           </thead>
-          <script>createStatsTable('./stats/AllTimeBowling.csv', 'bowling-alltime')</script>
+          <script>createAllTimeStatsTable('./stats/AllTimeBowling.csv', 'bowling-alltime', 5, 30, 'bowl', 'more')</script>
           <tbody id="bowling-alltime"></tbody>
 
             <tr class="alternative">
-              <td colspan="12"><strong>CCA League/Cup - Minimum qualification = 30 wickets</strong></td>
+              <td colspan="12"><strong>CCA League/Cup only <span id="bowl-qual">- Minimum qualification = 30 wickets</span></strong></td>
+            </tr>
+            <tr class="expand-stats">
+              <td visible="false" id="bowl-more" colspan="12" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeBowling.csv', 'bowling-alltime', 5, 0, 'bowl', 'less')"><strong>Show More</strong></td>
+            </tr>
+            <tr class="expand-stats">
+              <td hidden="true" id="bowl-less" colspan="12" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeBowling.csv', 'bowling-alltime', 5, 30, 'bowl', 'more')"><strong>Show Less</strong></td>
             </tr>    
         </table>
       </div><!--END OF All Time Bowling -->
@@ -3160,7 +3173,7 @@
               <th>Total</th>
           </tr>
         </thead>
-        <script>createStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime')</script>
+        <script>createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 5, 30, 'catch', 'more')</script>
         <tbody id="catch-alltime"></tbody>
           
 
@@ -3170,9 +3183,39 @@
           <tr class="alternative">
             <td colspan="6"><strong>Wicket keeper catches before 1997 have not been separately identified</strong></td>
           </tr>
-</table>
-      <!--END OF All Time Catches-->
+          <tr class="expand-stats">
+              <td visible="false" id="catch-more" colspan="6" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 5, 0, 'catch', 'less')"><strong>Show More</strong></td>
+            </tr>
+            <tr class="expand-stats">
+              <td hidden="true" id="catch-less" colspan="6" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeCatches.csv', 'catch-alltime', 5, 30, 'catch', 'more')"><strong>Show Less</strong></td>
+            </tr>
+      </table>
       </div>
+      <!--END OF All Time Catches-->
+
+      <div class="pane widestatscontent">
+        <noscript><p><strong>All Time Matches</strong></p></noscript>
+        <table width="100%">
+            <thead>
+              <tr>
+                  <th colspan="2">Player</th>
+                  <th align="center">Matches</th>
+              </tr>
+            </thead>
+            <script>createAllTimeStatsTable('./stats/AllTimeMatches.csv', 'match-alltime', 2, 100, 'match', 'more')</script>
+            <tbody id="match-alltime"></tbody>
+            <tr class="alternative">
+                <td colspan="12"><strong>CCA League/Cup only <span id="match-qual">- Minimum qualification = 100 matches</span></strong></td>
+              </tr>
+            <tr class="expand-stats">
+              <td visible="false" id="match-more" colspan="3" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeMatches.csv', 'match-alltime', 2, 0, 'match', 'less')"><strong>Show More</strong></td>
+            </tr>
+            <tr class="expand-stats">
+              <td hidden="true" id="match-less" colspan="3" align="center" onclick="createAllTimeStatsTable('./stats/AllTimeMatches.csv', 'match-alltime', 2, 100, 'match', 'more')"><strong>Show Less</strong></td>
+            </tr>
+          </table>
+      </div>
+        <!--END OF All Time Matches-->
     </div><!-- end of wrap -->
 
      

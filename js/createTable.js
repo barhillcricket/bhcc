@@ -21,6 +21,37 @@ function createStatsTable(csvFile, tableId) {
   });
 }
 
+function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
+  d3.csv(csvFile, function(data) {
+    const table = document.getElementById(tableId);
+    table.innerHTML = null;
+    document.getElementById(type+ '-more').hidden = next === 'less';
+    document.getElementById(type+ '-less').hidden = next === 'more'
+    var skipped = 0;
+    data.forEach(function(row, i) {
+      if (row[Object.keys(row)[sortField]] >= min) {
+        const newRow = table.insertRow(-1);
+        newRow.height = '20';
+        if ((i-skipped) % 2 === 1) {
+          newRow.className = 'alternative';
+        }
+        Object.keys(row).forEach(function(val, index) {
+          const newText = document.createTextNode(row[val]);
+          const newCell = newRow.insertCell(index);
+          newCell.appendChild(newText);
+          if (index > 1) {
+            newCell.align = 'center';
+          } else {
+            newCell.height = '20';
+          }
+        });
+      } else {
+        skipped++;
+      }
+    });
+  });
+}
+
 function createPartnershipsTable(csvFile, tableId) {
   d3.csv(csvFile, function(data) {
     const table = document.getElementById(tableId);

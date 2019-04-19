@@ -324,6 +324,11 @@ th {
   border-bottom: 3px solid #dfd0b9;
 }
 
+.expand-stats {
+  background-color: #ae706c;
+  color: white;
+}
+
 table.fixtures {
   width: 250px;
 }
