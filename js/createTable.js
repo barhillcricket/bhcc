@@ -45,6 +45,9 @@ function createPartnershipsTable(csvFile, tableId) {
 
 function createLeagueTable(csvFile, tableId) {
   d3.csv(csvFile, function(data) {
+    if (Object.keys(data[0]).length === 13) {
+      return createLeagueTableFromPlayCricket(data, tableId);
+    }
     const table = document.getElementById(tableId);
     data.forEach(function(row, i) {
       const newRow = table.insertRow(-1);
@@ -64,4 +67,28 @@ function createLeagueTable(csvFile, tableId) {
       });
     });
   });
+}
+
+function createLeagueTableFromPlayCricket(data, tableId) {
+    const table = document.getElementById(tableId);
+    data.forEach(function(row, i) {
+      const newRow = table.insertRow(-1);
+      newRow.height = '20';
+      if (i % 2 === 1) {
+        newRow.className = 'alternative';
+      }
+      for (i=0; i <= 8; i++) {
+        const key = Object.keys(row).find(function(k) {
+          return k.charAt(0) == i;
+        });
+        const newText = document.createTextNode(row[key]);
+        const newCell = newRow.insertCell(i);
+        newCell.appendChild(newText);
+        if (i === 0) {
+          newCell.height = '20';
+        } else {
+          newCell.align = 'center';
+        }
+      }
+    });
 }
