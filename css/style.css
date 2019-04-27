@@ -309,9 +309,13 @@ table {
   border-collapse: collapse;
 }
 
-tr.alternative {
+tr:nth-child(odd) {
   background-color: #dfd0b9;
 }
+
+/* tr.alternative {
+  background-color: #dfd0b9;
+} */
 
 td {
   height: 20px;
