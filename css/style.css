@@ -309,13 +309,13 @@ table {
   border-collapse: collapse;
 }
 
-tr:nth-child(odd) {
+:not(.generated) > tr:nth-child(odd) {
   background-color: #dfd0b9;
 }
 
-/* tr.alternative {
+.generated > tr:nth-child(even) {
   background-color: #dfd0b9;
-} */
+}
 
 td {
   height: 20px;

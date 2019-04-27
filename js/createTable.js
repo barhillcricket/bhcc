@@ -1,12 +1,10 @@
 function createStatsTable(csvFile, tableId) {
   d3.csv(csvFile, function(data) {
     const table = document.getElementById(tableId);
+    table.className = 'generated';
     data.forEach(function(row, i) {
       const newRow = table.insertRow(-1);
       newRow.height = '20';
-      if (i % 2 === 1) {
-        newRow.className = 'alternative';
-      }
       Object.keys(row).forEach(function(val, index) {
         if (val.charAt(0) !== 'x') {
           const newText = document.createTextNode(row[val]);
@@ -26,6 +24,7 @@ function createStatsTable(csvFile, tableId) {
 function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
   d3.csv(csvFile, function(data) {
     const table = document.getElementById(tableId);
+    table.className = 'generated';
     table.innerHTML = null;
     document.getElementById(type+ '-more').hidden = next === 'less';
     document.getElementById(type+ '-less').hidden = next === 'more';
@@ -35,9 +34,6 @@ function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
       if (row[Object.keys(row)[sortField]] >= min) {
         const newRow = table.insertRow(-1);
         newRow.height = '20';
-        if ((i-skipped) % 2 === 1) {
-          newRow.className = 'alternative';
-        }
         Object.keys(row).forEach(function(val, index) {
           if (val.charAt(0) !== 'x') {
             const newText = document.createTextNode(row[val]);
@@ -60,12 +56,10 @@ function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
 function createPartnershipsTable(csvFile, tableId) {
   d3.csv(csvFile, function(data) {
     const table = document.getElementById(tableId);
+    table.className = 'generated';
     data.forEach(function(row, i) {
       const newRow = table.insertRow(-1);
       newRow.height = '20';
-      if (i % 2 === 1) {
-        newRow.className = 'alternative';
-      }
       Object.keys(row).forEach(function(val, index) {
         const newText = document.createTextNode(row[val]);
         const newCell = newRow.insertCell(index);
@@ -85,12 +79,10 @@ function createLeagueTable(csvFile, tableId) {
       return createLeagueTableFromPlayCricket(data, tableId);
     }
     const table = document.getElementById(tableId);
+    table.className = 'generated';
     data.forEach(function(row, i) {
       const newRow = table.insertRow(-1);
       newRow.height = '20';
-      if (i % 2 === 1) {
-        newRow.className = 'alternative';
-      }
       Object.keys(row).forEach(function(val, index) {
         const newText = document.createTextNode(row[val]);
         const newCell = newRow.insertCell(index);
@@ -107,12 +99,10 @@ function createLeagueTable(csvFile, tableId) {
 
 function createLeagueTableFromPlayCricket(data, tableId) {
     const table = document.getElementById(tableId);
+    table.className = 'generated';
     data.forEach(function(row, i) {
       const newRow = table.insertRow(-1);
       newRow.height = '20';
-      if (i % 2 === 1) {
-        newRow.className = 'alternative';
-      }
       for (i=0; i <= 8; i++) {
         const key = Object.keys(row).find(function(k) {
           return k.charAt(0) == i;
