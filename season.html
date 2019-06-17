@@ -26,6 +26,7 @@
 
   <script src="js/jquery.tools.min.js" type="text/javascript"></script>
   <script src="js/createTable.js" type="text/javascript"></script>
+  <script src="js/matchReports.js" type="text/javascript"></script>
   <script src="js/d3.min.js " type="text/javascript"></script>
 
 </head>
@@ -54,6 +55,7 @@
     <a class="qlink" href="#stats">2019 Statistics</a>
     <a class="qlink" href="#tables">2019 League Tables</a>
     <a class="qlink" href="#fixtures">2019 All Fixtures</a>
+    <a class="qlink" href="#reports">2019 Match Reports</a>
     </div>
     <!-- End of leftpanel -->
 
@@ -347,6 +349,7 @@
       <!-- End of 2nd pane -->
 
     </div><!-- End of wrap -->
+
     <p class="clearboth">&nbsp;</p>
     <h2><a name="fixtures"></a>Fixtures</h2>
             <table width="100%">
@@ -480,11 +483,11 @@
           </tr>
           <tr>
             <td align="center">18th June</td>
-            <td align="center">BAS</td>
+            <td align="center">British Antarctic Survey</td>
             <td align="center">A</td>
             <td align="center">Midweek</td>
             <td align="center">CBHL</td>
-            <td align="center"></td>
+            <td align="center">Postponed</td>
           </tr>
           <tr>
               <td align="center">20th June</td>
@@ -535,19 +538,19 @@
             <td align="center"></td>
           </tr>
           <tr>
+              <td align="center">2nd July</td>
+              <td align="center">Over</td>
+              <td align="center">A</td>
+              <td align="center">U13</td>
+              <td align="center">CYCA U13</td>
+              <td align="center"></td>
+            </tr>
+          <tr>
             <td align="center">10th July</td>
-            <td align="center">Royal Soc. Chem.</td>
+            <td align="center">Royal Society of Chemistry</td>
             <td align="center">A</td>
             <td align="center">Midweek</td>
             <td align="center">CBHL</td>
-            <td align="center"></td>
-          </tr>
-          <tr>
-            <td align="center">11th July</td>
-            <td align="center">Over</td>
-            <td align="center">H</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
             <td align="center"></td>
           </tr>
           <tr>
@@ -564,14 +567,6 @@
             <td align="center">H</td>
             <td align="center">Midweek</td>
             <td align="center">CBHL</td>
-            <td align="center"></td>
-          </tr>
-          <tr>
-            <td align="center">18th July</td>
-            <td align="center">Over</td>
-            <td align="center">A</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
             <td align="center"></td>
           </tr>
           <tr>
@@ -622,8 +617,29 @@
             <td align="center">Friendly</td>
             <td align="center">&nbsp;</td>
           </tr>
+          <tr>
+              <td align="center">TBC</td>
+              <td align="center">Over</td>
+              <td align="center">H</td>
+              <td align="center">U13</td>
+              <td align="center">CYCA U13</td>
+              <td align="center"></td>
+            </tr>
+            <tr>
+                <td align="center">TBC</td>
+                <td align="center">Fen Ditton</td>
+                <td align="center">A</td>
+                <td align="center">U13</td>
+                <td align="center">CYCA U13</td>
+                <td align="center"></td>
+              </tr>
           </table>
 
+          <p class="clearboth">&nbsp;</p>
+          <h2><a name="reports"></a>Match Reports</h2>
+          <div id="match-reports">
+            <script>getSeasonReports(2019, 'match-reports')</script>
+          </div>
 
     </div><!-- End of content -->
 

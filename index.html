@@ -52,7 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   <title>Bar Hill Cricket Club</title>
 
-   <script src="js/jquery.tools.min.js" type="text/javascript"></script>
+  <script src="js/jquery.tools.min.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/matchReports.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -109,29 +111,10 @@ document.addEventListener('DOMContentLoaded', function () {
     Bar Hill Cricket Club currently has an adult Saturday league team competing in the CCA Junior League and a Midweek team competing in the CBHL  The club also arranges several friendly matches each season. We always welcome new players of any ability.  For more information or to join, please email: <a href="mailto:info@barhillcricket.org.uk">info@barhillcricket.org.uk</a></p>
 
     <h2><a name="matchreports"></a>Match Reports</h2>
-    <p><strong>Saturday 15th June 2019 - Elsworth v Bar Hill</strong><br>
-      Bar Hill got back to winning ways with a fairly easy win against Elsworth on an overcast Saturday. We once again won the toss, chose to field, and quickly took advantage with <strong>James Barclay</strong> opening the bowling and taking 3-9. Bar Hill continued to take wickets and reduced Elsworth to <strong>46 All Out</strong>. We quickly chased off the runs in just 9.4 overs for the loss of just three wickets, with the runs being shared out. A big thanks to the two additional players who both contributed with bat or ball.
-    </p>
+    <div id="match-reports">
+      <script>getLatestReports(2019, 'match-reports')</script>
+    </div>
 
-    <p><strong>Wednesday 5th June 2019 - Waterbeach v Bar Hill</strong><br>
-      Our first midweek match of the season ended in defeat after some good bowling restricted Waterbeach to <strong>106 All Out</strong> with <strong>Tom Page</strong> taking 3-27, <strong>James Barclay</strong> taking 2-8 and <strong>Martin Haslop</strong> finishing off the line up with 2-3. Unfortunately we could not score at the required rate and ended on <strong>81-6</strong> from the 15 overs, with <strong>Jake Curry</strong> and <strong>Martin Haslop</strong> scoring 17 each.
-    </p>
-
-    <p><strong>Saturday 1st June 2019 - Linton III v Bar Hill</strong><br>
-      We suffered our first league defeat of the season in an away match to Linton. Upon winning the toss we decieded to bat first and things started well with <strong>Jim Neal</strong> scoring 58 and <strong>James Barclay</strong> scoring 29 leaving us on 94-2 however a collapse followed and we ended with <strong>126 all out</strong>. Bar Hill struggled to take wickets allowing Linton to chase down their target in 25 overs for just two wickets.
-    </p>
-
-    <p><strong>Saturday 25th May 2019 - Bar Hill v Cambourne</strong> - <a href="archive/2019/1CambourneH2019.html">Scorecard</a><br>
-      Another strong performance from Bar Hill saw us win against Cambourne in our second league match of the season. Bar Hill won the toss and elected to field, with <strong>Adam Dean</strong> taking a wicket from the first ball of the match. What was to follow was a special spell from <strong>Sam Wilson</strong> taking 6 wickets for only 11 runs. Cambourne ended their innings with <strong>59 all out</strong>. The Bar Hill batsmen struggled again in their run chase, once again losing 6 wickets on their way to winning in 17.4 overs - with <strong>Nathan Dean</strong> scoring 21 not out. 
-    </p>
-
-    <p><strong>Saturday 18th May 2019 - Bar Hill v Steeple Morden</strong> - <a href="archive/2019/1SteepleMordenH2019.html">Scorecard</a><br>
-      We finally got started in the league with our match against Steeple Morden. Bar Hill won the toss and decided to field on a mildly damp afternoon. The opposition started well, but the strength of the Bar Hill bowling showed, reducing Steeple Morden from 26-0 to <strong>48 all out</strong>. The pick of the bowling was with <strong>Barry Driver</strong> (4-3), <strong>Sam Wilson</strong> (3-9) and <strong>Tom Page</strong> (2-19). <strong>Jake Curry</strong> and <strong>Peter Howard</strong> started the run chase strongly with 13 and 8 respectively but the regular loss of wickets led to a nervous affair. However <strong>Paul Stimpson</strong> and <strong>Martin Haslop</strong> got us over the line in 16.5 overs.</p>
-    </p>
-
-    <p><strong>Sunday 29th April 2019 - Girton v Bar Hill</strong> - <a href="archive/2019/FGirtonA2019.html">Scorecard</a><br>
-      We started our season with a first team friendly at Girton in a match consisting of 30 overs per side. Bar Hill lost the toss and were put in to bat. We posted a strong total of <strong>156-7</strong>, with <strong>Jim Neal</strong> and <strong>James Barclay</strong> both retiring at 30 Not Out, whilst <strong>Jake Curry</strong> and <strong>Adam Dean</strong> chipped in with 26 and 28* respectively. We started well in the field, taking some crucial wickets against their stong batting lineup but dropped catches ended up being our downfall, allowing Girton to score their runs with 10 balls to spare. <strong>Barry Driver</strong> was the pick of the bowlers with 3-20 from just 4 overs.</p>
-    </p>
     <h2><a name="notices"></a>Notices</h2>
     <p>The club website will be a "work in progress" for a while until all the   content is transferred from the old site, especially in respect of the   archives. If you find any broken links or cannot find something you need   please contact <a href="mailto:info@barhillcricket.org.uk">Tom Page</a>.</p>
     <p>&nbsp;</p>
@@ -257,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function () {
           </tr>
           <tr>
             <td align="center">18/6</td>
-            <td align="center">---</td>
+            <td align="center">Postp.</td>
             <td>British Antarctic Survey</td>
             <td align="center">A</td>
           </tr>
@@ -364,17 +347,24 @@ document.addEventListener('DOMContentLoaded', function () {
             <td align="center">A</td>
           </tr>
           <tr>
-            <td align="center">11/7</td>
+            <td align="center">2/7</td>
+            <td align="center">---</td>
+            <td>Over</td>
+            <td align="center">A</td>
+          </tr>
+          <tr>
+            <td align="center">TBC</td>
             <td align="center">---</td>
             <td>Over</td>
             <td align="center">H</td>
           </tr>
           <tr>
-            <td align="center">18/7</td>
-            <td align="center">---</td>
-            <td>Over</td>
-            <td align="center">A</td>
-          </tr>
+              <td align="center">TBC</td>
+              <td align="center">---</td>
+              <td>Fen Ditton</td>
+              <td align="center">A</td>
+            </tr>
+          
           </table>
       </div><!-- End of youth team fixtures -->
     </div>
