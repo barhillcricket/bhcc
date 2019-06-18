@@ -25,20 +25,20 @@
     "opposition": "Linton III",
     "home": false,
     "report": "We suffered our first league defeat of the season in an away match to Linton. Upon winning the toss we decieded to bat first and things started well with <strong>Jim Neal</strong> scoring 58 and <strong>James Barclay</strong> scoring 29 leaving us on 94-2 however a collapse followed and we ended with <strong>126 all out</strong>. Bar Hill struggled to take wickets allowing Linton to chase down their target in 25 overs for just two wickets.",
-    "scorecard_link": null
+    "scorecard_link": "/archive/2019/1LintonA2019.html"
   },
   {
     "date": "2019/06/05",
     "opposition": "Waterbeach",
     "home": false,
     "report": "Our first midweek match of the season ended in defeat after some good bowling restricted Waterbeach to <strong>106 All Out</strong> with <strong>Tom Page</strong> taking 3-27, <strong>James Barclay</strong> taking 2-8 and <strong>Martin Haslop</strong> finishing off the line up with 2-3. Unfortunately we could not score at the required rate and ended on <strong>81-6</strong> from the 15 overs, with <strong>Jake Curry</strong> and <strong>Martin Haslop</strong> scoring 17 each.",
-    "scorecard_link": null
+    "scorecard_link": "/archive/2019/MWaterbeachA2019.html"
   },
   {
     "date": "2019/06/15",
     "opposition": "Elsworth",
     "home": false,
     "report": "Bar Hill got back to winning ways with a fairly easy win against Elsworth on an overcast Saturday. We once again won the toss, chose to field, and quickly took advantage with <strong>James Barclay</strong> opening the bowling and taking 3-9. Bar Hill continued to take wickets and reduced Elsworth to <strong>46 All Out</strong>. We quickly chased off the runs in just 9.4 overs for the loss of just three wickets, with the runs being shared out. A big thanks to the two additional players who both contributed with bat or ball.",
-    "scorecard_link": null
+    "scorecard_link": "/archive/2019/1ElsworthA2019.html"
   }
 ]
