@@ -40,5 +40,12 @@
     "home": false,
     "report": "Bar Hill got back to winning ways with a fairly easy win against Elsworth on an overcast Saturday. We once again won the toss, chose to field, and quickly took advantage with <strong>James Barclay</strong> opening the bowling and taking 3-9. Bar Hill continued to take wickets and reduced Elsworth to <strong>46 All Out</strong>. We quickly chased off the runs in just 9.4 overs for the loss of just three wickets, with the runs being shared out. A big thanks to the two additional players who both contributed with bat or ball.",
     "scorecard_link": "/archive/2019/1ElsworthA2019.html"
+  },
+  {
+    "date": "2019/06/20",
+    "opposition": "Wenden",
+    "home": true,
+    "report": "Great match by the under-13 boys - two wickets for <strong>David Starling</strong> and two for <strong>Austin Grant</strong> and everyone made some runs. Even the sun came out too! There wasn't much between the two teams. Every performance is a step forward and the results will soon start coming! ",
+    "scorecard_link": null
   }
 ]
