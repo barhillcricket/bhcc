@@ -47,5 +47,26 @@
     "home": true,
     "report": "Great match by the under-13 boys - two wickets for <strong>David Starling</strong> and two for <strong>Austin Grant</strong> and everyone made some runs. Even the sun came out too! There wasn't much between the two teams. Every performance is a step forward and the results will soon start coming! ",
     "scorecard_link": null
+  },
+  {
+    "date": "2019/06/22",
+    "opposition": "Barrington II",
+    "home": false,
+    "report": "We lost our second match of the season against Barrington in a spirited defeat. We lost the toss but were put out in the field and once again put on a good bowling performance, reducing Barrington to <strong>110 all out</strong>. The pick of the bowling was <strong>James Barclay</strong> and <strong>Jim Neal</strong> who took 3 wickets each, as well as <strong>Scott Underhay</strong> who took two wickets and a stunning direct hit run out. Sadly, Bar Hill's batting got off to a shaky start, losing two wickets in the first over. A strong partnership of 31 seemed to have steadied the ship from <strong>Paul Stimpson</strong>(14) and <strong>James Barclay</strong>(15) but then began to lose wickets regularly. A late attack by <strong>Tom Page</strong>(12) was also not enough as Bar Hill were bowled out for 62.",
+    "scorecard_link": null
+  },
+  {
+    "date": "2019/06/29",
+    "opposition": "NCI IV",
+    "home": false,
+    "report": "The hottest day of the year so far began with Bar Hill in fairly unfamiliar territory as we lost the toss and were put into bat. Good scores from <strong>Adam Dean</strong>(58) and <strong>Jim Neal</strong>(32) put us on our way, and with decent batting all the way down, including a quick 29 not out from <strong>Sam Wilson</strong> meant Bar Hill finished on 228-8. Bar Hill began taking quick wickets and reduced NCI to 14-3 within the fifth over, but NCI steadied and did not lose wickets often. Good bowling, however, meant that the run rate was always rising and by the end of the innings NCI had only reached 154-9. The pick of the bowling included 2 wickets each for <strong>Scott Underhay</strong>, <strong>Adam Dean</strong>, <strong>Sam Wilson</strong>, <strong>Barry Driver</strong>",
+    "scorecard_link": null
+  },
+  {
+    "date": "2019/07/13",
+    "opposition": "Fen Ditton II",
+    "home": true,
+    "report": "On an overcast day against Fen Ditton, we lost the toss and were put into bat. We got off to a quick start with <strong>Adam Dean</strong>(35) and <strong>Paul Stimpson</strong>(21) bringing up a 50 partnership in the ninth over. This was further backed up by <strong>Jim Neal</strong> and <strong>Jake Curry</strong> with scores of 39 and 30 respectively. Strong batting throughout meant we ended on 187 all out from 36.5 overs. Heavy pressure placed on the opposition by the bowlers restricted Fen Ditton to just 38 runs in response, with only 4 batsmen scoring any runs. <strong>Phil Orvis</strong> (4-5) and <strong>Sam Wilson</strong> (3-2) were the pick of the bowlers.",
+    "scorecard_link": null
   }
 ]
