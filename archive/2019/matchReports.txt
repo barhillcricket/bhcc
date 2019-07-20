@@ -68,5 +68,12 @@
     "home": true,
     "report": "On an overcast day against Fen Ditton, we lost the toss and were put into bat. We got off to a quick start with <strong>Adam Dean</strong>(35) and <strong>Paul Stimpson</strong>(21) bringing up a 50 partnership in the ninth over. This was further backed up by <strong>Jim Neal</strong> and <strong>Jake Curry</strong> with scores of 39 and 30 respectively. Strong batting throughout meant we ended on 187 all out from 36.5 overs. Heavy pressure placed on the opposition by the bowlers restricted Fen Ditton to just 38 runs in response, with only 4 batsmen scoring any runs. <strong>Phil Orvis</strong> (4-5) and <strong>Sam Wilson</strong> (3-2) were the pick of the bowlers.",
     "scorecard_link": null
+  },
+  {
+    "date": "2019/07/16",
+    "opposition": "Elsworth",
+    "home": true,
+    "report": "In one of the most exciting matches of the season so far, Bar Hill bowled first and were able to keep the run rate down leaving Elsworth with 98-7 from their 15 overs. <strong>Barry Driver</strong> was the pick of the bowlers with 3-32. The Bar Hill batting lineup faultered in reply, falling quickly to 26-4 before <strong>Martin Haslop</strong> steadied the ship in scoring 19. A strong end to the match was required when needing 40 from 4 overs. <strong>Tom Page</strong>'s quick 13 was not enough to see Bar Hill over the line, in the end losing by just three runs with <strong>Barry Driver</strong> (5 from 2 balls) not able to score a boundary on the final ball to tie the match.",
+    "scorecard_link": null
   }
 ]
