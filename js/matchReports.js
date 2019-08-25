@@ -1,5 +1,5 @@
 function loadReports(year, cb) {
-  return d3.json('archive/' + year + '/matchReports.txt', cb);
+  return d3.json('/archive/' + year + '/matchReports.txt', cb);
 }
 
 function getNumberWithOrdinal(n) {
