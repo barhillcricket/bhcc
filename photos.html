@@ -18,6 +18,7 @@
   <meta name="author" content="Bar Hill Cricket Club">
   
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 
   <meta name="description" content="Bar Hill Cricket Club">
@@ -46,14 +47,57 @@
     </div><!-- End of navbar -->
     
     <div id="leftpanel">
-    <a class="qlinkheader" href="#">Photos</a>
-    <a class="qlink" href="#2000-2010">Photos 2000-2010</a>
-      </div><!-- End of leftpanel -->
+      <a class="qlinkheader" href="#">Photos</a>
+      <a class="qlink" href="#2019-awards">2019 Awards Evening</a>
+      <a class="qlink" href="#2019-team">2019 Team Photo</a>
+      <a class="qlink" href="#2000-2010">Photos 2000-2010</a>
+    </div><!-- End of leftpanel -->
     
     <div id="content">
     <h1>Photos</h1>
-    <p>Will appear here...</p>
+    <h2><a name="2019-awards"></a>2019 Awards Evening</h2>
+
+    <img src="images/2019-awards/20190914_192503.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_192531.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_192559.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_192623.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_192648.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_192708.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_192917.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195112.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195144.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195242.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195325.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195438.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195638.jpg" class="photos-page-photos carousel"/>
+    <img src="images/2019-awards/20190914_195714.jpg" class="photos-page-photos carousel"/>
+    <div class="carousel-btns">
+      <button onclick="plusDivs(-1)">&#10094;</button>
+      <button onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("carousel");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
     
+    <h2><a name="2019-team"></a>2019 Team Photo</h2>
+    <img src="images/2019_team.jpg" class="photos-page-photos"/>
+
     <h2><a name="2000-2010"></a>Photos 2000-2010</h2>
     <p>An archive of club photos can be found on <a href="https://picasaweb.google.com/104918833350624457465">Picasaweb.</a></div>
     <!-- End of content -->

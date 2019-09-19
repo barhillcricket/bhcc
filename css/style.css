@@ -407,3 +407,15 @@ table.leagues {
   position: absolute;
   top: -999em;
 }
+
+.photos-page-photos {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.carousel-btns {
+  margin: auto;
+  width: fit-content;
+  margin-top: 5px;
+}

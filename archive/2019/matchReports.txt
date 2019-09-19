@@ -82,5 +82,12 @@
     "home": false,
     "report": "For the second time in the week, the match went down to the final ball, and this time we were able to score the winning runs. Bar Hill won the toss and elected to field. Some strong batting from the opening pair meant Saffron Walden made a fairly fast start. <strong>Tom Page</strong> broke the partnership and ended with two wickets. <strong>Phil Orvis</strong> then followed with a wonderful spell of 5-16 as well as two catches. Strong bowling throughout allowed Saffron Walden to finish on 140-9. Bar Hill's response with the bat began well, and were at one point 101-3 thanks to <strong>Jim Neal</strong> (34) and <strong>Jake Curry</strong> who scored 21 from 13 balls putting us well ahead of the run rate. However wickets began to fall and the run rate slowed leaving us needing 4 runs from the final over. No runs were scored in the first 5 balls and but <strong>Scott Underhay</strong> scored a boundary from the final ball in order for us to win in the most tense of circumstances, and leaving Bar Hill second in the league table.",
     "scorecard_link": null
+  },
+  {
+    "date": "2019/08/17",
+    "opposition": "Girton II",
+    "home": false,
+    "report": "The first team finished the season in the place where it started, facing Girton, knowing that a win would win them promotion and give them a chance of winning the league. Bar Hill won the toss and elected to field and quickly got to work, running through the Girton lineup and only allowing 58 in doing so. <strong>Sam Wilson</strong> and <strong>Martin Haslop</strong> took most of the wickets with 4-10 and 3-1 respectively. Bar Hill were able to chase down the runs in just 17 overs, losing 1 wicket in the process and allowing <strong>Paul Stimpson</strong> to score 17 not out, and <strong>James Barclay</strong> to score 31 not out meaning Bar Hill finished the day top of the table and awaited the result of Barrington on 31/8 to find whether they are champions.",
+    "scorecard_link": null
   }
 ]
