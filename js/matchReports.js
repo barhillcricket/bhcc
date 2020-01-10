@@ -20,9 +20,9 @@ function getDateString(d) {
 
 function getLatestReports(year, id) {
   var section = document.getElementById(id);
-  loadReports(year, function (reports) {
-    reports = reports.slice(-5).reverse()
-    reports.forEach(function (report) {
+  const displayReports = function (reportsList) {
+    reportsList = reportsList.slice(-5).reverse()
+    reportsList.forEach(function (report) {
       var rep = section.appendChild(document.createElement("p"));
       var title = rep.appendChild(document.createElement('strong'));
       title.innerHTML = getDateString(report.date) + ' - ' + (report.home ? 'Bar Hill v ' + report.opposition : report.opposition + ' v Bar Hill');
@@ -37,12 +37,27 @@ function getLatestReports(year, id) {
       var reportText = rep.appendChild(document.createElement('div'));
       reportText.innerHTML = report.report;
     })
+  }
+  loadReports(year, function (reports) {
+    if (!reports || reports.length < 5) {
+      loadReports((parseInt(year) - 1).toString(), function (oldReports) {
+        console.log(reports)
+        reports = reports ? oldReports.concat(reports) : oldReports;
+        displayReports(reports)
+      })
+    } else {
+      displayReports(reports);
+    }
   });
 }
 
 function getSeasonReports(year, id) {
   var section = document.getElementById(id);
   loadReports(year, function (reports) {
+    if (!reports || reports.length === 0) {
+      section.innerText = "Match reports will appear here";
+      return;
+    }
     reports.forEach(function (report) {
       var rep = section.appendChild(document.createElement("p"));
       var title = rep.appendChild(document.createElement('strong'));

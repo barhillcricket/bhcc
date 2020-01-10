@@ -28,6 +28,7 @@
   <script src="js/createTable.js" type="text/javascript"></script>
   <script src="js/matchReports.js" type="text/javascript"></script>
   <script src="js/d3.min.js " type="text/javascript"></script>
+  <script src="js/fixtures.js" type="text/javascript"></script>
 
 </head>
 
@@ -51,11 +52,11 @@
     </div><!-- End of navbar -->
 
     <div id="leftpanel">
-    <a class="qlinkheader" href="season.html">This Season - 2019</a>
-    <a class="qlink" href="#stats">2019 Statistics</a>
-    <a class="qlink" href="#tables">2019 League Tables</a>
-    <a class="qlink" href="#fixtures">2019 All Fixtures</a>
-    <a class="qlink" href="#reports">2019 Match Reports</a>
+    <a class="qlinkheader" href="season.html">This Season - 2020</a>
+    <a class="qlink" href="#stats">2020 Statistics</a>
+    <a class="qlink" href="#tables">2020 League Tables</a>
+    <a class="qlink" href="#fixtures">2020 All Fixtures</a>
+    <a class="qlink" href="#reports">2020 Match Reports</a>
     </div>
     <!-- End of leftpanel -->
 
@@ -64,14 +65,18 @@
     <!-- no javascript warning -->
     <noscript><p style="text-align: center;"><strong>Please note this page is best viewed with JavaScript enabled!</strong></p></noscript>
 
-    <h1>This Season - 2019</h1>
-    <p>Last Updated: 25/08/2019</p>
+    <h1>This Season - 2020</h1>
+    <p>Last Updated: 10/01/2020</p>
     <h2><a name="stats"></a>Statistics</h2>
     <div class="wrap">
     <ul class="tabs verticaltabs">
       <li><a class="statstab" href="#">1st XI Batting</a></li>
       <li><a class="statstab" href="#">1st XI Bowling</a></li>
       <li style="padding-bottom:15px;"><a class="statstab" href="#">1st XI Fielding</a></li>
+      
+      <li><a class="statstab" href="#">2nd XI Batting</a></li>
+      <li><a class="statstab" href="#">2nd XI Bowling</a></li>
+      <li style="padding-bottom:15px;"><a class="statstab" href="#">2nd XI Fielding</a></li>
 
       <li><a class="statstab" href="#">Midweek Batting</a></li>
       <li><a class="statstab" href="#">Midweek Bowling</a></li>
@@ -108,7 +113,7 @@
                 <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/1stBatting.csv', 'batting-season')</script>
+          <script>createStatsTable('archive/2020/stats/1stBatting.csv', 'batting-season')</script>
           <tbody id="batting-season"></tbody>
         </table>
       </div><!--END OF 1st XI Batting-->
@@ -135,7 +140,7 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/1stBowling.csv', 'bowling-season')</script>
+          <script>createStatsTable('archive/2020/stats/1stBowling.csv', 'bowling-season')</script>
           <tbody id="bowling-season"></tbody>
         </table>
               <!--END OF 1st XI Bowling-->
@@ -156,8 +161,83 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/1stFielding.csv', 'fielding-season')</script>
+          <script>createStatsTable('archive/2020/stats/1stFielding.csv', 'fielding-season')</script>
           <tbody id="fielding-season"></tbody>
+        </table>
+      <!--END OF 1st XI Fielding-->
+      </div>
+    <div class="pane statscontent">
+      <noscript>
+      <p><strong>2nd XI Batting Statistics</strong></p>
+      </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+                <th colspan="2">Player</th>
+                <th align="center">Mch</th>
+                <th align="center">Inn</th>
+                <th align="center">NO</th>
+                <th align="center">Runs</th>
+                <th align="center">Balls</th>
+                <th align="center">HS</th>
+                <th align="center">100</th>
+                <th align="center">50</th>
+                <th align="center">6</th>
+                <th align="center">4</th>
+                <th align="center">Strike Rate</th>
+                <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('archive/2020/stats/2ndBatting.csv', 'batting-season2')</script>
+          <tbody id="batting-season2"></tbody>
+        </table>
+      </div><!--END OF 1st XI Batting-->
+
+      <div class="pane statscontent">
+      <noscript>
+      <p><strong>2nd XI Bowling Statistics</strong></p>
+      </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Overs</th>
+              <th align="center">Mdn</th>
+              <th align="center">Wkt</th>
+              <th align="center">Runs</th>
+              <th align="center">W</th>
+              <th align="center">NB</th>
+              <th align="center">Best</th>
+              <th align="center">5-W</th>
+              <th align="center">Econ</th>
+              <th align="center">SR</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('archive/2020/stats/2ndBowling.csv', 'bowling-season2')</script>
+          <tbody id="bowling-season2"></tbody>
+        </table>
+              <!--END OF 1st XI Bowling-->
+      </div>
+      <div class="pane statscontent">
+        <noscript>
+        <p><strong>2nd XI Fielding Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+                <th colspan="2">Player</th>
+                <th width="64" align="center">Mch</th>
+                <th width="64" align="center">Ct</th>
+                <th width="64" align="center">Wk Ct</th>
+                <th align="center">St</th>
+                <th align="center">RO</th>
+                <th align="center">Total</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('archive/2020/stats/2ndFielding.csv', 'fielding-season2')</script>
+          <tbody id="fielding-season2"></tbody>
         </table>
       <!--END OF 1st XI Fielding-->
       </div>
@@ -181,7 +261,7 @@
                 <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/MWBatting.csv', 'batting-seasonmw')</script>
+          <script>createStatsTable('archive/2020/stats/MWBatting.csv', 'batting-seasonmw')</script>
           <tbody id="batting-seasonmw"></tbody>
         </table>
       </div><!--END OF Midweek XI Batting-->
@@ -207,7 +287,7 @@
                 <th align="center">Ave</th>
               </tr>
             </thead>
-            <script>createStatsTable('archive/2019/stats/MWBowling.csv', 'bowling-seasonmw')</script>
+            <script>createStatsTable('archive/2020/stats/MWBowling.csv', 'bowling-seasonmw')</script>
             <tbody id="bowling-seasonmw"></tbody>
           </table>
           <!--END OF Midweek XI Bowling-->
@@ -227,7 +307,7 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/MWFielding.csv', 'fielding-seasonmw')</script>
+          <script>createStatsTable('archive/2020/stats/MWFielding.csv', 'fielding-seasonmw')</script>
           <tbody id="fielding-seasonmw"></tbody>
         </table>
       <!--END OF Midweek XI Fielding-->
@@ -251,7 +331,7 @@
                 <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/FriendlyBatting.csv', 'batting-seasonf')</script>
+          <script>createStatsTable('archive/2020/stats/FriendlyBatting.csv', 'batting-seasonf')</script>
           <tbody id="batting-seasonf"></tbody>
         </table>
       </div><!--END OF Friendly XI Batting-->
@@ -277,7 +357,7 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/FriendlyBowling.csv', 'bowling-seasonf')</script>
+          <script>createStatsTable('archive/2020/stats/FriendlyBowling.csv', 'bowling-seasonf')</script>
           <tbody id="bowling-seasonf"></tbody>
         </table>
         <!--END OF Friendly XI Bowling-->
@@ -297,7 +377,7 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2019/stats/FriendlyFielding.csv', 'fielding-seasonf')</script>
+          <script>createStatsTable('archive/2020/stats/FriendlyFielding.csv', 'fielding-seasonf')</script>
           <tbody id="fielding-seasonf"></tbody>
         </table>
       <!--END OF Friendly XI Fielding--></div>
@@ -315,7 +395,7 @@
               <th align="center">Total</th>
           </tr>
         </thead>
-        <script>createStatsTable('archive/2019/stats/Duckman.csv', 'duckman-season')</script>
+        <script>createStatsTable('archive/2020/stats/Duckman.csv', 'duckman-season')</script>
         <tbody id="duckman-season"></tbody>
         </table>
       <!--END OF Duckman-->
@@ -330,7 +410,7 @@
       </ul>
 
       <div class="pane statscontent"> <!-- 2nd Pane -->
-      <p><strong>CCA Junior League 4 West Table</strong></p>
+      <p><strong>CCA Junior League 3 West Table (1st XI)</strong></p>
       <table width="100%">
           <tr>
             <th width="25%">Team</th>
@@ -343,8 +423,26 @@
             <th align="center" width="9%">Bonus</th>
             <th align="center" width="12%">Points</th>
           </tr>
-          <script>createLeagueTable('archive/2019/stats/1stLeagueTable.csv', 'league-table')</script>
+          <script>createLeagueTable('archive/2020/stats/1stLeagueTable.csv', 'league-table')</script>
           <tbody id="league-table"></tbody>
+        </table>
+      <p>&nbsp;</p>
+      <br/>
+      <p><strong>CCA Junior League 5 West Table (2nd XI)</strong></p>
+      <table width="100%">
+          <tr>
+            <th width="25%">Team</th>
+            <th align="center" width="9%">Played</th>
+            <th align="center" width="9%">Won</th>
+            <th align="center" width="9%">Lost</th>
+            <th align="center" width="9%">Tied</th>
+            <th align="center" width="9%">Aban.</th>
+            <th align="center" width="9%">Canc.</th>
+            <th align="center" width="9%">Bonus</th>
+            <th align="center" width="12%">Points</th>
+          </tr>
+          <script>createLeagueTable('archive/2020/stats/2ndLeagueTable.csv', 'league-table2')</script>
+          <tbody id="league-table2"></tbody>
         </table>
       <p>&nbsp;</p>
       </div>
@@ -353,8 +451,8 @@
     </div><!-- End of wrap -->
 
     <p class="clearboth">&nbsp;</p>
-    <h2><a name="fixtures"></a>Fixtures</h2>
-            <table width="100%">
+    <h2><a name="fixtures" ></a>Fixtures</h2>
+        <table width="100%" id="season-fixtures">
           <tr>
             <th align="center" width="25%">Date</th>
             <th align="center" width="30%">Opposition</th>
@@ -363,308 +461,13 @@
             <th align="center" width="20%">Competition</th>
             <th align="center" width="10%">Result</th>
           </tr>
-          <tr>
-            <td align="center">28th April</td>
-            <td align="center">Girton</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">Friendly</td>
-            <td align="center"><a href="archive/2019/FGirtonA2019.html">Lost</a></td>
-          </tr>
-          <tr>
-            <td align="center">4th May</td>
-            <td align="center">Great Shelford III</td>
-            <td align="center">H</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Walkover</td>
-          </tr>
-          <tr>
-            <td align="center">9th May</td>
-            <td align="center">Fulbourn Institute</td>
-            <td align="center">H</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">13th May</td>
-            <td align="center">Wenden</td>
-            <td align="center">A</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">18th May</td>
-            <td align="center">Steeple Morden	</td>
-            <td align="center">H</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center"><a href="archive/2019/1SteepleMordenH2019.html">Won</a></td>
-          </tr>
-          <tr>
-            <td align="center">23rd May</td>
-            <td align="center">Fen Ditton	</td>
-            <td align="center">H</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">25th May</td>
-            <td align="center">Cambourne III</td>
-            <td align="center">H</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center"><a href="archive/2019/1CambourneH2019.html">Won</a></td>
-            </tr>
-          <tr>
-            <td align="center">28th May</td>
-            <td align="center">Scorchers</td>
-            <td align="center">H</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">30th May</td>
-            <td align="center">Fulbourn Institute</td>
-            <td align="center">H</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
-            <td align="center">Won</td>
-          </tr>
-          <tr>
-            <td align="center">1st June</td>
-            <td align="center">Linton II</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center"><a href="archive/2019/1LintonA2019.html">Lost</a></td>
-          </tr>
-          <tr>
-            <td align="center">5th June</td>
-            <td align="center">Waterbeach</td>
-            <td align="center">A</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center"><a href="archive/2019/MWaterbeachA2019.html">Lost</a></td>
-          </tr>
-          <tr>
-            <td align="center">8th June</td>
-            <td align="center">Cherry Hinton II</td>
-            <td align="center">H</td>
-            <td align="center" >1st XI</td>
-            <td align="center" >CCA 4W</td>
-            <td align="center">Cancelled</td>
-          </tr>
-          <tr>
-            <td align="center">11th June</td>
-            <td align="center">Dobblers</td>
-            <td align="center">H</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">11th June</td>
-            <td align="center">Fen Ditton</td>
-            <td align="center">A</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">15th June</td>
-            <td align="center">Elsworth</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center"><a href="archive/2019/1ElsworthA2019.html">Won</a></td>
-          </tr>
-          <tr>
-            <td align="center">18th June</td>
-            <td align="center">British Antarctic Survey</td>
-            <td align="center">A</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-              <td align="center">20th June</td>
-              <td align="center">Wenden</td>
-              <td align="center">H</td>
-              <td align="center">U13</td>
-              <td align="center">CYCA U13</td>
-              <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">22nd June</td>
-            <td align="center">Barrington II</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-              <td align="center">27th June</td>
-              <td align="center">Fulbourn Institute</td>
-              <td align="center">A</td>
-              <td align="center">U13</td>
-              <td align="center">CYCA U13</td>
-              <td align="center">Won</td>
-          </tr>
-          <tr>
-            <td align="center">29th June</td>
-            <td align="center">Cambridge NCI IV</td>
-            <td align="center">H</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Won</td>
-          </tr>
-          <tr>
-            <td align="center">30th June</td>
-            <td align="center">Bar Hill Sports & Social Club</td>
-            <td align="center">H</td>
-            <td align="center">Friendly</td>
-            <td align="center">Fred Styles Trophy</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">2nd July</td>
-            <td align="center">Domino</td>
-            <td align="center">A</td>
-            <td align="center">Midweek</td>
-            <td align="center">Friendly</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-              <td align="center">2nd July</td>
-              <td align="center">Over</td>
-              <td align="center">A</td>
-              <td align="center">U13</td>
-              <td align="center">CYCA U13</td>
-              <td align="center">Lost</td>
-            </tr>
-          <tr>
-            <td align="center">10th July</td>
-            <td align="center">Royal Society of Chemistry</td>
-            <td align="center">A</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">13th July</td>
-            <td align="center">Fen Ditton II</td>
-            <td align="center">H</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Won</td>
-          </tr>
-          <tr>
-            <td align="center">15th July</td>
-            <td align="center">Over</td>
-            <td align="center">H</td>
-            <td align="center">U13</td>
-            <td align="center">CYCA U13</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">16th July</td>
-            <td align="center">Elsworth</td>
-            <td align="center">H</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">20th July</td>
-            <td align="center">Saffron Walden IV</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Won</td>
-          </tr>
-          <tr>
-            <td align="center">23rd July</td>
-            <td align="center">Scorchers</td>
-            <td align="center">H</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Lost</td>
-          </tr>
-	        <tr>
-            <td align="center">27th July</td>
-            <td align="center">Coton II</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Cancelled</td>
-          </tr>
-          <tr>
-            <td align="center">29th July</td>
-            <td align="center">Tesco</td>
-            <td align="center">H</td>
-            <td align="center">Friendly</td>
-            <td align="center">Friendly</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">3rd August</td>
-            <td align="center">Camden II</td>
-            <td align="center">H</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Walkover</td>
-          </tr>
-          <tr>
-            <td align="center">6th August</td>
-            <td align="center">Dobblers</td>
-            <td align="center">H</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Lost</td>
-          </tr>
-          <tr>
-            <td align="center">14th August</td>
-            <td align="center">British Antarctic Survey</td>
-            <td align="center">A</td>
-            <td align="center">Midweek</td>
-            <td align="center">CBHL</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">17th August</td>
-            <td align="center">Girton II</td>
-            <td align="center">A</td>
-            <td align="center">1st XI</td>
-            <td align="center">CCA 4W</td>
-            <td align="center">Won</td>
-          </tr>
-          <tr>
-            <td align="center">25th August</td>
-            <td align="center">Fen Ditton</td>
-            <td align="center">H</td>
-            <td align="center">Friendly</td>
-            <td align="center">Friendly</td>
-            <td align="center">Postponed</td>
-          </tr>
-          <tr>
-            <td align="center">1st September</td>
-            <td align="center">Tesco</td>
-            <td align="center">H</td>
-            <td align="center">Friendly</td>
-            <td align="center">Friendly</td>
-            <td align="center">Won</td>
-          </tr>
-          </table>
+          <script>seasonPageTable(2020, 'season-fixtures')</script>
+      </table>
 
           <p class="clearboth">&nbsp;</p>
           <h2><a name="reports"></a>Match Reports</h2>
           <div id="match-reports">
-            <script>getSeasonReports(2019, 'match-reports')</script>
+            <script>getSeasonReports(2020, 'match-reports')</script>
           </div>
 
     </div><!-- End of content -->

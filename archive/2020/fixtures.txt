@@ -2,7 +2,7 @@
   {
     "team": "1st XI",
     "opposition": "Harlton",
-    "date": "02/05/2020",
+    "date": "2020/05/02",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -10,7 +10,7 @@
   {
     "team": "2nd XI",
     "opposition": "Fen Ditton II",
-    "date": "02/05/2020",
+    "date": "2020/05/02",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -18,7 +18,7 @@
   {
     "team": "1st XI",
     "opposition": "Comberton",
-    "date": "09/05/2020",
+    "date": "2020/05/09",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -26,7 +26,7 @@
   {
     "team": "2nd XI",
     "opposition": "Great Shelford III",
-    "date": "09/05/2020",
+    "date": "2020/05/09",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
@@ -34,7 +34,7 @@
   {
     "team": "1st XI",
     "opposition": "Cambridge NCI III",
-    "date": "16/05/2020",
+    "date": "2020/05/16",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -42,7 +42,7 @@
   {
     "team": "2nd XI",
     "opposition": "Cambridge NCI IV",
-    "date": "16/05/2020",
+    "date": "2020/05/16",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -50,7 +50,7 @@
   {
     "team": "1st XI",
     "opposition": "Longstowe",
-    "date": "23/05/2020",
+    "date": "2020/05/23",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -58,7 +58,7 @@
   {
     "team": "2nd XI",
     "opposition": "Sawston & Babraham IV",
-    "date": "23/05/2020",
+    "date": "2020/05/23",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
@@ -66,7 +66,7 @@
   {
     "team": "1st XI",
     "opposition": "Cam Kerala II",
-    "date": "30/05/2020",
+    "date": "2020/05/30",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -74,7 +74,7 @@
   {
     "team": "2nd XI",
     "opposition": "Cam Kerala III",
-    "date": "30/05/2020",
+    "date": "2020/05/30",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -82,7 +82,7 @@
   {
     "team": "2nd XI",
     "opposition": "Sawston & Babraham IV",
-    "date": "06/06/2020",
+    "date": "2020/06/06",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -90,7 +90,7 @@
   {
     "team": "1st XI",
     "opposition": "Madingley II",
-    "date": "13/06/2020",
+    "date": "2020/06/13",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -98,7 +98,7 @@
   {
     "team": "2nd XI",
     "opposition": "Elsworth",
-    "date": "13/06/2020",
+    "date": "2020/06/13",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -106,7 +106,7 @@
   {
     "team": "1st XI",
     "opposition": "Cambridge St. Giles III",
-    "date": "20/06/2020",
+    "date": "2020/06/20",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -114,7 +114,7 @@
   {
     "team": "2nd XI",
     "opposition": "Great Shelford III",
-    "date": "20/06/2020",
+    "date": "2020/06/20",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -122,7 +122,7 @@
   {
     "team": "1st XI",
     "opposition": "Cambourne III",
-    "date": "27/06/2020",
+    "date": "2020/06/27",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -130,7 +130,7 @@
   {
     "team": "1st XI",
     "opposition": "Comberton",
-    "date": "11/07/2020",
+    "date": "2020/07/11",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -138,7 +138,7 @@
   {
     "team": "2nd XI",
     "opposition": "Cambridge NCI IV",
-    "date": "11/07/2020",
+    "date": "2020/07/11",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -146,7 +146,7 @@
   {
     "team": "1st XI",
     "opposition": "Harlton",
-    "date": "18/07/2020",
+    "date": "2020/07/18",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -154,7 +154,7 @@
   {
     "team": "2nd XI",
     "opposition": "Cambourne IV",
-    "date": "18/07/2020",
+    "date": "2020/07/18",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
@@ -162,7 +162,7 @@
   {
     "team": "1st XI",
     "opposition": "Cambridge NCI III",
-    "date": "25/07/2020",
+    "date": "2020/07/25",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -170,7 +170,7 @@
   {
     "team": "1st XI",
     "opposition": "Cambridge St. Giles III",
-    "date": "01/08/2020",
+    "date": "2020/08/01",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -178,7 +178,7 @@
   {
     "team": "2nd XI",
     "opposition": "Elsworth",
-    "date": "01/08/2020",
+    "date": "2020/08/01",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
@@ -186,7 +186,7 @@
   {
     "team": "1st XI",
     "opposition": "Cambourne III",
-    "date": "08/08/2020",
+    "date": "2020/08/08",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -194,7 +194,7 @@
   {
     "team": "2nd XI",
     "opposition": "Cambourne IV",
-    "date": "08/08/2020",
+    "date": "2020/08/08",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
@@ -202,7 +202,7 @@
   {
     "team": "1st XI",
     "opposition": "Longstowe",
-    "date": "15/08/2020",
+    "date": "2020/08/15",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
@@ -210,7 +210,7 @@
   {
     "team": "2nd XI",
     "opposition": "Fen Ditton II",
-    "date": "15/08/2020",
+    "date": "2020/08/15",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
@@ -218,7 +218,7 @@
   {
     "team": "1st XI",
     "opposition": "Cam Kerala II",
-    "date": "22/08/2020",
+    "date": "2020/08/22",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
@@ -226,7 +226,7 @@
   {
     "team": "2nd XI",
     "opposition": "Cam Kerala III",
-    "date": "22/08/2020",
+    "date": "2020/08/22",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
@@ -234,7 +234,7 @@
   {
     "team": "1st XI",
     "opposition": "Madingley II",
-    "date": "29/08/2020",
+    "date": "2020/08/29",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
