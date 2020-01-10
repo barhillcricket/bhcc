@@ -245,6 +245,11 @@ ul.tabs .fixturetab4 {
   width: 61.5px;
 }
 
+ul.tabs .fixturetab5 {
+  width: 49px;
+  font-size: 10px;
+}
+
 ul.tabs .fixturetabwide {
   width: 100px;
 }

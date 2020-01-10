@@ -1,0 +1,242 @@
+[
+  {
+    "team": "1st XI",
+    "opposition": "Harlton",
+    "date": "02/05/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Fen Ditton II",
+    "date": "02/05/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Comberton",
+    "date": "09/05/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Great Shelford III",
+    "date": "09/05/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge NCI III",
+    "date": "16/05/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Cambridge NCI IV",
+    "date": "16/05/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Longstowe",
+    "date": "23/05/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Sawston & Babraham IV",
+    "date": "23/05/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cam Kerala II",
+    "date": "30/05/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Cam Kerala III",
+    "date": "30/05/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Sawston & Babraham IV",
+    "date": "06/06/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Madingley II",
+    "date": "13/06/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Elsworth",
+    "date": "13/06/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge St. Giles III",
+    "date": "20/06/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Great Shelford III",
+    "date": "20/06/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambourne III",
+    "date": "27/06/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Comberton",
+    "date": "11/07/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Cambridge NCI IV",
+    "date": "11/07/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Harlton",
+    "date": "18/07/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Cambourne IV",
+    "date": "18/07/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge NCI III",
+    "date": "25/07/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge St. Giles III",
+    "date": "01/08/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Elsworth",
+    "date": "01/08/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambourne III",
+    "date": "08/08/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Cambourne IV",
+    "date": "08/08/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Longstowe",
+    "date": "15/08/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Fen Ditton II",
+    "date": "15/08/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cam Kerala II",
+    "date": "22/08/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "2nd XI",
+    "opposition": "Cam Kerala III",
+    "date": "22/08/2020",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 5W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Madingley II",
+    "date": "29/08/2020",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  }
+]
