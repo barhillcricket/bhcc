@@ -183,15 +183,16 @@ document.addEventListener('DOMContentLoaded', function () {
     </div><!-- End of content -->
 
     <div id="rightpanel">
-    <h2>Fixtures 2019</h2>
+    <h2>Fixtures 2020</h2>
 
     <!-- the tabs -->
     <ul class="tabs">
-      <li><a class="fixturetab5" href="#">1st</a></li>
-      <li><a class="fixturetab5" href="#">2nd</a></li>
-      <li><a class="fixturetab5" href="#">Midweek</a></li>
-      <li><a class="fixturetab5" href="#">Friendly</a></li>
-      <li><a class="fixturetab5" href="#">Youth</a></li>
+      <li><a class="fixturetab7" href="#">1st</a></li>
+      <li><a class="fixturetab7" href="#">2nd</a></li>
+      <li><a class="fixturetab4" href="#">Midweek</a></li>
+      <li><a class="fixturetab4" href="#">Friendly</a></li>
+      <li><a class="fixturetab7" href="#">U10</a></li>
+      <li><a class="fixturetab7" href="#">U13</a></li>
     </ul>
 
     <!-- tab "panes" -->
@@ -225,9 +226,16 @@ document.addEventListener('DOMContentLoaded', function () {
       </div><!-- End of friendly team fixtures -->
 
       <div><!-- youth team fixtures -->
-        <noscript><br>Youth Team Fixtures</noscript>
-        <table class="fixtures" id="yfixtures">
-          <script>homePageTable(2020, 'y','yfixtures')</script>
+        <noscript><br>U10 Team Fixtures</noscript>
+        <table class="fixtures" id="y10fixtures">
+          <script>homePageTable(2020, 'u10','y10fixtures')</script>
+        </table>
+      </div><!-- End of youth team fixtures -->
+
+      <div><!-- youth team fixtures -->
+        <noscript><br>U13 Team Fixtures</noscript>
+        <table class="fixtures" id="y13fixtures">
+          <script>homePageTable(2020, 'u13','y13fixtures')</script>
         </table>
       </div><!-- End of youth team fixtures -->
     </div>

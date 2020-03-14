@@ -6,7 +6,7 @@ function homePageTable(year, team, id) {
   var table = document.getElementById(id);
   loadFixtures(year, function(fixtures) {
     fixtures.forEach(function(f) {
-      if (f.team[0].toLowerCase() === team) {
+      if (f.team[0].toLowerCase() === team || f.team.toLowerCase() === team) {
         const newRow = table.insertRow(-1);
         var dateStr = f.date.slice(-5);
         dateStr = dateStr.slice(-2) + '/' + dateStr.slice(0,2);
