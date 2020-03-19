@@ -433,3 +433,9 @@ table.leagues {
   width: fit-content;
   margin-top: 5px;
 }
+
+.article {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+}
