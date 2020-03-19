@@ -439,3 +439,7 @@ table.leagues {
   margin: auto;
   text-align: justify;
 }
+
+.news-title {
+  font-size: medium
+}
