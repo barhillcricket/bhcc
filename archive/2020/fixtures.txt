@@ -4,7 +4,7 @@
     "opposition": "Harlton",
     "date": "2020/05/02",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -12,7 +12,7 @@
     "opposition": "Fen Ditton II",
     "date": "2020/05/02",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
@@ -20,7 +20,7 @@
     "opposition": "Longstanton",
     "date": "2020/05/04",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CYCA U10A"
   },
   {
@@ -28,7 +28,7 @@
     "opposition": "Comberton",
     "date": "2020/05/09",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -36,7 +36,7 @@
     "opposition": "Great Shelford III",
     "date": "2020/05/09",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
@@ -44,7 +44,7 @@
     "opposition": "Sutton",
     "date": "2020/05/11",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CYCA U10A"
   },
   {
@@ -52,7 +52,7 @@
     "opposition": "Wilburton",
     "date": "2020/05/14",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CYCA U13E"
   },
   {
@@ -60,7 +60,7 @@
     "opposition": "Cambridge NCI III",
     "date": "2020/05/16",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -68,7 +68,7 @@
     "opposition": "Cambridge NCI IV",
     "date": "2020/05/16",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
@@ -76,7 +76,7 @@
     "opposition": "Chatteris",
     "date": "2020/05/18",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CYCA U10A"
   },
   {
@@ -84,7 +84,7 @@
     "opposition": "Coton",
     "date": "2020/05/21",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CYCA U13E"
   },
   {
@@ -92,7 +92,7 @@
     "opposition": "Longstowe",
     "date": "2020/05/23",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -100,7 +100,7 @@
     "opposition": "Sawston & Babraham IV",
     "date": "2020/05/23",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
@@ -108,7 +108,7 @@
     "opposition": "Scorchers",
     "date": "2020/05/26",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CBHL 4"
   },
   {
@@ -116,7 +116,7 @@
     "opposition": "Cam Kerala II",
     "date": "2020/05/30",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -124,7 +124,7 @@
     "opposition": "Cam Kerala III",
     "date": "2020/05/30",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
