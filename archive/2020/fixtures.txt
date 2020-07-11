@@ -1,450 +1,50 @@
 [
   {
-    "team": "1st XI",
-    "opposition": "Harlton",
-    "date": "2020/05/02",
-    "homeaway": "A",
-    "result": "Cancelled",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Fen Ditton II",
-    "date": "2020/05/02",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Longstanton",
-    "date": "2020/05/04",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Comberton",
-    "date": "2020/05/09",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Great Shelford III",
-    "date": "2020/05/09",
-    "homeaway": "A",
-    "result": "Cancelled",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Sutton",
-    "date": "2020/05/11",
-    "homeaway": "A",
-    "result": "Cancelled",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "U13",
-    "opposition": "Wilburton",
-    "date": "2020/05/14",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cambridge NCI III",
-    "date": "2020/05/16",
-    "homeaway": "A",
-    "result": "Cancelled",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Cambridge NCI IV",
-    "date": "2020/05/16",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Chatteris",
-    "date": "2020/05/18",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "U13",
-    "opposition": "Coton",
-    "date": "2020/05/21",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Longstowe",
-    "date": "2020/05/23",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Sawston & Babraham IV",
-    "date": "2020/05/23",
-    "homeaway": "A",
-    "result": "Cancelled",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Scorchers",
-    "date": "2020/05/26",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cam Kerala II",
-    "date": "2020/05/30",
-    "homeaway": "A",
-    "result": "Cancelled",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Cam Kerala III",
-    "date": "2020/05/30",
-    "homeaway": "H",
-    "result": "Cancelled",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Queens Head, Newton",
-    "date": "2020/06/02",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Sawston & Babraham IV",
-    "date": "2020/06/06",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Chatteris",
-    "date": "2020/06/08",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Domino",
-    "date": "2020/06/09",
-    "homeaway": "H",
-    "result": "",
-    "competition": "Friendly"
-  },
-  {
-    "team": "U13",
-    "opposition": "Coton",
-    "date": "2020/06/11",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Madingley II",
-    "date": "2020/06/13",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Elsworth",
-    "date": "2020/06/13",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Sutton",
-    "date": "2020/06/15",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "TTP Barrington",
-    "date": "2020/06/16",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "U13",
-    "opposition": "Wilburton",
-    "date": "2020/06/18",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cambridge St. Giles III",
-    "date": "2020/06/20",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Great Shelford III",
-    "date": "2020/06/20",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Longstanton",
-    "date": "2020/06/22",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Steeple Morden",
-    "date": "2020/06/22",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "U13",
-    "opposition": "Great Shelford",
-    "date": "2020/06/24",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "U13",
-    "opposition": "Great Shelford",
-    "date": "2020/06/25",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cambourne III",
-    "date": "2020/06/27",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
     "team": "Friendly",
-    "opposition": "Bar Hill Sports & Social Club",
-    "date": "2020/06/28",
-    "homeaway": "H",
-    "result": "",
-    "competition": "Fred Styles Memorial"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Dobblers",
-    "date": "2020/06/30",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "U10",
-    "opposition": "Over",
-    "date": "2020/07/06",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "U13",
-    "opposition": "Histon",
-    "date": "2020/07/09",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Comberton",
-    "date": "2020/07/11",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Cambridge NCI IV",
-    "date": "2020/07/11",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "U10",
-    "opposition": "Over",
-    "date": "2020/07/13",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CYCA U10A"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Morris Education",
-    "date": "2020/07/14",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "U13",
-    "opposition": "Histon",
-    "date": "2020/07/16",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CYCA U13E"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Harlton",
+    "opposition": "Bar Hill CC",
     "date": "2020/07/18",
     "homeaway": "H",
     "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Cambourne IV",
-    "date": "2020/07/18",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "BAS",
-    "date": "2020/07/21",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cambridge NCI III",
-    "date": "2020/07/25",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "Over",
-    "date": "2020/07/28",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cambridge St. Giles III",
-    "date": "2020/08/01",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Elsworth",
-    "date": "2020/08/01",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 5W"
-  },
-  {
-    "team": "1st XI",
-    "opposition": "Cambourne III",
-    "date": "2020/08/08",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Cambourne IV",
-    "date": "2020/08/08",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CCA 5W"
+    "competition": "Warm Up"
   },
   {
     "team": "1st XI",
     "opposition": "Longstowe",
-    "date": "2020/08/15",
+    "date": "2020/08/01",
     "homeaway": "A",
     "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Fen Ditton II",
-    "date": "2020/08/15",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 5W"
+    "competition": "CCA Group P"
   },
   {
     "team": "1st XI",
     "opposition": "Cam Kerala II",
-    "date": "2020/08/22",
+    "date": "2020/08/08",
     "homeaway": "H",
     "result": "",
-    "competition": "CCA 3W"
-  },
-  {
-    "team": "2nd XI",
-    "opposition": "Cam Kerala III",
-    "date": "2020/08/22",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA 5W"
+    "competition": "CCA Group P"
   },
   {
     "team": "1st XI",
-    "opposition": "Madingley II",
-    "date": "2020/08/29",
+    "opposition": "Cambridge St Giles",
+    "date": "2020/08/15",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA Group P"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambourne",
+    "date": "2020/08/22",
     "homeaway": "H",
     "result": "",
-    "competition": "CCA 3W"
+    "competition": "CCA Group P"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "TBC",
+    "date": "2020/09/05",
+    "homeaway": "TBC",
+    "result": "",
+    "competition": "CCA Playoff"
   }
 ]
