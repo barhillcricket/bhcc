@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "date": "2020/07/18",
+    "opposition": "Bar Hill",
+    "home": true,
+    "report": "After a long wait, we finally got to start our season with an internal friendly. The rules allowed continuous batting until 30 overs were up. Team A set a decent score of 104-6, with <strong>Adam Dean</strong> scoring 38 in his only innings. Team B began slowly but eventually got going with <strong>Nathan Dean</strong> scoring a quick 25 before being bowled by his brother. <strong>Tom Levitt</strong> also scored 20 on his return to the club. Tight bowling at the end meant Team A won by 6 runs with <strong>Tom Page</strong> taking 5 wickets in his 6 overs and <strong>Adam Dean</strong> taking 4 in his 3 overs."
+  },
+  {
+    "date": "2020/07/25",
+    "opposition": "Bar Hill",
+    "home": true,
+    "report": "In preperation for the league season, Bar Hill held another internal friendly. This time a pairs tournament was the format. The match was washed out after just three innings with <strong>Sam Wilson</strong> and <strong>Tom Connor</strong> leading the way."
+  },
+  {
+    "date": "2020/08/01",
+    "opposition": "Longstowe",
+    "home": false,
+    "report": "The first league match of the season took place 351 days after the last match of the previous season and began with a quick start for Bar Hill, who lost the toss and were put into bat, with <strong>Jim Neal (52)</strong> and <strong>Paul Stimpson (19)</strong>. Bar Hill faultered and ended on 113 all out, after only batting for 32 overs. The strong bowling attack showed, however, as <strong>Scott Underhay (2)</strong>, <strong>Phil Orvis (3)</strong>, <strong>Tom Page (2)</strong>, and <strong>Adam Dean (2)</strong> each took multiple wickets at regular intervals and knocked Longstowe over for just 45."
+  }
+]

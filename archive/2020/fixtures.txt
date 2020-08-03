@@ -4,15 +4,23 @@
     "opposition": "Bar Hill CC",
     "date": "2020/07/18",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "Warm Up"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Bar Hill CC",
+    "date": "2020/07/18",
+    "homeaway": "H",
+    "result": "Abandoned",
+    "competition": "Warm Up Pairs"
   },
   {
     "team": "1st XI",
     "opposition": "Longstowe",
     "date": "2020/08/01",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA Group P"
   },
   {
@@ -38,6 +46,14 @@
     "homeaway": "H",
     "result": "",
     "competition": "CCA Group P"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Girton",
+    "date": "2020/08/30",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",

@@ -41,7 +41,6 @@ function getLatestReports(year, id) {
   loadReports(year, function (reports) {
     if (!reports || reports.length < 5) {
       loadReports((parseInt(year) - 1).toString(), function (oldReports) {
-        console.log(reports)
         reports = reports ? oldReports.concat(reports) : oldReports;
         displayReports(reports)
       })
