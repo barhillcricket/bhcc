@@ -28,7 +28,7 @@
     "opposition": "Cam Kerala II",
     "date": "2020/08/08",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA Group P"
   },
   {

@@ -16,5 +16,11 @@
     "opposition": "Longstowe",
     "home": false,
     "report": "The first league match of the season took place 351 days after the last match of the previous season and began with a quick start for Bar Hill, who lost the toss and were put into bat, with <strong>Jim Neal (52)</strong> and <strong>Paul Stimpson (19)</strong>. Bar Hill faultered and ended on 113 all out, after only batting for 32 overs. The strong bowling attack showed, however, as <strong>Scott Underhay (2)</strong>, <strong>Phil Orvis (3)</strong>, <strong>Tom Page (2)</strong>, and <strong>Adam Dean (2)</strong> each took multiple wickets at regular intervals and knocked Longstowe over for just 45."
+  },
+  {
+    "date": "2020/08/08",
+    "opposition": "Cam Kerala II",
+    "home": true,
+    "report": "League cricket returned to Bar Hill for our first home match. We lost the toss and were put into the field on a warm August afternoon. Bar Hill did well to take wickets regularly and were able to restrict a strong looking Cam Kerala team to just 98. <strong>Sam Wilson</strong> put in an outstanding bowling performance taking 6 wickets for 12 runs, including a hat-trick (the first for the club in 11 years). A mix of good bowling and difficult batting conditions led to a collapse for Bar Hill in what was, at times, a heated competition with the opposition. <strong>James Barclay</strong> top scored with 13, but Bar Hill fell for just 55 runs and lost the match."
   }
 ]
