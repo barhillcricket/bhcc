@@ -36,7 +36,7 @@
     "opposition": "Cambridge St Giles",
     "date": "2020/08/15",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA Group P"
   },
   {
@@ -44,7 +44,7 @@
     "opposition": "Cambourne",
     "date": "2020/08/22",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA Group P"
   },
   {

@@ -22,5 +22,11 @@
     "opposition": "Cam Kerala II",
     "home": true,
     "report": "League cricket returned to Bar Hill for our first home match. We lost the toss and were put into the field on a warm August afternoon. Bar Hill did well to take wickets regularly and were able to restrict a strong looking Cam Kerala team to just 98. <strong>Sam Wilson</strong> put in an outstanding bowling performance taking 6 wickets for 12 runs, including a hat-trick (the first for the club in 11 years). A mix of good bowling and difficult batting conditions led to a collapse for Bar Hill in what was, at times, a heated competition with the opposition. <strong>James Barclay</strong> top scored with 13, but Bar Hill fell for just 55 runs and lost the match."
+  },
+  {
+    "date": "2020/08/22",
+    "opposition": "Cambourne III",
+    "home": true,
+    "report": "On a blustery day, Cambourne won the toss and surprisingly elected to bat. Bar Hill struggled to take wickets against a solid batting line-up. Eventually wickets started to fall, with <strong>Phil Orvis</strong> the pick of the bowlers with 2-8, and we restricted Cambourne to 118 all out. Cambourne's excellent bowling proved too much for Bar Hill's batting with the top scores being <strong>Peter Stockton</strong> and <strong>Tom Page</strong> with just 11 each. Bar Hill were bowled out for 64 runs."
   }
 ]
