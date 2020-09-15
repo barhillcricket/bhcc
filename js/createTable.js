@@ -64,7 +64,7 @@ function createPartnershipsTable(csvFile, tableId) {
         const newText = document.createTextNode(row[val]);
         const newCell = newRow.insertCell(index);
         newCell.appendChild(newText);
-        if (index < 2 || index === 7) {
+        if (index < 4 || index === 7) {
           newCell.align = 'center';
           newCell.height = '20';
         }

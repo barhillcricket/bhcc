@@ -17,18 +17,30 @@
   <meta http-equiv="content-style-type" content="text/css">
   <meta name="author" content="Bar Hill Cricket Club">
 
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
 
   <meta name="description" content="Bar Hill Cricket Club">
 
   <title>Bar Hill Cricket Club</title>
 
-  <script src="js/jquery.tools.min.js" type="text/javascript"></script>
-  <script src="js/createTable.js" type="text/javascript"></script>
-  <script src="js/matchReports.js" type="text/javascript"></script>
-  <script src="js/d3.min.js " type="text/javascript"></script>
-  <script src="js/fixtures.js" type="text/javascript"></script>
+  <script src="/js/jquery.tools.min.js" type="text/javascript"></script>
+  <script src="/js/createTable.js" type="text/javascript"></script>
+  <script src="/js/matchReports.js" type="text/javascript"></script>
+  <script src="/js/d3.min.js " type="text/javascript"></script>
+  <script src="/js/fixtures.js" type="text/javascript"></script>
+
+  <style type="text/css">
+    <!--
+    .style2 {
+      font-size: 12px
+    }
+
+    .style3 {
+      font-size: 11px
+    }
+    -->
+  </style>
 
   <script>
     $(function () {
@@ -56,23 +68,23 @@
     <!-- no javascript warning -->
     <noscript><p style="text-align: center;"><strong>Please note this page is best viewed with JavaScript enabled!</strong></p></noscript>
 
-    <h1>This Season - 2020</h1>
-    <p>Last Updated: 15/09/2020</p>
+    <h1>Archive - 2020</h1>
     <h2><a name="stats"></a>Statistics</h2>
     <div class="wrap">
-    <ul class="tabs verticaltabs">
-      <li><a class="statstab" href="#">1st XI Batting</a></li>
-      <li><a class="statstab" href="#">1st XI Bowling</a></li>
-      <li style="padding-bottom:15px;"><a class="statstab" href="#">1st XI Fielding</a></li>
+      <ul class="tabs verticaltabs">
+        <li><a class="statstab" href="#">1st XI Batting</a></li>
+        <li class="style2"><a href="#" class="statstab ">1st XI partnerships</a></li>
+        <li><a class="statstab" href="#">1st XI Bowling</a></li>
+        <li style="padding-bottom:15px;"><a class="statstab" href="#">1st XI Fielding</a></li>
 
-      <li><a class="statstab" href="#">Friendly Batting</a></li>
-      <li><a class="statstab" href="#">Friendly Bowling</a></li>
-      <li style="padding-bottom:15px;"><a class="statstab" href="#">Friendly Fielding</a></li>
+        <li><a class="statstab" href="#">Friendly Batting</a></li>
+        <li><a class="statstab" href="#">Friendly Bowling</a></li>
+        <li style="padding-bottom:15px;"><a class="statstab" href="#">Friendly Fielding</a></li>
 
-      <li style="padding-bottom:15px;"></li>
+        <li style="padding-bottom:15px;"></li>
 
-      <li><a class="statstab" href="#">Duckman</a></li>
-    </ul>
+        <li><a class="statstab" href="#">Duckman</a></li>
+      </ul>
 
     <div class="pane statscontent">
       <noscript>
@@ -96,10 +108,35 @@
                 <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2020/stats/1stBatting.csv', 'batting-season')</script>
+          <script>createStatsTable('/archive/2020/stats/1stBatting.csv', 'batting-season')</script>
           <tbody id="batting-season"></tbody>
         </table>
       </div><!--END OF 1st XI Batting-->
+
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>1st XI Partnerships</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th align="center">Wkt</th>
+              <th />
+              <th />
+              <th align="center">Score</th>
+              <th />
+              <th colspan="7">Players</th>
+              <th />
+              <th>Opposition</th>
+              <th />
+              <th>Date</th>
+            </tr>
+          </thead>
+          <script>createPartnershipsTable('/archive/2020/stats/1stPartnership.csv', 'partnerships-1st')</script>
+          <tbody id="partnerships-1st"></tbody>
+        </table>
+        <!--END OF 1st XI Partnerships-->
+      </div>
 
       <div class="pane statscontent">
       <noscript>
@@ -123,7 +160,7 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2020/stats/1stBowling.csv', 'bowling-season')</script>
+          <script>createStatsTable('/archive/2020/stats/1stBowling.csv', 'bowling-season')</script>
           <tbody id="bowling-season"></tbody>
         </table>
               <!--END OF 1st XI Bowling-->
@@ -144,7 +181,7 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2020/stats/1stFielding.csv', 'fielding-season')</script>
+          <script>createStatsTable('/archive/2020/stats/1stFielding.csv', 'fielding-season')</script>
           <tbody id="fielding-season"></tbody>
         </table>
       <!--END OF 1st XI Fielding-->
@@ -156,20 +193,22 @@
       <table width="100%">
           <thead>
             <tr>
-                <th colspan="2">Player</th>
-                <th align="center">Mch</th>
-                <th align="center">Inn</th>
-                <th align="center">NO</th>
-                <th align="center">Runs</th>
-                <th align="center">HS</th>
-                <th align="center">100</th>
-                <th align="center">50</th>
-                <th align="center">6</th>
-                <th align="center">4</th>
-                <th align="center">Ave</th>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Inn</th>
+              <th align="center">NO</th>
+              <th align="center">Runs</th>
+              <th align="center">Balls</th>
+              <th align="center">HS</th>
+              <th align="center">100</th>
+              <th align="center">50</th>
+              <th align="center">6</th>
+              <th align="center">4</th>
+              <th align="center">Strike Rate</th>
+              <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2020/stats/FriendlyBatting.csv', 'batting-seasonf')</script>
+          <script>createStatsTable('/archive/2020/stats/FriendlyBatting.csv', 'batting-seasonf')</script>
           <tbody id="batting-seasonf"></tbody>
         </table>
       </div><!--END OF Friendly XI Batting-->
@@ -182,7 +221,7 @@
             <tr>
               <th colspan="2">Player</th>
               <th align="center">Mch</th>
-              <th align="center">Balls</th>
+              <th align="center">Overs</th>
               <th align="center">Mdn</th>
               <th align="center">Wkt</th>
               <th align="center">Runs</th>
@@ -195,7 +234,7 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2020/stats/FriendlyBowling.csv', 'bowling-seasonf')</script>
+          <script>createStatsTable('/archive/2020/stats/FriendlyBowling.csv', 'bowling-seasonf')</script>
           <tbody id="bowling-seasonf"></tbody>
         </table>
         <!--END OF Friendly XI Bowling-->
@@ -215,7 +254,7 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('archive/2020/stats/FriendlyFielding.csv', 'fielding-seasonf')</script>
+          <script>createStatsTable('/archive/2020/stats/FriendlyFielding.csv', 'fielding-seasonf')</script>
           <tbody id="fielding-seasonf"></tbody>
         </table>
       <!--END OF Friendly XI Fielding--></div>
@@ -233,7 +272,7 @@
               <th align="center">Total</th>
           </tr>
         </thead>
-        <script>createStatsTable('archive/2020/stats/Duckman.csv', 'duckman-season')</script>
+        <script>createStatsTable('/archive/2020/stats/Duckman.csv', 'duckman-season')</script>
         <tbody id="duckman-season"></tbody>
         </table>
       <!--END OF Duckman-->
@@ -261,7 +300,7 @@
             <th align="center" width="9%">Bonus</th>
             <th align="center" width="12%">Points</th>
           </tr>
-          <script>createLeagueTable('archive/2020/stats/1stLeagueTable.csv', 'league-table')</script>
+          <script>createLeagueTable('/archive/2020/stats/1stLeagueTable.csv', 'league-table')</script>
           <tbody id="league-table"></tbody>
         </table>
       <p>&nbsp;</p>

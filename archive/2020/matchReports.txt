@@ -28,5 +28,11 @@
     "opposition": "Cambourne III",
     "home": true,
     "report": "On a blustery day, Cambourne won the toss and surprisingly elected to bat. Bar Hill struggled to take wickets against a solid batting line-up. Eventually wickets started to fall, with <strong>Phil Orvis</strong> the pick of the bowlers with 2-8, and we restricted Cambourne to 118 all out. Cambourne's excellent bowling proved too much for Bar Hill's batting with the top scores being <strong>Peter Stockton</strong> and <strong>Tom Page</strong> with just 11 each. Bar Hill were bowled out for 64 runs."
+  },
+  {
+    "date": "2020/09/05",
+    "opposition": "Little Shelford",
+    "home": true,
+    "report": "With Bar Hill finishing 3rd in the shortened league season, we played Little Shelford in a play off match. We won the toss and made the fatal mistake of fielding first on what quickly became apparent was a good pitch. Little Shelford quickly got to work with multiple batsmen scoring 50+ runs. After the 40 overs we had allowed 318 runs for just 6 wickets. <strong>Jim Neal</strong> was the pick of the bowling with three wickets. In response, Bar Hill were quickly blown away, scoring only 37 runs and leading to one of the worst defeats in club history."
   }
 ]

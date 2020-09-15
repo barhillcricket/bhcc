@@ -52,15 +52,23 @@
     "opposition": "Girton",
     "date": "2020/08/30",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Friendly"
   },
   {
     "team": "1st XI",
-    "opposition": "TBC",
+    "opposition": "Little Shelford",
     "date": "2020/09/05",
-    "homeaway": "TBC",
-    "result": "",
-    "competition": "CCA Playoff"
+    "homeaway": "A",
+    "result": "Lost",
+    "competition": "CCA OvP 3rd Playoff"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Elsworth",
+    "date": "2020/09/06",
+    "homeaway": "A",
+    "result": "Lost",
+    "competition": "Friendly"
   }
 ]
