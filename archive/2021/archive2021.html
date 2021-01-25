@@ -55,11 +55,11 @@
     <div id="navbar-load"></div><!-- End of navbar -->
 
     <div id="leftpanel">
-    <a class="qlinkheader" href="season.html">This Season - 2020</a>
-    <a class="qlink" href="#stats">2020 Statistics</a>
-    <a class="qlink" href="#tables">2020 League Tables</a>
-    <a class="qlink" href="#fixtures">2020 All Fixtures</a>
-    <a class="qlink" href="#reports">2020 Match Reports</a>
+    <a class="qlinkheader" href="season.html">This Season - 2021</a>
+    <a class="qlink" href="#stats">2021 Statistics</a>
+    <a class="qlink" href="#tables">2021 League Tables</a>
+    <a class="qlink" href="#fixtures">2021 All Fixtures</a>
+    <a class="qlink" href="#reports">2021 Match Reports</a>
     </div>
     <!-- End of leftpanel -->
 
@@ -68,7 +68,7 @@
     <!-- no javascript warning -->
     <noscript><p style="text-align: center;"><strong>Please note this page is best viewed with JavaScript enabled!</strong></p></noscript>
 
-    <h1>Archive - 2020</h1>
+    <h1>Archive - 2021</h1>
     <h2><a name="stats"></a>Statistics</h2>
     <div class="wrap">
       <ul class="tabs verticaltabs">
@@ -76,6 +76,15 @@
         <li class="style2"><a href="#" class="statstab ">1st XI partnerships</a></li>
         <li><a class="statstab" href="#">1st XI Bowling</a></li>
         <li style="padding-bottom:15px;"><a class="statstab" href="#">1st XI Fielding</a></li>
+
+        <li><a class="statstab" href="#">2nd XI Batting</a></li>
+        <li class="style2"><a href="#" class="statstab ">2nd XI partnerships</a></li>
+        <li><a class="statstab" href="#">2nd XI Bowling</a></li>
+        <li style="padding-bottom:15px;"><a class="statstab" href="#">2nd XI Fielding</a></li>
+
+        <li><a class="statstab" href="#">Midweek Batting</a></li>
+        <li><a class="statstab" href="#">Midweek Bowling</a></li>
+        <li style="padding-bottom:15px;"><a class="statstab" href="#">Midweek Fielding</a></li>
 
         <li><a class="statstab" href="#">Friendly Batting</a></li>
         <li><a class="statstab" href="#">Friendly Bowling</a></li>
@@ -108,8 +117,8 @@
                 <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('/archive/2020/stats/1stBatting.csv', 'batting-season')</script>
-          <tbody id="batting-season"></tbody>
+          <script>createStatsTable('/archive/2021/stats/1stBatting.csv', 'batting1-season')</script>
+          <tbody id="batting1-season"></tbody>
         </table>
       </div><!--END OF 1st XI Batting-->
 
@@ -131,7 +140,7 @@
               <th>Date</th>
             </tr>
           </thead>
-          <script>createPartnershipsTable('/archive/2020/stats/1stPartnership.csv', 'partnerships-1st')</script>
+          <script>createPartnershipsTable('/archive/2021/stats/1stPartnership.csv', 'partnerships-1st')</script>
           <tbody id="partnerships-1st"></tbody>
         </table>
         <!--END OF 1st XI Partnerships-->
@@ -159,8 +168,8 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('/archive/2020/stats/1stBowling.csv', 'bowling-season')</script>
-          <tbody id="bowling-season"></tbody>
+          <script>createStatsTable('/archive/2021/stats/1stBowling.csv', 'bowling1-season')</script>
+          <tbody id="bowling1-season"></tbody>
         </table>
               <!--END OF 1st XI Bowling-->
       </div>
@@ -180,10 +189,188 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('/archive/2020/stats/1stFielding.csv', 'fielding-season')</script>
-          <tbody id="fielding-season"></tbody>
+          <script>createStatsTable('/archive/2021/stats/1stFielding.csv', 'fielding1-season')</script>
+          <tbody id="fielding1-season"></tbody>
         </table>
       <!--END OF 1st XI Fielding-->
+      </div>
+
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>2nd XI Batting Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Inn</th>
+              <th align="center">NO</th>
+              <th align="center">Runs</th>
+              <th align="center">Balls</th>
+              <th align="center">HS</th>
+              <th align="center">100</th>
+              <th align="center">50</th>
+              <th align="center">6</th>
+              <th align="center">4</th>
+              <th align="center">Strike Rate</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('/archive/2021/stats/2ndBatting.csv', 'batting-season2')</script>
+          <tbody id="batting-season2"></tbody>
+        </table>
+      </div>
+      <!--END OF 2ndXI Batting-->
+      
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>2ndXI Partnerships</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th align="center">Wkt</th>
+              <th />
+              <th />
+              <th align="center">Score</th>
+              <th />
+              <th colspan="7">Players</th>
+              <th />
+              <th>Opposition</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <script>createPartnershipsTable('/archive/2021/stats/2ndPartnership.csv', 'partnerships-2nd')</script>
+          <tbody id="partnerships-2nd"></tbody>
+        </table>
+        <!--END OF 2ndXI Partnerships-->
+      </div>
+      
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>2ndXI Bowling Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Overs</th>
+              <th align="center">Mdn</th>
+              <th align="center">Wkt</th>
+              <th align="center">Runs</th>
+              <th align="center">W</th>
+              <th align="center">NB</th>
+              <th align="center">Best</th>
+              <th align="center">5-W</th>
+              <th align="center">Econ</th>
+              <th align="center">SR</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('/archive/2021/stats/2ndBowling.csv', 'bowling-season2')</script>
+          <tbody id="bowling-season2"></tbody>
+        </table>
+        <!--END OF 2nd XI Bowling-->
+      </div>
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>2nd XI Fielding Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th width="64" align="center">Mch</th>
+              <th width="64" align="center">Ct</th>
+              <th width="64" align="center">Wk Ct</th>
+              <th align="center">St</th>
+              <th align="center">RO</th>
+              <th align="center">Total</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('/archive/2021/stats/2ndFielding.csv', 'fielding-season2')</script>
+          <tbody id="fielding-season2"></tbody>
+        </table>
+        <!--END OF 2nd XI Fielding-->
+      </div>
+
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>Midweek Batting Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Inn</th>
+              <th align="center">NO</th>
+              <th align="center">Runs</th>
+              <th align="center">Balls</th>
+              <th align="center">HS</th>
+              <th align="center">100</th>
+              <th align="center">50</th>
+              <th align="center">6</th>
+              <th align="center">4</th>
+              <th align="center">Strike Rate</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('/archive/2021/stats/mwBatting.csv', 'batting-seasonm')</script>
+          <tbody id="batting-seasonm"></tbody>
+        </table>
+      </div>
+      <!--END OF MW Batting-->
+
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>Midweek Bowling Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th align="center">Mch</th>
+              <th align="center">Overs</th>
+              <th align="center">Mdn</th>
+              <th align="center">Wkt</th>
+              <th align="center">Runs</th>
+              <th align="center">W</th>
+              <th align="center">NB</th>
+              <th align="center">Best</th>
+              <th align="center">5-W</th>
+              <th align="center">Econ</th>
+              <th align="center">SR</th>
+              <th align="center">Ave</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('/archive/2021/stats/mwBowling.csv', 'bowling-seasonm')</script>
+          <tbody id="bowling-seasonm"></tbody>
+        </table>
+        <!--END OF MW XI Bowling-->
+      </div>
+      <div class="pane statscontent">
+        <noscript>
+          <p><strong>Midweek Fielding Statistics</strong></p>
+        </noscript>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th colspan="2">Player</th>
+              <th width="64" align="center">Mch</th>
+              <th width="64" align="center">Ct</th>
+              <th width="64" align="center">Wk Ct</th>
+              <th align="center">St</th>
+              <th align="center">RO</th>
+              <th align="center">Total</th>
+            </tr>
+          </thead>
+          <script>createStatsTable('/archive/2021/stats/mwFielding.csv', 'fielding-seasonm')</script>
+          <tbody id="fielding-seasonm"></tbody>
+        </table>
+        <!--END OF Midweek Fielding-->
       </div>
 
       <div class="pane statscontent">
@@ -207,7 +394,7 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('/archive/2020/stats/FriendlyBatting.csv', 'batting-seasonf')</script>
+          <script>createStatsTable('/archive/2021/stats/FriendlyBatting.csv', 'batting-seasonf')</script>
           <tbody id="batting-seasonf"></tbody>
         </table>
       </div><!--END OF Friendly XI Batting-->
@@ -233,7 +420,7 @@
               <th align="center">Ave</th>
             </tr>
           </thead>
-          <script>createStatsTable('/archive/2020/stats/FriendlyBowling.csv', 'bowling-seasonf')</script>
+          <script>createStatsTable('/archive/2021/stats/FriendlyBowling.csv', 'bowling-seasonf')</script>
           <tbody id="bowling-seasonf"></tbody>
         </table>
         <!--END OF Friendly XI Bowling-->
@@ -253,7 +440,7 @@
                 <th align="center">Total</th>
             </tr>
           </thead>
-          <script>createStatsTable('/archive/2020/stats/FriendlyFielding.csv', 'fielding-seasonf')</script>
+          <script>createStatsTable('/archive/2021/stats/FriendlyFielding.csv', 'fielding-seasonf')</script>
           <tbody id="fielding-seasonf"></tbody>
         </table>
       <!--END OF Friendly XI Fielding--></div>
@@ -271,7 +458,7 @@
               <th align="center">Total</th>
           </tr>
         </thead>
-        <script>createStatsTable('/archive/2020/stats/Duckman.csv', 'duckman-season')</script>
+        <script>createStatsTable('/archive/2021/stats/Duckman.csv', 'duckman-season')</script>
         <tbody id="duckman-season"></tbody>
         </table>
       <!--END OF Duckman-->
@@ -286,7 +473,7 @@
       </ul>
 
       <div class="pane statscontent"> <!-- 2nd Pane -->
-      <p><strong>CCA Reduced 2020 Season Group P</strong></p>
+      <p><strong>CCA Reduced 2021 Season Group P</strong></p>
       <table width="100%">
           <tr>
             <th width="25%">Team</th>
@@ -299,7 +486,7 @@
             <th align="center" width="9%">Bonus</th>
             <th align="center" width="12%">Points</th>
           </tr>
-          <script>createLeagueTable('/archive/2020/stats/1stLeagueTable.csv', 'league-table')</script>
+          <script>createLeagueTable('/archive/2021/stats/2ndLeagueTable.csv', 'league-table')</script>
           <tbody id="league-table"></tbody>
         </table>
       <p>&nbsp;</p>
@@ -319,13 +506,13 @@
             <th align="center" width="20%">Competition</th>
             <th align="center" width="10%">Result</th>
           </tr>
-          <script>seasonPageTable(2020, 'season-fixtures')</script>
+          <script>seasonPageTable(2021, 'season-fixtures')</script>
       </table>
 
           <p class="clearboth">&nbsp;</p>
           <h2><a name="reports"></a>Match Reports</h2>
           <div id="match-reports">
-            <script>getSeasonReports(2020, 'match-reports')</script>
+            <script>getSeasonReports(2021, 'match-reports')</script>
           </div>
 
     </div><!-- End of content -->
