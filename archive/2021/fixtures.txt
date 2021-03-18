@@ -40,6 +40,14 @@
     "competition": "CCA 5W"
   },
   {
+    "team": "Friendly",
+    "opposition": "Girton",
+    "date": "2021/05/16",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "1st XI",
     "opposition": "Longstowe",
     "date": "2020/05/22",
