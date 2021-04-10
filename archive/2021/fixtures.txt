@@ -56,6 +56,14 @@
     "competition": "CCA 3W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Queens Head",
+    "date": "2020/05/26",
+    "homeaway": "TBC",
+    "result": "",
+    "competition": "Midweek"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cam Kerala",
     "date": "2020/05/29",
@@ -104,6 +112,14 @@
     "competition": "CCA 5W"
   },
   {
+    "team": "Midweek",
+    "opposition": "ELA",
+    "date": "2020/06/15",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Midweek"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cambridge St. Giles III",
     "date": "2020/06/19",
@@ -118,6 +134,14 @@
     "homeaway": "H",
     "result": "",
     "competition": "CCA 5W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Dobblers",
+    "date": "2020/06/21",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Midweek"
   },
   {
     "team": "1st XI",
