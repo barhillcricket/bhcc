@@ -136,14 +136,6 @@
     "competition": "CCA 5W"
   },
   {
-    "team": "Midweek",
-    "opposition": "Dobblers",
-    "date": "2020/06/21",
-    "homeaway": "H",
-    "result": "",
-    "competition": "Midweek"
-  },
-  {
     "team": "1st XI",
     "opposition": "Cambourne III",
     "date": "2020/06/26",
@@ -158,6 +150,14 @@
     "homeaway": "A",
     "result": "",
     "competition": "CCA 5W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Dobblers",
+    "date": "2020/06/29",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Midweek"
   },
   {
     "team": "1st XI",
