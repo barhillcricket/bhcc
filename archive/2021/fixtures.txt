@@ -4,7 +4,7 @@
     "opposition": "Comberton",
     "date": "2021/05/01",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -12,7 +12,7 @@
     "opposition": "Harlton",
     "date": "2021/05/08",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -20,7 +20,7 @@
     "opposition": "Stapleford",
     "date": "2021/05/08",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
@@ -28,7 +28,7 @@
     "opposition": "Milton II",
     "date": "2021/05/15",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -36,7 +36,7 @@
     "opposition": "Sawston & Barbraham IV",
     "date": "2021/05/15",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 5W"
   },
   {
@@ -44,7 +44,7 @@
     "opposition": "Girton",
     "date": "2021/05/16",
     "homeaway": "H",
-    "result": "",
+    "result": "Postponed",
     "competition": "Friendly"
   },
   {
@@ -59,7 +59,7 @@
     "team": "Midweek",
     "opposition": "Queens Head",
     "date": "2021/05/26",
-    "homeaway": "TBC",
+    "homeaway": "A",
     "result": "",
     "competition": "Midweek"
   },
