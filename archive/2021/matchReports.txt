@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "date": "2021/05/01",
+    "opposition": "Comberton",
+    "home": true,
+    "report": "The first match of the season was played in very cold conditions. Bar Hill won the toss and elected to field before Comberton's opening pair quickly put on a mass of runs, getting to 64-0 after 7 overs. Wickets began to fall and the run rate slowed but Comberton could only be kept to 207-8. Pick of the bowling was <strong>Craig Owen</strong>, on debut, who had figures of 2-21. In reply Bar Hill faultered and lost regular wickets and were bowled out for 69 with just 4 batsmen reaching double figures."
+  },
+  {
+    "date": "2021/05/15",
+    "opposition": "Sawston and Babraham IV",
+    "home": false,
+    "report": "With both matches wiped out from rain the previous week and the first team also lost in the same manor this week, the second team travelled to Sawston. Bar Hill lost the toss and were put into the field by the opposition. <strong>Tom Page</strong> (3-44) and <strong>Scott Underhay</strong> (2-49) took some key wickets but Sawston still managed to put on 248-7 in their 40 overs. <strong>Jamil Haque</strong> (0-27) also put in a strong bowling performance on debut. In response wickets fell regularly after the opening partnership of 35 between <strong>Peter Stockton</strong> (16) and <strong>Paul Stimpson</strong> (8), Bar Hill were bowled out for 99. There was also a noteworthy 13 not out by <strong>Sam Connor</strong> who batted for a long time with the tail."
+  }
+]
