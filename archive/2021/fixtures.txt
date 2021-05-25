@@ -52,7 +52,7 @@
     "opposition": "Longstowe",
     "date": "2021/05/22",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -166,6 +166,14 @@
     "homeaway": "H",
     "result": "",
     "competition": "Midweek"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Elsworth",
+    "date": "2021/07/1",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
