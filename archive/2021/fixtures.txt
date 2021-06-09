@@ -60,7 +60,7 @@
     "opposition": "Queens Head",
     "date": "2021/05/26",
     "homeaway": "A",
-    "result": "",
+    "result": "Postponed",
     "competition": "Midweek"
   },
   {
@@ -68,7 +68,7 @@
     "opposition": "Cam Kerala",
     "date": "2021/05/29",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -76,7 +76,7 @@
     "opposition": "Cam Kerala III",
     "date": "2021/05/29",
     "homeaway": "H",
-    "result": "",
+    "result": "Conceeded",
     "competition": "CCA 5W"
   },
   {
@@ -84,7 +84,7 @@
     "opposition": "Cambourne III",
     "date": "2021/06/05",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -92,7 +92,7 @@
     "opposition": "Cambourne IV",
     "date": "2021/06/05",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 5W"
   },
   {

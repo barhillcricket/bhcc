@@ -25,7 +25,7 @@ function getLatestReports(year, id) {
     reportsList.forEach(function (report) {
       var rep = section.appendChild(document.createElement("p"));
       var title = rep.appendChild(document.createElement('strong'));
-      title.innerHTML = getDateString(report.date) + ' - ' + (report.home ? 'Bar Hill v ' + report.opposition : report.opposition + ' v Bar Hill');
+      title.innerHTML = getDateString(report.date) + ' - ' + (report.home ? 'Bar Hill ' + (report.team || '')  + ' v ' + report.opposition : report.opposition + ' v Bar Hill ' + (report.team || 'I'));
       if (report.scorecard_link) {
         var dash = rep.appendChild(document.createElement('span'));
         dash.innerHTML = ' - ';

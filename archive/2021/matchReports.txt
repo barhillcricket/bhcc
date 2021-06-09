@@ -3,12 +3,35 @@
     "date": "2021/05/01",
     "opposition": "Comberton",
     "home": true,
+    "team": "I",
     "report": "The first match of the season was played in very cold conditions. Bar Hill won the toss and elected to field before Comberton's opening pair quickly put on a mass of runs, getting to 64-0 after 7 overs. Wickets began to fall and the run rate slowed but Comberton could only be kept to 207-8. Pick of the bowling was <strong>Craig Owen</strong>, on debut, who had figures of 2-21. In reply Bar Hill faultered and lost regular wickets and were bowled out for 69 with just 4 batsmen reaching double figures."
   },
   {
     "date": "2021/05/15",
     "opposition": "Sawston and Babraham IV",
     "home": false,
+    "team": "II",
     "report": "With both matches wiped out from rain the previous week and the first team also lost in the same manor this week, the second team travelled to Sawston. Bar Hill lost the toss and were put into the field by the opposition. <strong>Tom Page</strong> (3-44) and <strong>Scott Underhay</strong> (2-49) took some key wickets but Sawston still managed to put on 248-7 in their 40 overs. <strong>Jamil Haque</strong> (0-27) also put in a strong bowling performance on debut. In response wickets fell regularly after the opening partnership of 35 between <strong>Peter Stockton</strong> (16) and <strong>Paul Stimpson</strong> (8), Bar Hill were bowled out for 99. There was also a noteworthy 13 not out by <strong>Sam Connor</strong> who batted for a long time with the tail."
+  },
+  {
+    "date": "2021/05/29",
+    "opposition": "Cam Kerala II",
+    "home": false,
+    "team": "I",
+    "report": "Bar Hill won the toss and elected to field on the first warm day of the season. Cam Kerala got off to a quick start before their number three scored an impressive 150 before being caught late on. Some impressive fielding enabled three run outs and a catch but left only <strong>Phil Orvis</strong> (2-28) and <strong>Barry Driver</strong> (2-57) as the only bowlers to take wickets. In reply Bar Hill struggled, with only the two openers making it into double figures, and scored only 68 all out."
+  },
+  {
+    "date": "2021/06/05",
+    "opposition": "Cambourne III",
+    "home": false,
+    "team": "I",
+    "report": "For the first time in several years Bar Hill had two teams playing a match on the same day. Cambourne won the toss and elected to bat and managed to put on a modest total of 195 after having put together a couple of large partnerships. Wickets were shared arount with <strong>James Barclay</strong> (1-12) the pick of the bowlers. In reply Bar Hill were always behind the run rate and had several players who made good starts but could not go on including <strong>James Barclay</strong> (23) and <strong>Jim Neal</strong> (19) as well as a late flurry from <strong>Adam Dean</strong> (17*) which was too late to affect the outcome of the match."
+  },
+  {
+    "date": "2021/06/05",
+    "opposition": "Cambourne IV",
+    "home": true,
+    "team": "II",
+    "report": "The second team's first home game started with Bar Hill winning the toss and electing to field. A real lack of wickets cost the team massively as Cambourne scored 192-3 from their 40 overs. <strong>Jamil Haque</strong> (1-20) was the standout bowling performance. The run chase started poorly with both openers out for a duck and ending the first over 0-2. Only our additional player and <strong>Jamil Haque</strong> (19) managed to score a decent amount of runs before falling to 51 all out in just 23.3 overs."
   }
 ]
