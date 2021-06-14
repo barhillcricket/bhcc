@@ -33,5 +33,19 @@
     "home": true,
     "team": "II",
     "report": "The second team's first home game started with Bar Hill winning the toss and electing to field. A real lack of wickets cost the team massively as Cambourne scored 192-3 from their 40 overs. <strong>Jamil Haque</strong> (1-20) was the standout bowling performance. The run chase started poorly with both openers out for a duck and ending the first over 0-2. Only our additional player and <strong>Jamil Haque</strong> (19) managed to score a decent amount of runs before falling to 51 all out in just 23.3 overs."
+  },
+  {
+    "date": "2021/06/12",
+    "opposition": "Madingley II",
+    "home": false,
+    "team": "I",
+    "report": "Bar Hill's poor run of form continued on a warm day at Downing College. Bar Hill lost the toss and were put in to bat, opening strongly with a partnership of 62 between <strong>Paul Stimpson</strong> and <strong>James Barclay</strong>. <strong>Paul Stimpson</strong> also went on to score 50 before the start of a collapse which saw the side fall from 81-1 to 120 all out including 5 ducks. Madingley scored above the run rate in reply with all bowlers struggling to take wickets and allowing the opposition to knock off the runs in the 32nd over."
+  },
+  {
+    "date": "2021/06/12",
+    "opposition": "Elsworth",
+    "home": true,
+    "team": "II",
+    "report": "The second team won the toss and put the opposition in to bat, but the strength of batting overweighed Bar Hill's bowlers with them quickly putting on runs. Only <strong>Jamil Haque</strong> managed to keep the run rate down going at just over 3 per over, with all other bowlers going for much more. <strong>Peter Stockton</strong> took two wickets towards the end of the innings in consolation, with Elsworth scoring 331-4. Bar Hill were always going to struggle in reply and managed only 47 runs, with <strong>Peter Stockton</strong> being the high scorer with 15 runs."
   }
 ]

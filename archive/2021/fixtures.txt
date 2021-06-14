@@ -100,7 +100,7 @@
     "opposition": "Steeple Morden",
     "date": "2021/06/08",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Midweek"
   },
   {
@@ -108,7 +108,7 @@
     "opposition": "Madingley II",
     "date": "2021/06/12",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -116,7 +116,7 @@
     "opposition": "Elsworth",
     "date": "2021/06/12",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 5W"
   },
   {
@@ -170,7 +170,7 @@
   {
     "team": "Midweek",
     "opposition": "Elsworth",
-    "date": "2021/07/1",
+    "date": "2021/07/01",
     "homeaway": "H",
     "result": "",
     "competition": "Friendly"
