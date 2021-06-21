@@ -124,7 +124,7 @@
     "opposition": "ELA",
     "date": "2021/06/15",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Midweek"
   },
   {
@@ -132,7 +132,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2021/06/19",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
@@ -140,7 +140,7 @@
     "opposition": "Stapleford",
     "date": "2021/06/19",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 5W"
   },
   {
