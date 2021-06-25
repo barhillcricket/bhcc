@@ -200,6 +200,14 @@
     "competition": "CCA 3W"
   },
   {
+    "team": "Friendly",
+    "opposition": "Newton",
+    "date": "2021/07/20",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "1st XI",
     "opposition": "NCI III",
     "date": "2021/07/24",
