@@ -200,12 +200,12 @@
     "competition": "CCA 3W"
   },
   {
-    "team": "Friendly",
+    "team": "Midweek",
     "opposition": "Newton",
     "date": "2021/07/20",
     "homeaway": "A",
     "result": "",
-    "competition": "Friendly"
+    "competition": "Midweek"
   },
   {
     "team": "1st XI",
