@@ -156,13 +156,13 @@
     "opposition": "Cambourne IV",
     "date": "2021/06/26",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 5W"
   },
   {
     "team": "Midweek",
     "opposition": "Dobblers",
-    "date": "2021/06/29",
+    "date": "2021/06/30",
     "homeaway": "H",
     "result": "",
     "competition": "Midweek"
