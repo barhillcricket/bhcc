@@ -201,7 +201,7 @@
   },
   {
     "team": "Midweek",
-    "opposition": "Newton",
+    "opposition": "Queen's Head",
     "date": "2021/07/20",
     "homeaway": "A",
     "result": "",
