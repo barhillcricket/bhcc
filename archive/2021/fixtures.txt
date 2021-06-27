@@ -148,7 +148,7 @@
     "opposition": "Cambourne III",
     "date": "2021/06/26",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
