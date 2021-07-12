@@ -164,7 +164,7 @@
     "opposition": "Dobblers",
     "date": "2021/06/30",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Midweek"
   },
   {
@@ -172,7 +172,7 @@
     "opposition": "Elsworth",
     "date": "2021/07/01",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Friendly"
   },
   {
@@ -180,7 +180,7 @@
     "opposition": "NCI III",
     "date": "2021/07/10",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -188,8 +188,16 @@
     "opposition": "NCI IV",
     "date": "2021/07/10",
     "homeaway": "H",
-    "result": "",
+    "result": "Withdrawn",
     "competition": "CCA 5W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Girton",
+    "date": "2021/07/13",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
@@ -220,7 +228,7 @@
     "opposition": "NCI IV",
     "date": "2021/07/24",
     "homeaway": "A",
-    "result": "",
+    "result": "Withdrawn",
     "competition": "CCA 5W"
   },
   {
@@ -236,8 +244,16 @@
     "opposition": "Elsworth",
     "date": "2021/07/31",
     "homeaway": "A",
-    "result": "",
+    "result": "Withdrawn",
     "competition": "CCA 5W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Elsworth",
+    "date": "2021/08/01",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly T20"
   },
   {
     "team": "1st XI",
@@ -252,7 +268,7 @@
     "opposition": "Sawston & Barbraham IV",
     "date": "2021/08/07",
     "homeaway": "H",
-    "result": "",
+    "result": "Withdrawn",
     "competition": "CCA 5W"
   },
   {
@@ -276,7 +292,7 @@
     "opposition": "Cam Kerala III",
     "date": "2021/08/21",
     "homeaway": "A",
-    "result": "",
+    "result": "Withdrawn",
     "competition": "CCA 5W"
   },
   {
