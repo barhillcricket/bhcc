@@ -232,6 +232,14 @@
     "competition": "CCA 5W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Girton",
+    "date": "2021/07/27",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cambridge St. Giles III",
     "date": "2021/07/31",
