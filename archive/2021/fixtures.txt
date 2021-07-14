@@ -232,7 +232,7 @@
     "competition": "CCA 5W"
   },
   {
-    "team": "Midweek",
+    "team": "Friendly",
     "opposition": "Girton",
     "date": "2021/07/27",
     "homeaway": "H",
