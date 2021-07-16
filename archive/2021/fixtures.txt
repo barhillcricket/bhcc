@@ -304,6 +304,14 @@
     "competition": "CCA 5W"
   },
   {
+    "team": "Friendly",
+    "opposition": "Tesco",
+    "date": "2021/08/21",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "1st XI",
     "opposition": "Madingley II",
     "date": "2021/08/28",
