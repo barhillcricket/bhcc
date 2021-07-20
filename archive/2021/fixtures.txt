@@ -61,7 +61,7 @@
     "date": "2021/05/26",
     "homeaway": "A",
     "result": "Postponed",
-    "competition": "Midweek"
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
@@ -101,7 +101,7 @@
     "date": "2021/06/08",
     "homeaway": "H",
     "result": "Lost",
-    "competition": "Midweek"
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
@@ -125,7 +125,7 @@
     "date": "2021/06/15",
     "homeaway": "H",
     "result": "Lost",
-    "competition": "Midweek"
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
@@ -156,7 +156,7 @@
     "opposition": "Cambourne IV",
     "date": "2021/06/26",
     "homeaway": "A",
-    "result": "Lost",
+    "result": "Conceeded",
     "competition": "CCA 5W"
   },
   {
@@ -165,7 +165,7 @@
     "date": "2021/06/30",
     "homeaway": "H",
     "result": "Lost",
-    "competition": "Midweek"
+    "competition": "Friendly"
   },
   {
     "team": "Midweek",
@@ -196,7 +196,7 @@
     "opposition": "Girton",
     "date": "2021/07/13",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Friendly"
   },
   {
@@ -204,7 +204,7 @@
     "opposition": "Harlton",
     "date": "2021/07/17",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -213,7 +213,7 @@
     "date": "2021/07/20",
     "homeaway": "A",
     "result": "",
-    "competition": "Midweek"
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
@@ -278,6 +278,14 @@
     "homeaway": "H",
     "result": "Withdrawn",
     "competition": "CCA 5W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "LR Scorchers",
+    "date": "2021/08/10",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
