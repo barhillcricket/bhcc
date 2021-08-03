@@ -212,7 +212,7 @@
     "opposition": "Queen's Head",
     "date": "2021/07/20",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "Friendly"
   },
   {
@@ -220,7 +220,7 @@
     "opposition": "NCI III",
     "date": "2021/07/24",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -236,7 +236,7 @@
     "opposition": "Girton",
     "date": "2021/07/27",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Friendly"
   },
   {
@@ -244,7 +244,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2021/07/31",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -260,7 +260,7 @@
     "opposition": "Elsworth",
     "date": "2021/08/01",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "Friendly T20"
   },
   {
@@ -294,6 +294,14 @@
     "homeaway": "A",
     "result": "",
     "competition": "CCA 3W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Girton",
+    "date": "2021/08/17",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
