@@ -268,7 +268,7 @@
     "opposition": "Milton II",
     "date": "2021/08/07",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -334,6 +334,14 @@
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Bar Hill Sports & Social Club",
+    "date": "2021/08/29",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Fred Styles Trophy"
   },
   {
     "team": "1st XI",
