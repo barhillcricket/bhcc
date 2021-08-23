@@ -284,7 +284,7 @@
     "opposition": "LR Scorchers",
     "date": "2021/08/10",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Friendly"
   },
   {
@@ -292,7 +292,7 @@
     "opposition": "Longstowe",
     "date": "2021/08/14",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -300,7 +300,7 @@
     "opposition": "Girton",
     "date": "2021/08/17",
     "homeaway": "A",
-    "result": "",
+    "result": "Abandoned",
     "competition": "Friendly"
   },
   {
@@ -308,7 +308,7 @@
     "opposition": "Cam Kerala II",
     "date": "2021/08/21",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -324,7 +324,7 @@
     "opposition": "Tesco",
     "date": "2021/08/21",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "Friendly"
   },
   {
