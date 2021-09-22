@@ -332,7 +332,7 @@
     "opposition": "Madingley II",
     "date": "2021/08/28",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
@@ -340,7 +340,7 @@
     "opposition": "Bar Hill Sports & Social Club",
     "date": "2021/08/29",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "Fred Styles Trophy"
   },
   {
@@ -348,7 +348,15 @@
     "opposition": "Comberton",
     "date": "2021/09/04",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Girton",
+    "date": "2021/09/19",
+    "homeaway": "A",
+    "result": "Won",
+    "competition": "Friendly"
   }
 ]

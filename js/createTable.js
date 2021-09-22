@@ -36,7 +36,7 @@ function createAllTimeStatsTable(csvFile, tableId, sortField, min, type, next) {
         newRow.height = '20';
         Object.keys(row).forEach(function(val, index) {
           if (val.charAt(0) !== 'x') {
-            const newText = document.createTextNode(row[val]);
+            const newText = type == 'bowl' && val.charAt(0) == '9' ? document.createTextNode((parseFloat(row[val])*6/100).toFixed(2)) : document.createTextNode(row[val]);
             const newCell = newRow.insertCell(index);
             newCell.appendChild(newText);
             if (index > 1) {
