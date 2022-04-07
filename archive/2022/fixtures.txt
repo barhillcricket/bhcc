@@ -1,0 +1,122 @@
+[
+  {
+    "team": "Friendly",
+    "opposition": "Girton",
+    "date": "2022/04/30",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cam Kerala III",
+    "date": "2022/05/07",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Stapleford",
+    "date": "2022/05/14",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Over and Willingham II",
+    "date": "2022/05/21",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cottenham II",
+    "date": "2022/05/28",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Milton III",
+    "date": "2022/06/11",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Steeple Morden",
+    "date": "2022/06/18",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cottenham II",
+    "date": "2022/06/25",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cam Kerala III",
+    "date": "2022/07/09",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Milton III",
+    "date": "2022/07/23",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Camden II",
+    "date": "2022/07/30",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Steeple Morden",
+    "date": "2022/08/06",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Camden II",
+    "date": "2022/08/13",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Over and Willingham II",
+    "date": "2022/08/20",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 4W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Stapleford",
+    "date": "2022/08/27",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 4W"
+  }
+]
