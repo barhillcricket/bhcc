@@ -32,12 +32,28 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Royal Society Chemistry",
+    "date": "2022/05/24",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 4"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cottenham II",
     "date": "2022/05/28",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "British Antarctic Survey",
+    "date": "2022/05/31",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 4"
   },
   {
     "team": "1st XI",
@@ -64,12 +80,44 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Queen's Head",
+    "date": "2022/06/28",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 4"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Steeple Morden",
+    "date": "2022/07/05",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 4"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cam Kerala III",
     "date": "2022/07/09",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Girton",
+    "date": "2022/07/17",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "ELA",
+    "date": "2022/07/19",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 4"
   },
   {
     "team": "1st XI",
@@ -86,6 +134,14 @@
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Dobblers",
+    "date": "2022/08/02",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 4"
   },
   {
     "team": "1st XI",
