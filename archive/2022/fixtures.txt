@@ -105,6 +105,14 @@
   },
   {
     "team": "Friendly",
+    "opposition": "Elsworth",
+    "date": "2022/07/12",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
+    "team": "Friendly",
     "opposition": "Girton",
     "date": "2022/07/17",
     "homeaway": "A",
@@ -150,6 +158,14 @@
     "homeaway": "H",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "The Dobblers Inn",
+    "date": "2022/08/09",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
