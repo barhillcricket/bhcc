@@ -9,12 +9,16 @@ function homePageTable(year, team, id) {
       if (f.team[0].toLowerCase() === team || f.team.toLowerCase() === team) {
         const newRow = table.insertRow(-1);
         var dateStr = f.date.slice(-5);
-        dateStr = dateStr.slice(-2) + '/' + dateStr.slice(0,2);
-        if (dateStr[3] === '0') {
-          dateStr = dateStr.slice(0,3) + dateStr[4];
-        }
-        if (dateStr[0] === '0') {
-          dateStr = dateStr.slice(1);
+        if (f.date.includes('/')) {
+          dateStr = dateStr.slice(-2) + '/' + dateStr.slice(0,2);
+          if (dateStr[3] === '0') {
+            dateStr = dateStr.slice(0,3) + dateStr[4];
+          }
+          if (dateStr[0] === '0') {
+            dateStr = dateStr.slice(1);
+          }
+        } else {
+          dateStr = f.date
         }
         const dateCell = newRow.insertCell(0);
         dateCell.appendChild(document.createTextNode(dateStr));
@@ -38,6 +42,7 @@ function homePageTable(year, team, id) {
 
 function getDateString(d) {
   var date = new Date(d);
+  if (isNaN(date)) return d;
   return getNumberWithOrdinal(date.getDate()) + ' ' + Intl.DateTimeFormat('en-GB', {
     month: 'long'
   }).format(date);
