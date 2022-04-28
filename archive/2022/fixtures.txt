@@ -8,6 +8,14 @@
     "competition": "Friendly"
   },
   {
+    "team": "Midweek",
+    "opposition": "TTP",
+    "date": "2022/05/04",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cam Kerala III",
     "date": "2022/05/07",
@@ -37,7 +45,7 @@
     "date": "2022/05/24",
     "homeaway": "H",
     "result": "",
-    "competition": "CBHL 4"
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -49,11 +57,11 @@
   },
   {
     "team": "Midweek",
-    "opposition": "British Antarctic Survey",
+    "opposition": "British Antartic Survey Ltd",
     "date": "2022/05/31",
     "homeaway": "H",
     "result": "",
-    "competition": "CBHL 4"
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -81,11 +89,19 @@
   },
   {
     "team": "Midweek",
-    "opposition": "Queen's Head",
+    "opposition": "Newton",
     "date": "2022/06/28",
     "homeaway": "H",
     "result": "",
-    "competition": "CBHL 4"
+    "competition": "CBHL 3"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Elsworth",
+    "date": "2022/06/29",
+    "homeaway": "A",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "Midweek",
@@ -93,7 +109,7 @@
     "date": "2022/07/05",
     "homeaway": "A",
     "result": "",
-    "competition": "CBHL 4"
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -112,6 +128,14 @@
     "competition": "Friendly"
   },
   {
+    "team": "Midweek",
+    "opposition": "Eastern Learning Alliance ",
+    "date": "2022/07/13",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "Friendly",
     "opposition": "Girton",
     "date": "2022/07/17",
@@ -120,20 +144,20 @@
     "competition": "Friendly"
   },
   {
-    "team": "Midweek",
-    "opposition": "ELA",
-    "date": "2022/07/19",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CBHL 4"
-  },
-  {
     "team": "1st XI",
     "opposition": "Milton III",
     "date": "2022/07/23",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Domino",
+    "date": "2022/07/26",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
@@ -145,11 +169,11 @@
   },
   {
     "team": "Midweek",
-    "opposition": "Dobblers",
+    "opposition": "The Dobblers Inn",
     "date": "2022/08/02",
     "homeaway": "H",
     "result": "",
-    "competition": "CBHL 4"
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -190,13 +214,5 @@
     "homeaway": "H",
     "result": "",
     "competition": "CCA 4W"
-  },
-  {
-    "team": "Midweek",
-    "opposition": "TTP",
-    "date": "TBC",
-    "homeaway": "TBC",
-    "result": "",
-    "competition": "CBHL 4"
   }
 ]

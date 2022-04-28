@@ -9,12 +9,14 @@ const clubId = "909"
 const teamIds = {
     "13032": "1st XI",
     "12857": "Friendly",
-    "257099": "2nd XI"
+    "257099": "2nd XI",
+    "211943": "Midweek"
 }
 const competitionIds = {
     "101152": "CCA 4W",
     "88390": "CCA 3W",
-    "": "Friendly"
+    "": "Friendly",
+    "106878": "CBHL 3"
 }
 
 const resolveHome = (match) => {
@@ -44,7 +46,7 @@ const resolveOpposition = (match, home) => {
             oppTeamText = ' VI';
             break;
     }
-    var clubName = match[`${home ? 'away' : 'home'}_club_name`]
+    var clubName = match[`${home ? 'away' : 'home'}_club_name`] || match[`${home ? 'away' : 'home'}_team_name`]
     clubName = clubName.replace(', Cambs', '')
     clubName = clubName.replace(' CC', '')
     return clubName + oppTeamText
