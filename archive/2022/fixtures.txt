@@ -4,13 +4,13 @@
     "opposition": "Girton",
     "date": "2022/04/30",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "Friendly"
   },
   {
     "team": "Midweek",
     "opposition": "TTP",
-    "date": "2022/05/04",
+    "date": "TBC",
     "homeaway": "H",
     "result": "",
     "competition": "CBHL 3"
@@ -20,7 +20,7 @@
     "opposition": "Cam Kerala III",
     "date": "2022/05/07",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -94,14 +94,6 @@
     "homeaway": "H",
     "result": "",
     "competition": "CBHL 3"
-  },
-  {
-    "team": "Friendly",
-    "opposition": "Elsworth",
-    "date": "2022/06/29",
-    "homeaway": "A",
-    "result": "",
-    "competition": "Friendly"
   },
   {
     "team": "Midweek",
