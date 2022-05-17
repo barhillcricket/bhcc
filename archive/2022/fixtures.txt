@@ -28,7 +28,7 @@
     "opposition": "Stapleford",
     "date": "2022/05/14",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
