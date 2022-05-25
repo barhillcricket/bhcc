@@ -8,14 +8,6 @@
     "competition": "Friendly"
   },
   {
-    "team": "Midweek",
-    "opposition": "TTP",
-    "date": "TBC",
-    "homeaway": "H",
-    "result": "",
-    "competition": "CBHL 3"
-  },
-  {
     "team": "1st XI",
     "opposition": "Cam Kerala III",
     "date": "2022/05/07",
@@ -36,7 +28,7 @@
     "opposition": "Over and Willingham II",
     "date": "2022/05/21",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -44,7 +36,7 @@
     "opposition": "Royal Society Chemistry",
     "date": "2022/05/24",
     "homeaway": "H",
-    "result": "",
+    "result": "Postponed",
     "competition": "CBHL 3"
   },
   {
@@ -78,6 +70,14 @@
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "TTP",
+    "date": "2020/06/23",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -122,7 +122,7 @@
   {
     "team": "Midweek",
     "opposition": "Eastern Learning Alliance ",
-    "date": "2022/07/13",
+    "date": "2022/07/19",
     "homeaway": "H",
     "result": "",
     "competition": "CBHL 3"
