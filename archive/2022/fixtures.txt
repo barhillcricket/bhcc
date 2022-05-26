@@ -52,7 +52,7 @@
     "opposition": "British Antartic Survey Ltd",
     "date": "2022/05/31",
     "homeaway": "H",
-    "result": "",
+    "result": "Postponed",
     "competition": "CBHL 3"
   },
   {
@@ -150,6 +150,14 @@
     "homeaway": "H",
     "result": "",
     "competition": "Friendly"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "British Antartic Survey Ltd",
+    "date": "2022/07/28",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
