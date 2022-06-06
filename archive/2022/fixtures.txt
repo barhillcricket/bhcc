@@ -44,7 +44,7 @@
     "opposition": "Cottenham II",
     "date": "2022/05/28",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -75,7 +75,7 @@
     "team": "Midweek",
     "opposition": "TTP",
     "date": "2020/06/23",
-    "homeaway": "H",
+    "homeaway": "A",
     "result": "",
     "competition": "CBHL 3"
   },
