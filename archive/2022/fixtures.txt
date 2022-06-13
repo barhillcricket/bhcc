@@ -60,7 +60,7 @@
     "opposition": "Milton III",
     "date": "2022/06/11",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
