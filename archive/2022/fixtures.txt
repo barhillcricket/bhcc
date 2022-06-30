@@ -68,7 +68,7 @@
     "opposition": "Steeple Morden",
     "date": "2022/06/18",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -76,7 +76,7 @@
     "opposition": "TTP",
     "date": "2020/06/23",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -84,7 +84,7 @@
     "opposition": "Cottenham II",
     "date": "2022/06/25",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -92,7 +92,7 @@
     "opposition": "Newton",
     "date": "2022/06/28",
     "homeaway": "H",
-    "result": "",
+    "result": "Postponed",
     "competition": "CBHL 3"
   },
   {
@@ -214,5 +214,21 @@
     "homeaway": "H",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Bar Hill SSC",
+    "date": "2022/09/03",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Fred Styles Trophy"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Tesco",
+    "date": "2022/09/11",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
   }
 ]
