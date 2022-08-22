@@ -100,7 +100,7 @@
     "opposition": "Steeple Morden",
     "date": "2022/07/05",
     "homeaway": "A",
-    "result": "",
+    "result": "Postponed",
     "competition": "CBHL 3"
   },
   {
@@ -108,7 +108,7 @@
     "opposition": "Cam Kerala III",
     "date": "2022/07/09",
     "homeaway": "A",
-    "result": "",
+    "result": "Conceeded",
     "competition": "CCA 4W"
   },
   {
@@ -116,7 +116,15 @@
     "opposition": "Elsworth",
     "date": "2022/07/12",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
+    "competition": "Friendly"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Girton",
+    "date": "2022/07/17",
+    "homeaway": "A",
+    "result": "Cancelled",
     "competition": "Friendly"
   },
   {
@@ -124,23 +132,15 @@
     "opposition": "Eastern Learning Alliance ",
     "date": "2022/07/19",
     "homeaway": "H",
-    "result": "",
+    "result": "Postponed",
     "competition": "CBHL 3"
-  },
-  {
-    "team": "Friendly",
-    "opposition": "Girton",
-    "date": "2022/07/17",
-    "homeaway": "A",
-    "result": "",
-    "competition": "Friendly"
   },
   {
     "team": "1st XI",
     "opposition": "Milton III",
     "date": "2022/07/23",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -148,7 +148,7 @@
     "opposition": "Domino",
     "date": "2022/07/26",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "Friendly"
   },
   {
@@ -156,7 +156,7 @@
     "opposition": "British Antartic Survey Ltd",
     "date": "2022/07/28",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CBHL 3"
   },
   {
@@ -164,7 +164,7 @@
     "opposition": "Camden II",
     "date": "2022/07/30",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -172,7 +172,7 @@
     "opposition": "The Dobblers Inn",
     "date": "2022/08/02",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -180,7 +180,7 @@
     "opposition": "Steeple Morden",
     "date": "2022/08/06",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -188,7 +188,7 @@
     "opposition": "The Dobblers Inn",
     "date": "2022/08/09",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "Friendly"
   },
   {
@@ -196,7 +196,7 @@
     "opposition": "Camden II",
     "date": "2022/08/13",
     "homeaway": "H",
-    "result": "",
+    "result": "Walkover",
     "competition": "CCA 4W"
   },
   {
@@ -204,7 +204,7 @@
     "opposition": "Over and Willingham II",
     "date": "2022/08/20",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -220,7 +220,7 @@
     "opposition": "Bar Hill SSC",
     "date": "2022/09/03",
     "homeaway": "H",
-    "result": "",
+    "result": "Postponed",
     "competition": "Fred Styles Trophy"
   },
   {
