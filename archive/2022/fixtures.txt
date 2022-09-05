@@ -212,7 +212,7 @@
     "opposition": "Stapleford",
     "date": "2022/08/27",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -230,5 +230,13 @@
     "homeaway": "H",
     "result": "",
     "competition": "Friendly"
-  }
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Bar Hill SSC",
+    "date": "2022/09/17",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Fred Styles Trophy"
+  },
 ]
