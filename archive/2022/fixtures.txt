@@ -228,7 +228,7 @@
     "opposition": "Tesco",
     "date": "2022/09/11",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "Friendly"
   },
   {
@@ -236,7 +236,7 @@
     "opposition": "Bar Hill SSC",
     "date": "2022/09/17",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "Fred Styles Trophy"
   }
 ]
