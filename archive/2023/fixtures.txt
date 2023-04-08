@@ -1,0 +1,170 @@
+[
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge St. Giles III",
+    "date": "2023/05/06",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Camden II",
+    "date": "2023/05/13",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Royal Society Chemistry",
+    "date": "2023/05/24",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge St. Giles III",
+    "date": "2023/05/27",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge NCI IV",
+    "date": "2023/06/03",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Eastern Learning Alliance",
+    "date": "2023/06/07",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Northstowe",
+    "date": "2023/06/10",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Comberton",
+    "date": "2023/06/17",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Histon Development",
+    "date": "2023/06/20",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Comberton",
+    "date": "2023/06/24",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "British Antartic Survey",
+    "date": "2023/06/27",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Elsworth",
+    "date": "2023/07/01",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "TTP",
+    "date": "2023/07/04",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Newton",
+    "date": "2023/07/11",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Elsworth",
+    "date": "2023/07/15",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Domino",
+    "date": "2023/07/18",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Milton III",
+    "date": "2023/07/22",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Stapleford",
+    "date": "2023/07/25",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge NCI IV",
+    "date": "2023/07/29",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Camden II",
+    "date": "2023/08/05",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Northstowe",
+    "date": "2023/08/12",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Milton III",
+    "date": "2023/08/19",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cam Kerala III",
+    "date": "2023/08/26",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cam Kerala III",
+    "date": "2023/09/02",
+    "homeaway": "A",
+    "result": ""
+  }
+]
