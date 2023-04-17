@@ -49,6 +49,13 @@
     "result": ""
   },
   {
+    "team": "Midweek",
+    "opposition": "Eclectic Recruitment",
+    "date": "2023/06/12",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
     "team": "1st XI",
     "opposition": "Comberton",
     "date": "2023/06/17",
