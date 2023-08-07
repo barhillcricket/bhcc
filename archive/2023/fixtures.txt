@@ -4,7 +4,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2023/05/06",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 4W"
   },
   {
@@ -12,7 +12,7 @@
     "opposition": "Camden II",
     "date": "2023/05/13",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 4W"
   },
   {
@@ -20,7 +20,7 @@
     "opposition": "Royal Society Chemistry",
     "date": "2023/05/24",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -28,7 +28,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2023/05/27",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -36,7 +36,7 @@
     "opposition": "Cambridge NCI IV",
     "date": "2023/06/03",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -44,7 +44,7 @@
     "opposition": "Eastern Learning Alliance",
     "date": "2023/06/07",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -52,7 +52,7 @@
     "opposition": "Northstowe",
     "date": "2023/06/10",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -60,7 +60,7 @@
     "opposition": "Eclectic Recruitment",
     "date": "2023/06/12",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -68,7 +68,7 @@
     "opposition": "Comberton",
     "date": "2023/06/17",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -76,7 +76,7 @@
     "opposition": "Histon Development",
     "date": "2023/06/20",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -84,7 +84,7 @@
     "opposition": "Comberton",
     "date": "2023/06/24",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -92,7 +92,7 @@
     "opposition": "British Antartic Survey",
     "date": "2023/06/27",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CBHL 3"
   },
   {
@@ -100,7 +100,7 @@
     "opposition": "Elsworth",
     "date": "2023/07/01",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -108,7 +108,7 @@
     "opposition": "TTP",
     "date": "2023/07/04",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CBHL 3"
   },
   {
@@ -116,7 +116,7 @@
     "opposition": "Newton",
     "date": "2023/07/11",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -124,7 +124,7 @@
     "opposition": "Elsworth",
     "date": "2023/07/15",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -132,7 +132,7 @@
     "opposition": "Domino",
     "date": "2023/07/18",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "Friendly"
   },
   {
@@ -140,7 +140,7 @@
     "opposition": "Milton III",
     "date": "2023/07/22",
     "homeaway": "A",
-    "result": "",
+    "result": "Abandoned",
     "competition": "CCA 4W"
   },
   {
@@ -148,7 +148,7 @@
     "opposition": "Stapleford",
     "date": "2023/07/25",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -156,7 +156,7 @@
     "opposition": "Cambridge NCI IV",
     "date": "2023/07/29",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -164,7 +164,7 @@
     "opposition": "Camden II",
     "date": "2023/08/05",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 4W"
   },
   {
