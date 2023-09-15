@@ -172,7 +172,7 @@
     "opposition": "Northstowe",
     "date": "2023/08/12",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -180,7 +180,7 @@
     "opposition": "Milton III",
     "date": "2023/08/19",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -188,7 +188,7 @@
     "opposition": "Cam Kerala III",
     "date": "2023/08/26",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -196,7 +196,7 @@
     "opposition": "Cam Kerala III",
     "date": "2023/09/02",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   }
 ]
