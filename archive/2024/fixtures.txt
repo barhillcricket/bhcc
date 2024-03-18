@@ -112,6 +112,14 @@
     "result": ""
   },
   {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Electic",
+    "date": "2024/07/17",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
     "team": "1st XI",
     "competition": "CCA 4W",
     "opposition": "Cambridge St. Giles III",
@@ -124,6 +132,14 @@
     "competition": "CCA 4W",
     "opposition": "Cherry Hinton II",
     "date": "2024/07/27",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Friendly",
+    "competition": "Friendly",
+    "opposition": "Domino",
+    "date": "2024/08/06",
     "homeaway": "H",
     "result": ""
   },
@@ -157,22 +173,6 @@
     "opposition": "Comberton",
     "date": "2024/08/31",
     "homeaway": "A",
-    "result": ""
-  },
-  {
-    "team": "Midweek",
-    "competition": "CBHL",
-    "opposition": "Electic",
-    "date": "TBC",
-    "homeaway": "H",
-    "result": ""
-  },
-  {
-    "team": "Friendly",
-    "competition": "Friendly",
-    "opposition": "Domino",
-    "date": "TBC",
-    "homeaway": "H",
     "result": ""
   },
   {
