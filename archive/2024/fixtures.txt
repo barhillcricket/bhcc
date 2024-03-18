@@ -1,0 +1,186 @@
+[
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Elsworth",
+    "date": "2024/05/04",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Camden II",
+    "date": "2024/05/11",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cambridge St. Giles III",
+    "date": "2024/05/18",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Cockenach",
+    "date": "2024/05/28",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cherry Hinton II",
+    "date": "2024/05/25",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Stapleford",
+    "date": "2024/06/04",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "RSC",
+    "date": "2024/06/11",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Camden II",
+    "date": "2024/06/15",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "BAS",
+    "date": "2024/06/18",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Comberton",
+    "date": "2024/06/22",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Elsworth",
+    "date": "2024/06/29",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Qual Com",
+    "date": "2024/07/02",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cam Kerala III",
+    "date": "2024/07/06",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Waterbeach",
+    "date": "2024/07/09",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cambridge St. Giles III",
+    "date": "2024/07/20",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cherry Hinton II",
+    "date": "2024/07/27",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cambourne IV",
+    "date": "2024/08/10",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cam Kerala III",
+    "date": "2024/08/17",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cambourne IV",
+    "date": "2024/08/24",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Comberton",
+    "date": "2024/08/31",
+    "homeaway": "A",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Electic",
+    "date": "TBC",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Friendly",
+    "competition": "Friendly",
+    "opposition": "Domino",
+    "date": "TBC",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Friendly",
+    "competition": "Friendly",
+    "opposition": "Bar Hill SSC",
+    "date": "TBC",
+    "homeaway": "H",
+    "result": ""
+  }
+]
