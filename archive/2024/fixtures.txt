@@ -5,7 +5,7 @@
     "opposition": "Elsworth",
     "date": "2024/05/04",
     "homeaway": "A",
-    "result": ""
+    "result": "Cancelled"
   },
   {
     "team": "1st XI",
@@ -13,7 +13,7 @@
     "opposition": "Camden II",
     "date": "2024/05/11",
     "homeaway": "H",
-    "result": ""
+    "result": "Won"
   },
   {
     "team": "1st XI",
@@ -21,7 +21,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2024/05/18",
     "homeaway": "H",
-    "result": ""
+    "result": "Won"
   },
   {
     "team": "Midweek",
@@ -29,7 +29,7 @@
     "opposition": "Cockenach",
     "date": "2024/05/28",
     "homeaway": "H",
-    "result": ""
+    "result": "Postponed"
   },
   {
     "team": "1st XI",
@@ -37,7 +37,7 @@
     "opposition": "Cherry Hinton II",
     "date": "2024/05/25",
     "homeaway": "A",
-    "result": ""
+    "result": "Won"
   },
   {
     "team": "Midweek",
@@ -45,7 +45,15 @@
     "opposition": "Stapleford",
     "date": "2024/06/04",
     "homeaway": "H",
-    "result": ""
+    "result": "Postponed"
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Cockenach",
+    "date": "2024/06/06",
+    "homeaway": "H",
+    "result": "Postponed"
   },
   {
     "team": "Midweek",
@@ -108,6 +116,14 @@
     "competition": "CBHL",
     "opposition": "Waterbeach",
     "date": "2024/07/09",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Midweek",
+    "competition": "CBHL",
+    "opposition": "Cockenach",
+    "date": "2024/07/11",
     "homeaway": "H",
     "result": ""
   },
