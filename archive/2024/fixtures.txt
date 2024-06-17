@@ -61,7 +61,7 @@
     "opposition": "RSC",
     "date": "2024/06/11",
     "homeaway": "H",
-    "result": ""
+    "result": "Postponed"
   },
   {
     "team": "1st XI",
@@ -69,7 +69,7 @@
     "opposition": "Camden II",
     "date": "2024/06/15",
     "homeaway": "A",
-    "result": ""
+    "result": "Cancelled"
   },
   {
     "team": "Midweek",
@@ -144,18 +144,18 @@
     "result": ""
   },
   {
-    "team": "1st XI",
-    "competition": "CCA 4W",
-    "opposition": "Cherry Hinton II",
-    "date": "2024/07/27",
+    "team": "Friendly",
+    "competition": "Friendly",
+    "opposition": "Domino",
+    "date": "2024/07/23",
     "homeaway": "H",
     "result": ""
   },
   {
-    "team": "Friendly",
-    "competition": "Friendly",
-    "opposition": "Domino",
-    "date": "2024/08/06",
+    "team": "1st XI",
+    "competition": "CCA 4W",
+    "opposition": "Cherry Hinton II",
+    "date": "2024/07/27",
     "homeaway": "H",
     "result": ""
   },
