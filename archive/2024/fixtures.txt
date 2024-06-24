@@ -77,7 +77,7 @@
     "opposition": "BAS",
     "date": "2024/06/18",
     "homeaway": "H",
-    "result": ""
+    "result": "Postponed"
   },
   {
     "team": "1st XI",
@@ -85,7 +85,7 @@
     "opposition": "Comberton",
     "date": "2024/06/22",
     "homeaway": "H",
-    "result": ""
+    "result": "Lost"
   },
   {
     "team": "1st XI",
@@ -156,6 +156,14 @@
     "competition": "CCA 4W",
     "opposition": "Cherry Hinton II",
     "date": "2024/07/27",
+    "homeaway": "H",
+    "result": ""
+  },
+  {
+    "team": "Friendly",
+    "competition": "Friendly",
+    "opposition": "Tesco",
+    "date": "2024/08/04",
     "homeaway": "H",
     "result": ""
   },
