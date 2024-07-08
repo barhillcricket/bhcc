@@ -93,7 +93,7 @@
     "opposition": "Elsworth",
     "date": "2024/06/29",
     "homeaway": "H",
-    "result": ""
+    "result": "Won"
   },
   {
     "team": "Midweek",
@@ -101,7 +101,7 @@
     "opposition": "Qual Com",
     "date": "2024/07/02",
     "homeaway": "H",
-    "result": ""
+    "result": "Won"
   },
   {
     "team": "1st XI",
@@ -109,7 +109,7 @@
     "opposition": "Cam Kerala III",
     "date": "2024/07/06",
     "homeaway": "A",
-    "result": ""
+    "result": "Cancelled"
   },
   {
     "team": "Midweek",
