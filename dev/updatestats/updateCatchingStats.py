@@ -1,0 +1,60 @@
+# Provide the Play Cricket download for the season's stats (converted to CSV)
+
+import csv
+import sys
+import math
+
+alltime_stats = []
+pc_stats = []
+
+with open('newstats/AllTimeCatches.csv', newline='') as existing:
+    reader = csv.reader(existing, delimiter=',')
+    for row in reader:
+        alltime_stats.append(row)
+header = alltime_stats.pop(0)
+year = sys.argv[1]
+
+with open("archive/{year}/newstats/catches{year}.csv".format(year=year), newline='') as pc:
+    reader = csv.reader(pc, delimiter=',')
+    for row in reader:
+        pc_stats.append(row)
+pc_stats.pop(0)
+
+
+def get_name_alltime(row):
+    return row[1]
+
+
+def get_name_pc(row):
+    name = row[1].split(' ')
+    name[0] = name[0][0]
+    return ' '.join(name).title()
+
+
+names_alltime = list(map(get_name_alltime, alltime_stats))
+
+for i, name in enumerate(list(map(get_name_pc, pc_stats))):
+
+    if name in names_alltime:
+        # Match up pc with alltime and add together the stats
+        alltime_index = names_alltime.index(name)
+        alltime_player_stats = alltime_stats[alltime_index]
+        # Add to totals
+        for c in [2, 3, 4]:
+            if alltime_player_stats[c]:
+                alltime_player_stats[c] = int(alltime_player_stats[c]) + int(pc_stats[i][c])
+
+
+# Sort by total
+def sortByTotal(player):
+    return -int(player[4])
+
+
+alltime_stats.sort(key=sortByTotal)
+
+# Write back to newstats/AllTimeCatches.csv
+with open('newstats/AllTimeCatches.csv', 'w', newline='') as alltime:
+    writer = csv.writer(alltime, delimiter=',')
+    writer.writerow(header)
+    for row in alltime_stats:
+        writer.writerow(row)
