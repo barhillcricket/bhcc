@@ -1,4 +1,5 @@
-# Provide the Play Cricket download for the season's stats (converted to CSV)
+# Provide the Play Cricket download for the season's stats in archive/<year>/newstats/batting<year>.csv
+# e.g. archive/2024/newstats/batting2024.csv
 
 import csv
 import sys
@@ -11,9 +12,9 @@ with open('newstats/AllTimeBatting.csv', newline='') as existing:
     for row in reader:
         alltime_stats.append(row)
 header = alltime_stats.pop(0)
+year = sys.argv[1]
 
-
-with open(sys.argv[1], newline='') as pc:
+with open("archive/{year}/newstats/batting{year}.csv".format(year=year), newline='') as pc:
     reader = csv.reader(pc, delimiter=',')
     for row in reader:
         pc_stats.append(row)
@@ -60,7 +61,7 @@ for i, name in enumerate(list(map(get_name_pc, pc_stats))):
             pc_stats[i][8] = '{0:.2f}'.format(float(pc_stats[i][8]))
         pc_stats[i][0] = 0
         new_name = str(pc_stats[i][1]).split(' ')
-        pc_stats[i][1] = new_name[0][0] + ' ' + ' '.join(new_name[1:])
+        pc_stats[i][1] = new_name[0][0].capitalize() + ' ' + (' '.join(new_name[1:])).title()
         alltime_stats += [pc_stats[i]]
 
 
