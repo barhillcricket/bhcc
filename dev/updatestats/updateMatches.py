@@ -1,5 +1,5 @@
-# Provide the Play Cricket download for the season's stats in archive/<year>/newstats/batting<year>.csv
-# e.g. archive/2024/newstats/batting2024.csv
+# Provide the Play Cricket download for the season's stats in archive/<year>/stats/batting<year>.csv
+# e.g. archive/2024/stats/batting2024.csv
 
 import csv
 import sys
