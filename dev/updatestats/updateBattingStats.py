@@ -9,7 +9,7 @@ import sys
 alltime_stats = []
 pc_stats = []
 
-with open('newstats/AllTimeBatting.csv', newline='') as existing:
+with open('stats/AllTimeBatting.csv', newline='') as existing:
     reader = csv.reader(existing, delimiter=',')
     for row in reader:
         alltime_stats.append(row)
@@ -81,8 +81,8 @@ def sortByAvg(player):
 
 alltime_stats.sort(key=sortByAvg)
 
-# Write back to newstats/AllTimeBatting.csv
-with open('newstats/AllTimeBatting.csv', 'w', newline='') as alltime:
+# Write back to stats/AllTimeBatting.csv
+with open('stats/AllTimeBatting.csv', 'w', newline='') as alltime:
     writer = csv.writer(alltime, delimiter=',')
     writer.writerow(header)
     for row in alltime_stats:

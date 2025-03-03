@@ -8,7 +8,7 @@ import math
 alltime_stats = []
 pc_stats = []
 
-with open('newstats/AllTimeBowling.csv', newline='') as existing:
+with open('stats/AllTimeBowling.csv', newline='') as existing:
     reader = csv.reader(existing, delimiter=',')
     for row in reader:
         alltime_stats.append(row)
@@ -127,8 +127,8 @@ def sortByAvg(player):
 
 alltime_stats.sort(key=sortByAvg)
 
-# Write back to newstats/AllTimeBowling.csv
-with open('newstats/AllTimeBowling.csv', 'w', newline='') as alltime:
+# Write back to stats/AllTimeBowling.csv
+with open('stats/AllTimeBowling.csv', 'w', newline='') as alltime:
     writer = csv.writer(alltime, delimiter=',')
     writer.writerow(header)
     for row in alltime_stats:

@@ -6,7 +6,7 @@ import sys
 alltime_stats = []
 pc_stats = []
 
-with open('newstats/AllTimeBowling.csv', newline='') as existing:
+with open('stats/AllTimeBowling.csv', newline='') as existing:
     reader = csv.reader(existing, delimiter=',')
     for row in reader:
         alltime_stats.append(row)
@@ -26,8 +26,8 @@ def sortByWickets(player):
 
 topBowlers.sort(key=sortByWickets)
 
-# Write back to newstats/AllTimeWicket.csv
-with open('newstats/AllTimeWicket.csv', 'w', newline='') as alltime:
+# Write back to stats/AllTimeWicket.csv
+with open('stats/AllTimeWicket.csv', 'w', newline='') as alltime:
     writer = csv.writer(alltime, delimiter=',')
     writer.writerow(["Rank", "Player", "Matches", "Overs", "Mdn", "Wkt", "Runs", "Best", "Ave"])
     for row in topBowlers:

@@ -8,7 +8,7 @@ import math
 alltime_stats = []
 pc_stats = []
 
-with open('newstats/AllTimeCatches.csv', newline='') as existing:
+with open('stats/AllTimeCatches.csv', newline='') as existing:
     reader = csv.reader(existing, delimiter=',')
     for row in reader:
         alltime_stats.append(row)
@@ -62,8 +62,8 @@ def sortByTotal(player):
 
 alltime_stats.sort(key=sortByTotal)
 
-# Write back to newstats/AllTimeCatches.csv
-with open('newstats/AllTimeCatches.csv', 'w', newline='') as alltime:
+# Write back to stats/AllTimeCatches.csv
+with open('stats/AllTimeCatches.csv', 'w', newline='') as alltime:
     writer = csv.writer(alltime, delimiter=',')
     writer.writerow(header)
     for row in alltime_stats:

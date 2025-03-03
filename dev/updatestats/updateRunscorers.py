@@ -6,7 +6,7 @@ import sys
 alltime_stats = []
 pc_stats = []
 
-with open('newstats/AllTimeBatting.csv', newline='') as existing:
+with open('stats/AllTimeBatting.csv', newline='') as existing:
     reader = csv.reader(existing, delimiter=',')
     for row in reader:
         alltime_stats.append(row)
@@ -26,8 +26,8 @@ def sortByRuns(player):
 
 topBatters.sort(key=sortByRuns)
 
-# Write back to newstats/AllTimeRunscorer.csv
-with open('newstats/AllTimeRunscorer.csv', 'w', newline='') as alltime:
+# Write back to stats/AllTimeRunscorer.csv
+with open('stats/AllTimeRunscorer.csv', 'w', newline='') as alltime:
     writer = csv.writer(alltime, delimiter=',')
     writer.writerow(header)
     for row in topBatters:
