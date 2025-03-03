@@ -14,7 +14,7 @@ with open('newstats/AllTimeMatches.csv', newline='') as existing:
 header = alltime_stats.pop(0)
 year = sys.argv[1]
 
-with open("archive/{year}/newstats/batting{year}.csv".format(year=year), newline='') as pc:
+with open("archive/{year}/stats/batting{year}.csv".format(year=year), newline='') as pc:
     reader = csv.reader(pc, delimiter=',')
     for row in reader:
         pc_stats.append(row)
@@ -42,7 +42,7 @@ for i, name in enumerate(list(map(get_name_pc, pc_stats))):
     else:
         new_name = str(pc_stats[i][1]).split(' ')
         pc_stats[i][1] = new_name[0][0].capitalize() + ' ' + (' '.join(new_name[1:])).title()
-        alltime_stats += [[pc_stats[i][1], pc_stats[i][2]]]
+        alltime_stats += [[pc_stats[i][1], pc_stats[i][2], '']]
 
 
 # Sort by matches

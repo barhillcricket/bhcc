@@ -15,7 +15,7 @@ with open('newstats/AllTimeBowling.csv', newline='') as existing:
 header = alltime_stats.pop(0)
 year = sys.argv[1]
 
-with open("archive/{year}/newstats/bowling{year}.csv".format(year=year), newline='') as pc:
+with open("archive/{year}/stats/bowling{year}.csv".format(year=year), newline='') as pc:
     reader = csv.reader(pc, delimiter=',')
     for row in reader:
         pc_stats.append(row)
@@ -23,7 +23,7 @@ pc_stats.pop(0)
 
 # Need the batting stats to grab the matches
 batting_stats = []
-with open("archive/{year}/newstats/batting{year}.csv".format(year=year), newline='') as pc:
+with open("archive/{year}/stats/batting{year}.csv".format(year=year), newline='') as pc:
     reader = csv.reader(pc, delimiter=',')
     for row in reader:
         batting_stats.append(row)
@@ -106,6 +106,9 @@ for i, name in enumerate(list(map(get_name_pc, pc_stats))):
         pc_stats[i][0] = 0
         new_name = str(pc_stats[i][1]).split(' ')
         pc_stats[i][1] = new_name[0][0].capitalize() + ' ' + (' '.join(new_name[1:])).title()
+        if pc_stats[i][8] == '0':
+            pc_stats[i][8] = ''
+        pc_stats[i] += ['']
         alltime_stats += [pc_stats[i]]
 
 # Update matches for players who didn't bowl this season

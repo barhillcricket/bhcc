@@ -1,6 +1,8 @@
 # Provide the Play Cricket download for the season's stats in archive/<year>/stats/batting<year>.csv
 # e.g. archive/2024/stats/batting2024.csv
 
+# Run by running `python dev/updatestats/updateBattingStats.py 2024`
+
 import csv
 import sys
 
@@ -14,7 +16,7 @@ with open('newstats/AllTimeBatting.csv', newline='') as existing:
 header = alltime_stats.pop(0)
 year = sys.argv[1]
 
-with open("archive/{year}/newstats/batting{year}.csv".format(year=year), newline='') as pc:
+with open("archive/{year}/stats/batting{year}.csv".format(year=year), newline='') as pc:
     reader = csv.reader(pc, delimiter=',')
     for row in reader:
         pc_stats.append(row)
@@ -40,8 +42,9 @@ for i, name in enumerate(list(map(get_name_pc, pc_stats))):
         alltime_player_stats = alltime_stats[alltime_index]
         # Add to totals
         for c in [2, 3, 4, 5, 9, 10]:
-            if alltime_player_stats[c]:
-                alltime_player_stats[c] = int(alltime_player_stats[c]) + int(pc_stats[i][c])
+            alltime_player_stats[c] = int(alltime_player_stats[c]) + int(pc_stats[i][c]) if alltime_player_stats[c] else pc_stats[i][c]
+            if (c == 9 or c == 10) and alltime_player_stats[c] == '0':
+                alltime_player_stats[c] = ''
         # Update high score
         if pc_stats[i][6] and (int(pc_stats[i][6]) > int(alltime_player_stats[6])) or alltime_player_stats[6] == '':
             alltime_player_stats[6] = pc_stats[i][6]
@@ -62,6 +65,10 @@ for i, name in enumerate(list(map(get_name_pc, pc_stats))):
         pc_stats[i][0] = 0
         new_name = str(pc_stats[i][1]).split(' ')
         pc_stats[i][1] = new_name[0][0].capitalize() + ' ' + (' '.join(new_name[1:])).title()
+        for c in [9, 10]:
+            if pc_stats[i][c] == '0':
+                pc_stats[i][c] = ''
+        pc_stats[i] += ['']
         alltime_stats += [pc_stats[i]]
 
 

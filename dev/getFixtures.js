@@ -14,9 +14,11 @@ const teamIds = {
 }
 const competitionIds = {
     "101152": "CCA 4W",
+    "117813": "CCA 4W"
     "88390": "CCA 3W",
     "": "Friendly",
-    "106878": "CBHL 3"
+    "106878": "CBHL 3",
+    "122137": "CBHL 3"
 }
 
 const resolveHome = (match) => {
@@ -84,7 +86,7 @@ request(`https://play-cricket.com/api/v2/matches.json?&site_id=909&season=${year
                     "date": resolveDate(matchJson),
                     "homeaway": isHome ? 'H' : 'A',
                     "result": resolveResult(matchJson, isHome),
-                    "competition": competitionIds[matchJson.competition_id]
+                    "competition": competitionIds[matchJson.competition_id] ? competitionIds[matchJson.competition_id] : matchJson.competition_id
                 }
                 matches.push(newMatch)
                 resolve(true)
