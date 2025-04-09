@@ -14,11 +14,13 @@ const teamIds = {
 }
 const competitionIds = {
     "101152": "CCA 4W",
-    "117813": "CCA 4W"
+    "117813": "CCA 4W",
+    "125393": "CCA 4W",
     "88390": "CCA 3W",
     "": "Friendly",
     "106878": "CBHL 3",
-    "122137": "CBHL 3"
+    "122137": "CBHL 3",
+    "129142": "CBHL 3"
 }
 
 const resolveHome = (match) => {
