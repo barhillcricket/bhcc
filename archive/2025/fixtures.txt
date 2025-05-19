@@ -4,7 +4,7 @@
     "opposition": "Elsworth",
     "date": "2025/05/03",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -12,7 +12,7 @@
     "opposition": "Fulbourn Institute II",
     "date": "2025/05/10",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -20,7 +20,7 @@
     "opposition": "Milton III",
     "date": "2025/05/17",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -32,12 +32,28 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Stapleford Phoenix II",
+    "date": "2025/05/28",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "1st XI",
     "opposition": "Longstowe",
     "date": "2025/05/31",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Cokenach",
+    "date": "2025/06/03",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -48,12 +64,36 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Newton",
+    "date": "2025/06/10",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Fen Ditton",
+    "date": "2025/06/17",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cambridge Tamil Sangam II",
     "date": "2025/06/21",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Qualcomm (CSR)",
+    "date": "2025/06/24",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -64,12 +104,28 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Stapleford",
+    "date": "2025/07/01",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cambridge St. Giles IV",
     "date": "2025/07/05",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "ELA",
+    "date": "2025/07/15",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
@@ -80,6 +136,14 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "BAS",
+    "date": "2025/07/22",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "1st XI",
     "opposition": "Comberton",
     "date": "2025/07/26",
@@ -88,12 +152,36 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Royal Society Chemistry",
+    "date": "2025/07/29",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
     "team": "1st XI",
     "opposition": "Fulbourn Institute II",
     "date": "2025/08/02",
     "homeaway": "A",
     "result": "",
     "competition": "CCA 4W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Cambridge NCI",
+    "date": "2025/08/05",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CBHL 3"
+  },
+  {
+    "team": "Friendly",
+    "opposition": "Domino",
+    "date": "2025/08/07",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CBHL 3"
   },
   {
     "team": "1st XI",
