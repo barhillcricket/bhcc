@@ -181,7 +181,7 @@
     "date": "2025/08/07",
     "homeaway": "H",
     "result": "",
-    "competition": "CBHL 3"
+    "competition": "Friendly"
   },
   {
     "team": "1st XI",
