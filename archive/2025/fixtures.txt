@@ -120,8 +120,16 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Friendly",
+    "opposition": "Domino",
+    "date": "2025/07/08",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "Midweek",
-    "opposition": "ELA",
+    "opposition": "Eastern Learning Alliance ",
     "date": "2025/07/15",
     "homeaway": "H",
     "result": "",
@@ -137,7 +145,7 @@
   },
   {
     "team": "Midweek",
-    "opposition": "BAS",
+    "opposition": "British Antartic Survey Ltd",
     "date": "2025/07/22",
     "homeaway": "H",
     "result": "",
@@ -174,14 +182,6 @@
     "homeaway": "A",
     "result": "",
     "competition": "CBHL 3"
-  },
-  {
-    "team": "Friendly",
-    "opposition": "Domino",
-    "date": "2025/08/07",
-    "homeaway": "H",
-    "result": "",
-    "competition": "Friendly"
   },
   {
     "team": "1st XI",
