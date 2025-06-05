@@ -28,7 +28,7 @@
     "opposition": "Cherry Hinton II",
     "date": "2025/05/24",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
@@ -36,7 +36,7 @@
     "opposition": "Stapleford Phoenix II",
     "date": "2025/05/28",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
@@ -44,7 +44,7 @@
     "opposition": "Longstowe",
     "date": "2025/05/31",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 4W"
   },
   {
@@ -52,7 +52,7 @@
     "opposition": "Cokenach",
     "date": "2025/06/03",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
