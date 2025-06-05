@@ -3,3 +3,4 @@ test
 .DS_Store
 instructions.md
 dev/node_modules
+.vscode

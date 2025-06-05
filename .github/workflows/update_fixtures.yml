@@ -1,0 +1,40 @@
+---
+name: Update Fixtures and Results
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+env:
+  YEAR: 2025
+
+jobs:
+  update_fixtures_results:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '21'
+
+      - name: Run getFixtures script
+        run: node dev/getFixtures.js $YEAR ${{ secrets.PC_API_KEY }}
+
+      - name: Check for changes in archive
+        id: check_changes
+        run: |
+          CHANGES=$(git status archive/$YEAR/fixtures.txt -s | wc -l)
+          echo "number_of_changes=$CHANGES" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.number_of_changes != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive/$YEAR/fixtures.json
+          git commit -m "Update fixtures"
+          git push
