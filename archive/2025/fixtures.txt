@@ -120,6 +120,14 @@
     "competition": "CCA 4W"
   },
   {
+    "team": "Friendly",
+    "opposition": "Domino",
+    "date": "2025/07/08",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "Midweek",
     "opposition": "Eastern Learning Alliance ",
     "date": "2025/07/15",
