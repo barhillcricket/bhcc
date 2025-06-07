@@ -60,7 +60,7 @@
     "opposition": "Comberton",
     "date": "2025/06/07",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
