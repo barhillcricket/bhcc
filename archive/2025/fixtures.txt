@@ -68,6 +68,7 @@
     "opposition": "Newton",
     "date": "2025/06/10",
     "homeaway": "H",
+    "result": "Conc. Won",
     "competition": "CBHL 3"
   },
   {

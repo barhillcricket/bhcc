@@ -24,7 +24,9 @@ function homePageTable(year, team, id) {
         dateCell.appendChild(document.createTextNode(dateStr));
         const resultCell = newRow.insertCell(1);
         var resultStr = f.result;
-        if (resultStr.length > 5) {
+        if (resultStr.slice(0,5) === 'Conc.') {
+          resultStr = resultStr.slice(6);
+        } else if (resultStr.length > 5) {
           resultStr = resultStr.slice(0,4) + '.'
         }
         resultCell.appendChild(document.createTextNode(resultStr));

@@ -66,6 +66,8 @@ const resolveResult = (match, home) => {
         return "Cancelled"
     } else if (match.result === 'A') {
         return "Abandoned"
+    } else if (match.result === 'CON') {
+        return 'Conc. ' + (match.result_applied_to === teamId ? 'Won' : 'Lost');
     }
 }
 
