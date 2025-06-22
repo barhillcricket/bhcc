@@ -76,6 +76,7 @@
     "opposition": "Fen Ditton",
     "date": "2025/06/17",
     "homeaway": "H",
+    "result": "Tied",
     "competition": "CBHL 3"
   },
   {
