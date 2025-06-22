@@ -68,6 +68,8 @@ const resolveResult = (match, home) => {
         return "Abandoned"
     } else if (match.result === 'CON') {
         return 'Conc. ' + (match.result_applied_to === teamId ? 'Won' : 'Lost');
+    } else if (match.result === 'T') {
+        return "Tied"
     }
 }
 
