@@ -92,7 +92,7 @@
     "opposition": "Qualcomm (CSR)",
     "date": "2025/06/24",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CBHL 3"
   },
   {
