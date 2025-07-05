@@ -116,7 +116,7 @@
     "opposition": "Cambridge St. Giles IV",
     "date": "2025/07/05",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
