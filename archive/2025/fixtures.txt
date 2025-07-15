@@ -124,7 +124,7 @@
     "opposition": "Domino",
     "date": "2025/07/08",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "Friendly"
   },
   {
@@ -132,7 +132,7 @@
     "opposition": "Eastern Learning Alliance ",
     "date": "2025/07/15",
     "homeaway": "H",
-    "result": "",
+    "result": "Conc. Won",
     "competition": "CBHL 3"
   },
   {
