@@ -140,7 +140,7 @@
     "opposition": "Elsworth",
     "date": "2025/07/19",
     "homeaway": "A",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 4W"
   },
   {
