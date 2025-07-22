@@ -148,7 +148,7 @@
     "opposition": "British Antartic Survey Ltd",
     "date": "2025/07/22",
     "homeaway": "H",
-    "result": "",
+    "result": "Conc. Won",
     "competition": "CBHL 3"
   },
   {
