@@ -164,7 +164,7 @@
     "opposition": "Royal Society Chemistry",
     "date": "2025/07/29",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CBHL 3"
   },
   {
