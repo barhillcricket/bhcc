@@ -172,7 +172,7 @@
     "opposition": "Fulbourn Institute II",
     "date": "2025/08/02",
     "homeaway": "A",
-    "result": "",
+    "result": "Conc. Won",
     "competition": "CCA 4W"
   },
   {
