@@ -180,7 +180,7 @@
     "opposition": "Cambridge NCI",
     "date": "2025/08/05",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CBHL 3"
   },
   {
