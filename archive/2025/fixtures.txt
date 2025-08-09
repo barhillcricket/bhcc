@@ -188,7 +188,7 @@
     "opposition": "Cherry Hinton II",
     "date": "2025/08/09",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
