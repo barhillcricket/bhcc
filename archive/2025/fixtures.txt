@@ -204,7 +204,7 @@
     "opposition": "Longstowe",
     "date": "2025/08/23",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   },
   {
