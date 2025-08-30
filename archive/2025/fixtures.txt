@@ -212,7 +212,7 @@
     "opposition": "Cambridge Tamil Sangam II",
     "date": "2025/08/30",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 4W"
   }
 ]
