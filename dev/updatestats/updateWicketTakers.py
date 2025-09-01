@@ -1,5 +1,7 @@
 # This assumes that the AllTimeBowling has already been updated
 
+# Run by running `python dev/updatestats/updateWicketTakers.py`
+
 import csv
 import sys
 

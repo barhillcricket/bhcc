@@ -1,6 +1,8 @@
 # Provide the Play Cricket download for the season's stats in archive/<year>/stats/batting<year>.csv
 # e.g. archive/2024/stats/batting2024.csv
 
+# Run by running e.g. `python dev/updatestats/updateMatches.py 2025`
+
 import csv
 import sys
 

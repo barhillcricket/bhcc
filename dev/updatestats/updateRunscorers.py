@@ -1,5 +1,7 @@
 # This assumes that the AllTimeBatting has already been updated
 
+# Run by running `python dev/updatestats/updateRunscorers.py`
+
 import csv
 import sys
 

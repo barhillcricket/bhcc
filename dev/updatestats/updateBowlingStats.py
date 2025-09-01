@@ -1,6 +1,8 @@
 # Provide the Play Cricket download for the season's stats in archive/<year>/stats/bowling<year>.csv
 # e.g. archive/2024/stats/bowling2024.csv
 
+# Run by running `python dev/updatestats/updateBowlingStats.py 2024`
+
 import csv
 import sys
 import math
@@ -63,6 +65,8 @@ for i, name in enumerate(list(map(get_name_pc, pc_stats))):
             alltime_player_stats[3] = float(alltime_player_stats[3]) + float(overs[0])
         else:
             alltime_overs = alltime_player_stats[3].split('.')
+            if len(alltime_overs) == 1:
+                alltime_overs += ['0']
             balls = int(overs[1]) + int(alltime_overs[1])
             if balls >= 6:
                 balls -= 6
