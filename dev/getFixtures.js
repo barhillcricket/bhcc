@@ -13,6 +13,8 @@ const teamIds = {
     "211943": "Midweek"
 }
 const competitionIds = {
+    "69601": "CCA Invitation Cup",
+    "135579": "CCA 3W",
     "101152": "CCA 4W",
     "117813": "CCA 4W",
     "125393": "CCA 4W",

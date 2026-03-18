@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  YEAR: 2025
+  YEAR: 2026
 
 jobs:
   update_fixtures_results:

@@ -1,0 +1,138 @@
+[
+  {
+    "team": "1st XI",
+    "opposition": "Steeple Morden",
+    "date": "2026/04/25",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Over and Willingham",
+    "date": "2026/05/02",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Needingworth",
+    "date": "2026/05/09",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Godmanchester Town II",
+    "date": "2026/05/16",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Haslingfield",
+    "date": "2026/05/23",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Madingley II",
+    "date": "2026/05/30",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge St. Giles III",
+    "date": "2026/06/06",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Thriplow",
+    "date": "2026/06/07",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA Invitation Cup"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Hemingford Park",
+    "date": "2026/06/20",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Needingworth",
+    "date": "2026/06/27",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Cambridge St. Giles III",
+    "date": "2026/07/04",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Godmanchester Town II",
+    "date": "2026/07/18",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Madingley II",
+    "date": "2026/07/25",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Hemingford Park",
+    "date": "2026/08/01",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Haslingfield",
+    "date": "2026/08/08",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Steeple Morden",
+    "date": "2026/08/22",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA 3W"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Over and Willingham",
+    "date": "2026/08/29",
+    "homeaway": "H",
+    "result": "",
+    "competition": "CCA 3W"
+  }
+]

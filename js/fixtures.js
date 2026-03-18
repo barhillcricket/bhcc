@@ -31,7 +31,7 @@ function homePageTable(year, team, id) {
         }
         resultCell.appendChild(document.createTextNode(resultStr));
         const oppositionCell = newRow.insertCell(2);
-        oppositionCell.appendChild(document.createTextNode(f.opposition));
+        oppositionCell.appendChild(document.createTextNode(f.opposition + (f.competition.toLowerCase().includes("cup") ? " (Cup)" : "")));
         const homeawayCell = newRow.insertCell(3);
         homeawayCell.appendChild(document.createTextNode(f.homeaway));
         dateCell.align = 'center';

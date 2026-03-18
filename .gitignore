@@ -4,3 +4,4 @@ test
 instructions.md
 dev/node_modules
 .vscode
+.ansible
