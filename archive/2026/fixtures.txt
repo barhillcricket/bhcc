@@ -64,12 +64,36 @@
     "competition": "CCA Invitation Cup"
   },
   {
+    "team": "Midweek",
+    "opposition": "Camden",
+    "date": "2026/06/09",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "British Antartic Survey Ltd",
+    "date": "2026/06/16",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
+  },
+  {
     "team": "1st XI",
     "opposition": "Hemingford Park",
     "date": "2026/06/20",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Cokenach",
+    "date": "2026/06/23",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
   },
   {
     "team": "1st XI",
@@ -80,6 +104,14 @@
     "competition": "CCA 3W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Cambourne",
+    "date": "2026/06/30",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
+  },
+  {
     "team": "1st XI",
     "opposition": "Cambridge St. Giles III",
     "date": "2026/07/04",
@@ -88,12 +120,28 @@
     "competition": "CCA 3W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Newton",
+    "date": "2026/07/14",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
+  },
+  {
     "team": "1st XI",
     "opposition": "Godmanchester Town II",
     "date": "2026/07/18",
     "homeaway": "H",
     "result": "",
     "competition": "CCA 3W"
+  },
+  {
+    "team": "Midweek",
+    "opposition": "Qualcomm (CSR)",
+    "date": "2026/07/21",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
   },
   {
     "team": "1st XI",
