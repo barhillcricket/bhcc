@@ -40,6 +40,14 @@
     "competition": "CCA 3W"
   },
   {
+    "team": "Midweek",
+    "opposition": "Royal Society Chemistry",
+    "date": "2026/05/26",
+    "homeaway": "H",
+    "result": "",
+    "competition": "140390"
+  },
+  {
     "team": "1st XI",
     "opposition": "Madingley II",
     "date": "2026/05/30",
@@ -105,7 +113,7 @@
   },
   {
     "team": "Midweek",
-    "opposition": "Cambourne",
+    "opposition": "CSKA",
     "date": "2026/06/30",
     "homeaway": "H",
     "result": "",
