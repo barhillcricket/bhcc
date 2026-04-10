@@ -113,7 +113,7 @@
   },
   {
     "team": "Midweek",
-    "opposition": "CSKA",
+    "opposition": "Cambourne Super Kings",
     "date": "2026/06/30",
     "homeaway": "H",
     "result": "",
