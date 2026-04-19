@@ -160,6 +160,14 @@
     "competition": "CCA 3W"
   },
   {
+    "team": "Friendly",
+    "opposition": "Domino",
+    "date": "2026/07/28",
+    "homeaway": "H",
+    "result": "",
+    "competition": "Friendly"
+  },
+  {
     "team": "1st XI",
     "opposition": "Hemingford Park",
     "date": "2026/08/01",
