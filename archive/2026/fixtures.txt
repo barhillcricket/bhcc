@@ -4,7 +4,7 @@
     "opposition": "Steeple Morden",
     "date": "2026/04/25",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 3W"
   },
   {
