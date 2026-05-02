@@ -12,7 +12,7 @@
     "opposition": "Over and Willingham",
     "date": "2026/05/02",
     "homeaway": "A",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 3W"
   },
   {
