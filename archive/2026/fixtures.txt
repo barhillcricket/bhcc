@@ -20,7 +20,7 @@
     "opposition": "Needingworth",
     "date": "2026/05/09",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
