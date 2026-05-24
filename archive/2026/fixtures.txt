@@ -36,7 +36,7 @@
     "opposition": "Haslingfield",
     "date": "2026/05/23",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
