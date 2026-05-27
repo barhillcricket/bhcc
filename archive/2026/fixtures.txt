@@ -44,7 +44,7 @@
     "opposition": "Royal Society Chemistry",
     "date": "2026/05/26",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "140390"
   },
   {
