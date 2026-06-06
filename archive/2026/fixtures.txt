@@ -64,20 +64,20 @@
     "competition": "CCA 3W"
   },
   {
-    "team": "1st XI",
-    "opposition": "Thriplow",
-    "date": "2026/06/07",
-    "homeaway": "A",
-    "result": "",
-    "competition": "CCA Invitation Cup"
-  },
-  {
     "team": "Midweek",
     "opposition": "Camden",
     "date": "2026/06/09",
     "homeaway": "H",
     "result": "",
     "competition": "140390"
+  },
+  {
+    "team": "1st XI",
+    "opposition": "Thriplow",
+    "date": "2026/06/14",
+    "homeaway": "A",
+    "result": "",
+    "competition": "CCA Invitation Cup"
   },
   {
     "team": "Midweek",
