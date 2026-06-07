@@ -60,7 +60,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2026/06/06",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   },
   {
