@@ -76,7 +76,7 @@
     "opposition": "Thriplow",
     "date": "2026/06/14",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA Invitation Cup"
   },
   {
