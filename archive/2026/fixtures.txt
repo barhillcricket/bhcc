@@ -84,7 +84,7 @@
     "opposition": "British Antartic Survey Ltd",
     "date": "2026/06/16",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "140390"
   },
   {
