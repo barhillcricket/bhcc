@@ -92,7 +92,7 @@
     "opposition": "Hemingford Park",
     "date": "2026/06/20",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
