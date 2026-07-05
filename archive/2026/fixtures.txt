@@ -68,7 +68,7 @@
     "opposition": "Camden",
     "date": "2026/06/09",
     "homeaway": "H",
-    "result": "",
+    "result": "Conc. Won",
     "competition": "140390"
   },
   {
@@ -100,7 +100,7 @@
     "opposition": "Cokenach",
     "date": "2026/06/23",
     "homeaway": "H",
-    "result": "",
+    "result": "Conc. Won",
     "competition": "140390"
   },
   {
@@ -116,7 +116,7 @@
     "opposition": "Cambourne Super Kings",
     "date": "2026/06/30",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "140390"
   },
   {
@@ -124,7 +124,7 @@
     "opposition": "Cambridge St. Giles III",
     "date": "2026/07/04",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
