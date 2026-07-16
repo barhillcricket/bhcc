@@ -1,63 +1,73 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Bar Hill Cricket Club">
+  <meta name="description" content="Bar Hill Cricket Club archive and all-time statistics">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/modern.css" type="text/css" media="screen">
+  <title>Archive — Bar Hill Cricket Club</title>
+  <script src="js/jquery.tools.min.js" type="text/javascript"></script>
+    <script src="js/createTable.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nav.js" type="text/javascript"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138215664-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-138215664-1');
   </script>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="content-style-type" content="text/css">
-  <meta name="author" content="Bar Hill Cricket Club">
-
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-
-  <meta name="description" content="Bar Hill Cricket Club">
-
-  <title>Bar Hill Cricket Club</title>
-
-  <script src="js/jquery.tools.min.js" type="text/javascript"></script>
-  <script src="../../js/createTable.js" type="text/javascript"></script>
-  <script src="../../js/d3.min.js" type="text/javascript"></script>
-
-  <script>
-    $(function () {
-      $('#navbar-load').load('/components/navbar.htm');
-    });
-  </script>
 </head>
-
 <body>
-  <div id="container">
-    <div id="header"></div>
-    <div id="navbar-load"></div><!-- End of navbar -->
+  <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+    <a class="site-header__banner" href="/index.html">
+      <img src="images/header_page.jpg" alt="Bar Hill Cricket Club" width="976" height="194">
+    </a>
+  </header>
+  <div id="navbar-load"></div>
+  <main id="main" class="site-main">
 
-    <div id="leftpanel">
-    <a class="qlinkheader" href="archive.html">Archive</a>
-    <a class="qlink" href="#adultbat">Adult Batting Stats</a>
-    <a class="qlink" href="#adultbowl">Adult Bowling Stats</a>
-    <a class="qlink" href="#youthbat">Youth Batting Stats</a>
-    <a class="qlink" href="#youthbowl">Youth Bowling Stats</a>
-    <a class="qlink" href="#allstats">All 1989-2025 Stats</a>
-    <a class="qlink" href="#previousseasons">Previous Seasons</a></div>
-    <!-- End of leftpanel -->
-
-    <div id="content">
     <!-- no javascript warning -->
     <noscript><p style="text-align: center;"><strong>Please note this page is best viewed with JavaScript enabled!</strong></p></noscript>
 
     <h1>Archive</h1>
-    <p>All time club records.</p>
+    <p>All-time club records and previous seasons.</p>
+    <nav aria-label="On this page">
+      <ul class="page-nav">
+        <li><a href="#adultbat">Adult Batting</a></li>
+        <li><a href="#adultbowl">Adult Bowling</a></li>
+        <li><a href="#youthbat">Youth Batting</a></li>
+        <li><a href="#youthbowl">Youth Bowling</a></li>
+        <li><a href="#allstats">All Stats</a></li>
+        <li><a href="#previousseasons">Previous Seasons</a></li>
+      </ul>
+    </nav>
+    <div class="archive-search">
+      <label for="archive-year-filter">Filter previous seasons</label>
+      <input type="search" id="archive-year-filter" placeholder="e.g. 2019" autocomplete="off">
+    </div>
+    <div class="year-picker" id="year-picker" aria-label="Previous seasons">
+      <a href="archive/2025/archive2025.html">2025</a>
+      <a href="archive/2024/archive2024.html">2024</a>
+      <a href="archive/2023/archive2023.html">2023</a>
+      <a href="archive/2022/archive2022.html">2022</a>
+      <a href="archive/2021/archive2021.html">2021</a>
+      <a href="archive/2020/archive2020.html">2020</a>
+      <a href="archive/2019/archive2019.html">2019</a>
+      <a href="archive/2018/archive2018.html">2018</a>
+      <a href="archive/2017/archive2017.html">2017</a>
+      <a href="archive/2016/archive2016.html">2016</a>
+      <a href="archive/2015/archive2015.html">2015</a>
+      <a href="archive/2014/archive2014.html">2014</a>
+      <a href="archive/2013/archive2013.html">2013</a>
+      <a href="archive/2012/archive2012.html">2012</a>
+    </div>
 
-    <h2><a name="adultbat"></a>Adult Batting Statistics (CCA 1989-2025)</h2>
+
+    <h2 id="adultbat" class="archive-section">Adult Batting Statistics (CCA 1989-2025)</h2>
     <div class="wrap">
     <ul class="tabs verticaltabs">
       <li><a class="widestatstab" href="#">Top Runscorers Cumulative</a></li>
@@ -1031,7 +1041,7 @@
     </div><!-- end of wrap -->
 
 
-    <h2><a name="adultbowl"></a>Adult Bowling Statistics  (CCA 1989-2025)</h2>
+    <h2 id="adultbowl" class="archive-section">Adult Bowling Statistics  (CCA 1989-2025)</h2>
     <div class="wrap">
     <ul class="tabs verticaltabs">
       <li><a class="widestatstab" href="#">Top Wicket-Takers Cumulative</a></li>
@@ -1956,7 +1966,7 @@
 
     </div><!-- end of wrap -->
 
-    <h2><a name="youthbat"></a>Youth Batting Statistics (CYCA 1999-2025)</h2>
+    <h2 id="youthbat" class="archive-section">Youth Batting Statistics (CYCA 1999-2025)</h2>
     <div class="wrap">
     <ul class="tabs verticaltabs">
       <li><a class="widestatstab" href="#">Top Runscorers Cumulative</a></li>
@@ -2732,7 +2742,7 @@
       </div>
     </div><!-- end of wrap -->
 
-    <h2><a name="youthbowl"></a>Youth Bowling Statistics (1999-2025)</h2>
+    <h2 id="youthbowl" class="archive-section">Youth Bowling Statistics (1999-2025)</h2>
     <div class="wrap">
     <ul class="tabs verticaltabs">
       <li><a class="widestatstab" href="#">Top Wicket-Takers Cumulative</a></li>
@@ -3361,7 +3371,7 @@
       </div>
     </div><!-- end of wrap -->
 
-    <h2><a name="allstats"></a>All 1989-2025 Statistics</h2>
+    <h2 id="allstats" class="archive-section">All 1989-2025 Statistics</h2>
     <div class="wrap">
     <ul class="tabs verticaltabs">
       <li><a class="widestatstab" href="#">All Time Batting</a></li>
@@ -3492,54 +3502,47 @@
     </div><!-- end of wrap -->
 
 
-    <h2><a name="previousseasons"></a>Previous Seasons</h2>
-    <p>
-      <a href="archive/2025/archive2025.html">2025 Season</a><br>
-      <a href="archive/2024/archive2024.html">2024 Season</a><br>
-      <a href="archive/2023/archive2023.html">2023 Season</a><br>
-      <a href="archive/2022/archive2022.html">2022 Season</a><br>
-      <a href="archive/2021/archive2021.html">2021 Season</a><br>
-      <a href="archive/2020/archive2020.html">2020 Season</a><br>
-      <a href="archive/2019/archive2019.html">2019 Season</a><br>
-      <a href="archive/2018/archive2018.html">2018 Season</a><br>
-      <a href="archive/2017/archive2017.html">2017 Season</a><br>
-      <a href="archive/2016/archive2016.html">2016 Season</a><br>
-      <a href="archive/2015/archive2015.html">2015 Season</a><br>
-      <a href="archive/2014/archive2014.html">2014 Season </a><br>
-      <a href="archive/2013/archive2013.html">2013 Season</a><br>
-      <a href="archive/2012/archive2012.html">2012 Season</a>
-    </p>
+    <h2 id="previousseasons" class="archive-section">Previous Seasons</h2>
+    <p>Use the year buttons above, or jump to a season:</p>
+    <div class="year-picker" id="year-picker-bottom">
+      <a href="archive/2025/archive2025.html">2025</a>
+      <a href="archive/2024/archive2024.html">2024</a>
+      <a href="archive/2023/archive2023.html">2023</a>
+      <a href="archive/2022/archive2022.html">2022</a>
+      <a href="archive/2021/archive2021.html">2021</a>
+      <a href="archive/2020/archive2020.html">2020</a>
+      <a href="archive/2019/archive2019.html">2019</a>
+      <a href="archive/2018/archive2018.html">2018</a>
+      <a href="archive/2017/archive2017.html">2017</a>
+      <a href="archive/2016/archive2016.html">2016</a>
+      <a href="archive/2015/archive2015.html">2015</a>
+      <a href="archive/2014/archive2014.html">2014</a>
+      <a href="archive/2013/archive2013.html">2013</a>
+      <a href="archive/2012/archive2012.html">2012</a>
+    </div>
 
     <h2>Player Archive</h2>
     <p>Chronological Numbers - <a href="docs/chron.pdf">PDF</a></p>
-    </div><!-- End of content -->
+    
+  </main>
+  <div id="footer-load"></div>
 
-    <div id="footer">
-      <h1>Bar Hill Cricket Club</h1>
-      <div id="iconcontainer">
-        <div class="footerbutton webbutton"><a href="#" title="www"><img src="images/icon_web.jpg" alt="www"></a></div>
-        <div class="footerbutton emailbutton"><a href="mailto:info@barhillcricket.org.uk" title="email"><img src="images/icon_email.jpg" alt="email"></a></div>
-        <div class="footerbutton twitterbutton"><a href="http://www.twitter.com/barhillcc" title="twitter"><img src="images/icon_twitter.jpg" alt="twitter"></a></div>
-        <div class="footerbutton facebookbutton"><a href="http://www.facebook.com" title="facebook"><img src="images/icon_facebook.jpg" alt="facebook"></a></div>
-      </div>
-    </div><!-- End of footer -->
-
-  </div><!-- End of container -->
-
-<script type="text/javascript">
-<!--
-//javascript disabled workaround
-document.getElementById("content").style.display = "block";
-
-// Tab JavaScript
+<script>
+document.getElementById("main").style.display = "block";
 $(function() {
-    // setup ul.tabs to work as tabs for each div directly under div.panes
-    //$("ul.tabs").tabs("div.panes > div");
-    $("ul.tabs").tabs("> .pane");
+  $("ul.tabs").tabs("> .pane");
+  var input = document.getElementById('archive-year-filter');
+  if (input) {
+    input.addEventListener('input', function () {
+      var q = input.value.trim().toLowerCase();
+      document.querySelectorAll('#year-picker a, #year-picker-bottom a').forEach(function (a) {
+        var show = !q || a.textContent.toLowerCase().indexOf(q) !== -1;
+        a.style.display = show ? '' : 'none';
+      });
+    });
+  }
 });
--->
 </script>
 
 </body>
-
 </html>
