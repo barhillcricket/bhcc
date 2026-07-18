@@ -140,7 +140,7 @@
     "opposition": "Godmanchester Town II",
     "date": "2026/07/18",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
