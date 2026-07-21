@@ -148,7 +148,7 @@
     "opposition": "Qualcomm (CSR)",
     "date": "2026/07/21",
     "homeaway": "H",
-    "result": "",
+    "result": "Lost",
     "competition": "140390"
   },
   {
