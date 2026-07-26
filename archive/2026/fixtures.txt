@@ -156,7 +156,7 @@
     "opposition": "Madingley II",
     "date": "2026/07/25",
     "homeaway": "A",
-    "result": "",
+    "result": "Lost",
     "competition": "CCA 3W"
   },
   {
