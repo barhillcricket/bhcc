@@ -180,7 +180,7 @@
     "opposition": "Haslingfield",
     "date": "2026/08/08",
     "homeaway": "H",
-    "result": "",
+    "result": "Won",
     "competition": "CCA 3W"
   },
   {
