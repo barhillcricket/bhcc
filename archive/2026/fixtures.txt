@@ -196,7 +196,7 @@
     "opposition": "Over and Willingham",
     "date": "2026/08/29",
     "homeaway": "H",
-    "result": "",
+    "result": "Cancelled",
     "competition": "CCA 3W"
   }
 ]
