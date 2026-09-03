@@ -6,20 +6,23 @@ on:
     - cron: "0 23 * * *"
   workflow_dispatch:
 
-env:
-  YEAR: 2026
+permissions:
+  contents: write
 
 jobs:
   update_fixtures_results:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
+      - name: Set current year
+        run: echo "YEAR=$(date +%Y)" >> "$GITHUB_ENV"
 
       - name: Set up node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v7
         with:
-          node-version: '21'
+          node-version: '26'
 
       - name: Install dependencies
         run: npm install

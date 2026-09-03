@@ -1,4 +1,3 @@
-const request = require('request');
 const fs = require('fs');
 
 const year = process.argv[2];
@@ -22,7 +21,8 @@ const competitionIds = {
     "": "Friendly",
     "106878": "CBHL 3",
     "122137": "CBHL 3",
-    "129142": "CBHL 3"
+    "129142": "CBHL 3",
+    "140390": "CBHL 3"
 }
 
 const resolveHome = (match) => {
@@ -80,42 +80,37 @@ const resolveDate = (match) => {
     return dateSegs.reverse().join('/')
 }
 
-request(`https://play-cricket.com/api/v2/matches.json?&site_id=909&season=${year}&api_token=${token}`, (err, res, body) => {
-    const matchesJson = JSON.parse(body).matches;
-    const promises = [];
-    matchesJson.map((match) => {
-        promises.push(new Promise((resolve) => {
-            request(`https://play-cricket.com/api/v2/match_detail.json?&match_id=${match.id}&api_token=${token}`, (err, res, body) => {
-                const matchJson = JSON.parse(body).match_details[0];
-                const isHome = resolveHome(matchJson);
-                const newMatch = {
-                    "team": resolveTeam(matchJson, isHome),
-                    "opposition": resolveOpposition(matchJson, isHome),
-                    "date": resolveDate(matchJson),
-                    "homeaway": isHome ? 'H' : 'A',
-                    "result": resolveResult(matchJson, isHome),
-                    "competition": competitionIds[matchJson.competition_id] ? competitionIds[matchJson.competition_id] : matchJson.competition_id
-                }
-                matches.push(newMatch)
-                resolve(true)
-            })
-        }))
-        Promise.all(promises).then(() => {
-            function compareDate( a, b ) {
-                if ( a.date < b.date ){
-                  return -1;
-                }
-                if ( a.date > b.date ){
-                  return 1;
-                }
-                return 0;
-            }
+async function main() {
+    const listRes = await fetch(`https://play-cricket.com/api/v2/matches.json?&site_id=909&season=${year}&api_token=${token}`);
+    const matchesJson = (await listRes.json()).matches;
 
-            fs.writeFile(outfile, JSON.stringify(matches.sort(compareDate), null, 2), err => {
-                if (err) {
-                    console.error(err)
-                }
-            })
-        })
-    })
-})
+    const promises = matchesJson.map(async (match) => {
+        const detailRes = await fetch(`https://play-cricket.com/api/v2/match_detail.json?&match_id=${match.id}&api_token=${token}`);
+        const matchJson = (await detailRes.json()).match_details[0];
+        const isHome = resolveHome(matchJson);
+        matches.push({
+            "team": resolveTeam(matchJson, isHome),
+            "opposition": resolveOpposition(matchJson, isHome),
+            "date": resolveDate(matchJson),
+            "homeaway": isHome ? 'H' : 'A',
+            "result": resolveResult(matchJson, isHome),
+            "competition": competitionIds[matchJson.competition_id] ? competitionIds[matchJson.competition_id] : matchJson.competition_id
+        });
+    });
+
+    await Promise.all(promises);
+
+    function compareDate(a, b) {
+        if (a.date < b.date) {
+            return -1;
+        }
+        if (a.date > b.date) {
+            return 1;
+        }
+        return 0;
+    }
+
+    fs.writeFileSync(outfile, JSON.stringify(matches.sort(compareDate), null, 2));
+}
+
+main();
